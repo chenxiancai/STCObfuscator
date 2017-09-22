@@ -1,9 +1,11 @@
 # STCObfuscator
 ```
-STCObfuscator is an Objective-C obfuscator for Mach-O executables, a runtime utility for obfuscating Objective-C class,it also support Cocoapod!
+STCObfuscator is an Objective-C obfuscator for Mach-O executables, 
+a runtime utility for obfuscating Objective-C class,it also support Cocoapod!
 ```
 ```
-STCObfuscator 是用来进行代码混淆的工具，在模拟器环境下运行生成混淆宏，混淆后的宏可以在其他环境下进行编译，支持Cocoapod代码混淆.
+STCObfuscator 是用来进行代码混淆的工具，在模拟器环境下运行生成混淆宏，
+混淆后的宏可以在其他环境下进行编译，支持Cocoapod代码混淆.
 ```
 
 ## How to use it!
