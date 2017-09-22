@@ -14,6 +14,11 @@ You can use STCObfuscator with cocoapod!
 pod "STCObfuscator"
 ```
 ```
+如果你的工程支持cocoapod,你可以直接添加！
+pod "STCObfuscator"
+```
+
+```
 after you add under code to your project
 
 #if (DEBUG == 1)
