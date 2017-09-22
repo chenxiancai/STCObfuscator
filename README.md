@@ -1,1 +1,104 @@
 # STCObfuscator
+
+## How to use it!
+```
+after you add under code to your project
+
+#if (DEBUG == 1)
+    [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
+    [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
+#endif
+
+you should finish steps:
+```
+```
+在你把下面的代码加入到你的工程之后，你要完成下面的步骤
+#if (DEBUG == 1)
+    [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
+    [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
+#endif
+```
+
+#### 1、
+```
+add 
+LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt 
+and 
+ROOT_PATH="${SRCROOT}" 
+to Build Settings Preprocessor Macros 
+```
+```
+在 Build Settings-Preprocessor Macros-DEBUG 中添加环境变量
+LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt 
+和
+ROOT_PATH="${SRCROOT}" 
+```
+
+#### 2、
+```
+enable Write Link Map File in Build Settings, set YES
+```
+```
+在 Build Settings 开启Write Link Map File, 设置成 YES
+```
+
+#### 3、
+```
+add shell script to Build Phases
+```
+```
+将下面的脚本添加到 Build Phases
+```
+```
+dir=${SRCROOT}
+file_count=0
+file_list=`ls -R $dir 2> /dev/null | grep -v '^$'`
+for file_name in $file_list
+do
+temp=`echo $file_name | sed 's/:.*$//g'`
+if [ "$file_name" != "$temp" ]; then
+cur_dir=$temp
+else
+if [ ${file_name##*.} = a ]; then
+    find -P $dir -name $file_name > tmp.txt
+    var=$(cat tmp.txt)
+    nm $var > ${file_name}.txt
+    rm tmp.txt
+fi
+fi
+done
+```
+#### 4、
+```
+import STCDefination.h to PrefixHeader File like this:
+#if (DEBUG != 1)
+#import "STCDefination.h"
+#endif
+```
+```
+在预编译文件中添加以下
+#if (DEBUG != 1)
+#import "STCDefination.h"
+#endif
+```
+#### 5、
+```
+clean content in STCDefination.h 
+```
+```
+清空STCDefination.h里面的内容
+```
+#### 6、
+```
+run project in DEBUG environment with iPhone simulator to generate confuse macros in STCDefination.h 
+```
+```
+在DEBUG环境下用模拟器运行工程，在STCDefination.h头文件中生成混淆的宏。
+```
+#### 7、
+```
+run project in REALEASE environment that class confused. 
+```
+```
+在 REALEASE 环境下运行工程，实现代码混淆。 
+```
