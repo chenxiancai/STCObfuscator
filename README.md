@@ -80,6 +80,7 @@ fi
 fi
 done
 ```
+
 #### 4、
 ```
 import STCDefination.h to PrefixHeader File like this:
@@ -93,6 +94,7 @@ import STCDefination.h to PrefixHeader File like this:
 #import "STCDefination.h"
 #endif
 ```
+
 #### 5、
 ```
 clean content in STCDefination.h 
@@ -100,6 +102,7 @@ clean content in STCDefination.h
 ```
 清空STCDefination.h里面的内容
 ```
+
 #### 6、
 ```
 run project in DEBUG environment with iPhone simulator to generate confuse macros in STCDefination.h 
@@ -107,6 +110,7 @@ run project in DEBUG environment with iPhone simulator to generate confuse macro
 ```
 在DEBUG环境下用模拟器运行工程，在STCDefination.h头文件中生成混淆的宏。
 ```
+
 #### 7、
 ```
 run project in REALEASE environment that class confused. 
@@ -116,6 +120,14 @@ run project in REALEASE environment that class confused.
 ```
 
 #### 8、
+```
+all confused symbols will save to confuse.json in project catalog. 
+```
+```
+所有的混淆符号会保留在工程目录下的confuse.json。 
+```
+
+#### 9、
 ```
 if you use cocoapod in jenkins you should run under shell script after pod update 
 ```
