@@ -1,0 +1,4 @@
+
+#if (DEBUG != 1)
+#import "STCDefination.h"
+#endif

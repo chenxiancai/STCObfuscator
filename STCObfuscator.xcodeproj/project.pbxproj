@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1746BC1F73CD50007790A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1746BB1F73CD50007790A4 /* AppDelegate.m */; };
+		5F1746C41F74F88D007790A4 /* UnConfusedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1746C31F74F88D007790A4 /* UnConfusedClass.m */; };
+		5F1746C71F74F948007790A4 /* InheritUnConfusedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1746C61F74F948007790A4 /* InheritUnConfusedClass.m */; };
+		5F6BFBE51F736A290058C2F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFBE41F736A290058C2F9 /* main.m */; };
+		5F6BFBEB1F736A290058C2F9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFBEA1F736A290058C2F9 /* MasterViewController.m */; };
+		5F6BFBEE1F736A290058C2F9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFBED1F736A290058C2F9 /* DetailViewController.m */; };
+		5F6BFBF11F736A290058C2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BFBEF1F736A290058C2F9 /* Main.storyboard */; };
+		5F6BFBF31F736A290058C2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BFBF21F736A290058C2F9 /* Assets.xcassets */; };
+		5F6BFBF61F736A290058C2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BFBF41F736A290058C2F9 /* LaunchScreen.storyboard */; };
+		5F6BFC011F736A290058C2F9 /* STCObfuscatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC001F736A290058C2F9 /* STCObfuscatorTests.m */; };
+		5F6BFC0E1F736AAB0058C2F9 /* STCObfuscator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC0D1F736AAB0058C2F9 /* STCObfuscator.m */; };
+		5F6BFC151F739CC70058C2F9 /* ahocorasick.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC111F739CC70058C2F9 /* ahocorasick.c */; };
+		5F6BFC161F739CC70058C2F9 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC131F739CC70058C2F9 /* node.c */; };
+		BDC3F8ADF6AB121614323411 /* libPods-STCObfuscatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960E3E3CF568E84506834D97 /* libPods-STCObfuscatorTests.a */; };
+		EE5176DFEB8C5E72173EA355 /* libPods-STCObfuscator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC90D2DECB9F34DFABCAB45 /* libPods-STCObfuscator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6BFBFD1F736A290058C2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6BFBD81F736A290058C2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6BFBDF1F736A290058C2F9;
+			remoteInfo = STCObfuscator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29651BA1C284D29DFBCA661E /* Pods-STCObfuscatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCObfuscatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STCObfuscatorTests/Pods-STCObfuscatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4571CE7278E7868B3BC9E30E /* Pods-STCObfuscatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCObfuscatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STCObfuscatorTests/Pods-STCObfuscatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F1746BB1F73CD50007790A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F1746BE1F74C98E007790A4 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STCDefination.h; path = ../STCDefination.h; sourceTree = "<group>"; };
+		5F1746C11F74F2A5007790A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5F1746C21F74F88D007790A4 /* UnConfusedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnConfusedClass.h; sourceTree = "<group>"; };
+		5F1746C31F74F88D007790A4 /* UnConfusedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnConfusedClass.m; sourceTree = "<group>"; };
+		5F1746C51F74F948007790A4 /* InheritUnConfusedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InheritUnConfusedClass.h; sourceTree = "<group>"; };
+		5F1746C61F74F948007790A4 /* InheritUnConfusedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InheritUnConfusedClass.m; sourceTree = "<group>"; };
+		5F6BFBE01F736A290058C2F9 /* STCObfuscator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCObfuscator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6BFBE41F736A290058C2F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6BFBE61F736A290058C2F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6BFBE91F736A290058C2F9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5F6BFBEA1F736A290058C2F9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5F6BFBEC1F736A290058C2F9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5F6BFBED1F736A290058C2F9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5F6BFBF01F736A290058C2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6BFBF21F736A290058C2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6BFBF51F736A290058C2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F6BFBF71F736A290058C2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6BFBFC1F736A290058C2F9 /* STCObfuscatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCObfuscatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6BFC001F736A290058C2F9 /* STCObfuscatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCObfuscatorTests.m; sourceTree = "<group>"; };
+		5F6BFC021F736A290058C2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6BFC0C1F736AAB0058C2F9 /* STCObfuscator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCObfuscator.h; sourceTree = "<group>"; };
+		5F6BFC0D1F736AAB0058C2F9 /* STCObfuscator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCObfuscator.m; sourceTree = "<group>"; };
+		5F6BFC101F739CC70058C2F9 /* actypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = actypes.h; sourceTree = "<group>"; };
+		5F6BFC111F739CC70058C2F9 /* ahocorasick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ahocorasick.c; sourceTree = "<group>"; };
+		5F6BFC121F739CC70058C2F9 /* ahocorasick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ahocorasick.h; sourceTree = "<group>"; };
+		5F6BFC131F739CC70058C2F9 /* node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
+		5F6BFC141F739CC70058C2F9 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		6155FA995C66CC74278D7351 /* Pods-STCObfuscator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCObfuscator.release.xcconfig"; path = "Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator.release.xcconfig"; sourceTree = "<group>"; };
+		960E3E3CF568E84506834D97 /* libPods-STCObfuscatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STCObfuscatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEF91E2B7CED79EC8A11D3B /* Pods-STCObfuscator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCObfuscator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC90D2DECB9F34DFABCAB45 /* libPods-STCObfuscator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STCObfuscator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6BFBDD1F736A290058C2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5176DFEB8C5E72173EA355 /* libPods-STCObfuscator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6BFBF91F736A290058C2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3F8ADF6AB121614323411 /* libPods-STCObfuscatorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6BFBD71F736A290058C2F9 = {
+			isa = PBXGroup;
+			children = (
+				5F6BFBE21F736A290058C2F9 /* STCObfuscator */,
+				5F6BFBFF1F736A290058C2F9 /* STCObfuscatorTests */,
+				5F6BFBE11F736A290058C2F9 /* Products */,
+				A6531531598FF14330EB001F /* Pods */,
+				CA68E3BB4F3E61DDA3B9609C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6BFBE11F736A290058C2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BFBE01F736A290058C2F9 /* STCObfuscator.app */,
+				5F6BFBFC1F736A290058C2F9 /* STCObfuscatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6BFBE21F736A290058C2F9 /* STCObfuscator */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BFC0B1F736A8E0058C2F9 /* STCObfuscator */,
+				5F6BFBE61F736A290058C2F9 /* AppDelegate.h */,
+				5F1746BB1F73CD50007790A4 /* AppDelegate.m */,
+				5F6BFBE91F736A290058C2F9 /* MasterViewController.h */,
+				5F6BFBEA1F736A290058C2F9 /* MasterViewController.m */,
+				5F6BFBEC1F736A290058C2F9 /* DetailViewController.h */,
+				5F6BFBED1F736A290058C2F9 /* DetailViewController.m */,
+				5F1746C21F74F88D007790A4 /* UnConfusedClass.h */,
+				5F1746C31F74F88D007790A4 /* UnConfusedClass.m */,
+				5F1746C51F74F948007790A4 /* InheritUnConfusedClass.h */,
+				5F1746C61F74F948007790A4 /* InheritUnConfusedClass.m */,
+				5F1746BE1F74C98E007790A4 /* STCDefination.h */,
+				5F1746C11F74F2A5007790A4 /* PrefixHeader.pch */,
+				5F6BFBEF1F736A290058C2F9 /* Main.storyboard */,
+				5F6BFBF21F736A290058C2F9 /* Assets.xcassets */,
+				5F6BFBF41F736A290058C2F9 /* LaunchScreen.storyboard */,
+				5F6BFBF71F736A290058C2F9 /* Info.plist */,
+				5F6BFBE31F736A290058C2F9 /* Supporting Files */,
+			);
+			path = STCObfuscator;
+			sourceTree = "<group>";
+		};
+		5F6BFBE31F736A290058C2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BFBE41F736A290058C2F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6BFBFF1F736A290058C2F9 /* STCObfuscatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BFC001F736A290058C2F9 /* STCObfuscatorTests.m */,
+				5F6BFC021F736A290058C2F9 /* Info.plist */,
+			);
+			path = STCObfuscatorTests;
+			sourceTree = "<group>";
+		};
+		5F6BFC0B1F736A8E0058C2F9 /* STCObfuscator */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BFC0F1F739C9A0058C2F9 /* ahocorasick */,
+				5F6BFC0C1F736AAB0058C2F9 /* STCObfuscator.h */,
+				5F6BFC0D1F736AAB0058C2F9 /* STCObfuscator.m */,
+			);
+			path = STCObfuscator;
+			sourceTree = "<group>";
+		};
+		5F6BFC0F1F739C9A0058C2F9 /* ahocorasick */ = {
+			isa = PBXGroup;
+			children = (
+				5F6BFC101F739CC70058C2F9 /* actypes.h */,
+				5F6BFC111F739CC70058C2F9 /* ahocorasick.c */,
+				5F6BFC121F739CC70058C2F9 /* ahocorasick.h */,
+				5F6BFC131F739CC70058C2F9 /* node.c */,
+				5F6BFC141F739CC70058C2F9 /* node.h */,
+			);
+			path = ahocorasick;
+			sourceTree = "<group>";
+		};
+		A6531531598FF14330EB001F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF91E2B7CED79EC8A11D3B /* Pods-STCObfuscator.debug.xcconfig */,
+				6155FA995C66CC74278D7351 /* Pods-STCObfuscator.release.xcconfig */,
+				29651BA1C284D29DFBCA661E /* Pods-STCObfuscatorTests.debug.xcconfig */,
+				4571CE7278E7868B3BC9E30E /* Pods-STCObfuscatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA68E3BB4F3E61DDA3B9609C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC90D2DECB9F34DFABCAB45 /* libPods-STCObfuscator.a */,
+				960E3E3CF568E84506834D97 /* libPods-STCObfuscatorTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6BFBDF1F736A290058C2F9 /* STCObfuscator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6BFC051F736A290058C2F9 /* Build configuration list for PBXNativeTarget "STCObfuscator" */;
+			buildPhases = (
+				705D41378909C85539B021D8 /* [CP] Check Pods Manifest.lock */,
+				5F6BFBDC1F736A290058C2F9 /* Sources */,
+				5F6BFBDD1F736A290058C2F9 /* Frameworks */,
+				5F6BFBDE1F736A290058C2F9 /* Resources */,
+				96ADC0621AFDE558186B5935 /* [CP] Embed Pods Frameworks */,
+				B008915BEEA0C77FC05D240C /* [CP] Copy Pods Resources */,
+				5F1746C01F74F1B8007790A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STCObfuscator;
+			productName = STCObfuscator;
+			productReference = 5F6BFBE01F736A290058C2F9 /* STCObfuscator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F6BFBFB1F736A290058C2F9 /* STCObfuscatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6BFC081F736A290058C2F9 /* Build configuration list for PBXNativeTarget "STCObfuscatorTests" */;
+			buildPhases = (
+				F502EC8CFA0FEA1715802979 /* [CP] Check Pods Manifest.lock */,
+				5F6BFBF81F736A290058C2F9 /* Sources */,
+				5F6BFBF91F736A290058C2F9 /* Frameworks */,
+				5F6BFBFA1F736A290058C2F9 /* Resources */,
+				24DB4B6F3AACB677BAE1691C /* [CP] Embed Pods Frameworks */,
+				1502C3C2978A0644E4B4687C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6BFBFE1F736A290058C2F9 /* PBXTargetDependency */,
+			);
+			name = STCObfuscatorTests;
+			productName = STCObfuscatorTests;
+			productReference = 5F6BFBFC1F736A290058C2F9 /* STCObfuscatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6BFBD81F736A290058C2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = stevchen;
+				TargetAttributes = {
+					5F6BFBDF1F736A290058C2F9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7X6Q9L7U5D;
+						ProvisioningStyle = Automatic;
+					};
+					5F6BFBFB1F736A290058C2F9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F6BFBDF1F736A290058C2F9;
+					};
+				};
+			};
+			buildConfigurationList = 5F6BFBDB1F736A290058C2F9 /* Build configuration list for PBXProject "STCObfuscator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6BFBD71F736A290058C2F9;
+			productRefGroup = 5F6BFBE11F736A290058C2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6BFBDF1F736A290058C2F9 /* STCObfuscator */,
+				5F6BFBFB1F736A290058C2F9 /* STCObfuscatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6BFBDE1F736A290058C2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6BFBF61F736A290058C2F9 /* LaunchScreen.storyboard in Resources */,
+				5F6BFBF31F736A290058C2F9 /* Assets.xcassets in Resources */,
+				5F6BFBF11F736A290058C2F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6BFBFA1F736A290058C2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1502C3C2978A0644E4B4687C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STCObfuscatorTests/Pods-STCObfuscatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24DB4B6F3AACB677BAE1691C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STCObfuscatorTests/Pods-STCObfuscatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1746C01F74F1B8007790A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir=${SRCROOT}\nfile_count=0\nfile_list=`ls -R $dir 2> /dev/null | grep -v '^$'`\nfor file_name in $file_list\ndo\ntemp=`echo $file_name | sed 's/:.*$//g'`\nif [ \"$file_name\" != \"$temp\" ]; then\ncur_dir=$temp\nelse\nif [ ${file_name##*.} = a ]; then\n    find -P $dir -name $file_name > tmp.txt\n    var=$(cat tmp.txt)\n    nm $var > ${file_name}.txt\n    rm tmp.txt\nfi\nfi\ndone";
+		};
+		705D41378909C85539B021D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96ADC0621AFDE558186B5935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B008915BEEA0C77FC05D240C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F502EC8CFA0FEA1715802979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6BFBDC1F736A290058C2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6BFBEB1F736A290058C2F9 /* MasterViewController.m in Sources */,
+				5F6BFBE51F736A290058C2F9 /* main.m in Sources */,
+				5F6BFC0E1F736AAB0058C2F9 /* STCObfuscator.m in Sources */,
+				5F6BFBEE1F736A290058C2F9 /* DetailViewController.m in Sources */,
+				5F1746C41F74F88D007790A4 /* UnConfusedClass.m in Sources */,
+				5F6BFC151F739CC70058C2F9 /* ahocorasick.c in Sources */,
+				5F6BFC161F739CC70058C2F9 /* node.c in Sources */,
+				5F1746BC1F73CD50007790A4 /* AppDelegate.m in Sources */,
+				5F1746C71F74F948007790A4 /* InheritUnConfusedClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6BFBF81F736A290058C2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6BFC011F736A290058C2F9 /* STCObfuscatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6BFBFE1F736A290058C2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6BFBDF1F736A290058C2F9 /* STCObfuscator */;
+			targetProxy = 5F6BFBFD1F736A290058C2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6BFBEF1F736A290058C2F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6BFBF01F736A290058C2F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6BFBF41F736A290058C2F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6BFBF51F736A290058C2F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6BFC031F736A290058C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6BFC041F736A290058C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6BFC061F736A290058C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEF91E2B7CED79EC8A11D3B /* Pods-STCObfuscator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X6Q9L7U5D;
+				GCC_PREFIX_HEADER = STCObfuscator/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt",
+					"ROOT_PATH=\"${SRCROOT}\"",
+				);
+				INFOPLIST_FILE = STCObfuscator/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevchen.STCObfuscator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F6BFC071F736A290058C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6155FA995C66CC74278D7351 /* Pods-STCObfuscator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X6Q9L7U5D;
+				GCC_PREFIX_HEADER = STCObfuscator/PrefixHeader.pch;
+				INFOPLIST_FILE = STCObfuscator/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevchen.STCObfuscator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F6BFC091F736A290058C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29651BA1C284D29DFBCA661E /* Pods-STCObfuscatorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STCObfuscatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevchen.STCObfuscatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STCObfuscator.app/STCObfuscator";
+			};
+			name = Debug;
+		};
+		5F6BFC0A1F736A290058C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4571CE7278E7868B3BC9E30E /* Pods-STCObfuscatorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STCObfuscatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevchen.STCObfuscatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STCObfuscator.app/STCObfuscator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6BFBDB1F736A290058C2F9 /* Build configuration list for PBXProject "STCObfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6BFC031F736A290058C2F9 /* Debug */,
+				5F6BFC041F736A290058C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6BFC051F736A290058C2F9 /* Build configuration list for PBXNativeTarget "STCObfuscator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6BFC061F736A290058C2F9 /* Debug */,
+				5F6BFC071F736A290058C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6BFC081F736A290058C2F9 /* Build configuration list for PBXNativeTarget "STCObfuscatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6BFC091F736A290058C2F9 /* Debug */,
+				5F6BFC0A1F736A290058C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6BFBD81F736A290058C2F9 /* Project object */;
+}
