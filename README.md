@@ -10,6 +10,10 @@ STCObfuscator 是用来进行代码混淆的工具，在模拟器环境下运行
 
 ## How to use it!
 ```
+You can use STCObfuscator with cocoapod!
+pod "STCObfuscator"
+```
+```
 after you add under code to your project
 
 #if (DEBUG == 1)
