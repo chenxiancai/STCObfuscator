@@ -1021,9 +1021,9 @@
                  U _OBJC_CLASS_$_NSMutableDictionary
                  U _OBJC_CLASS_$_NSNumber
                  U _OBJC_CLASS_$_NSObject
----------------- w _OBJC_CLASS_$_PHAsset
----------------- w _OBJC_CLASS_$_PHAssetChangeRequest
----------------- w _OBJC_CLASS_$_PHPhotoLibrary
+                 w _OBJC_CLASS_$_PHAsset
+                 w _OBJC_CLASS_$_PHAssetChangeRequest
+                 w _OBJC_CLASS_$_PHPhotoLibrary
                  U _OBJC_CLASS_$_UIImage
 ---------------- D _OBJC_CLASS_$_WBImageObject
 ---------------- D _OBJC_IVAR_$_WBImageObject._delegate
@@ -1915,9 +1915,9 @@
                  U _OBJC_CLASS_$_NSNumber
                  U _OBJC_CLASS_$_NSObject
                  U _OBJC_CLASS_$_NSURL
----------------- w _OBJC_CLASS_$_PHAsset
----------------- w _OBJC_CLASS_$_PHAssetChangeRequest
----------------- w _OBJC_CLASS_$_PHPhotoLibrary
+                 w _OBJC_CLASS_$_PHAsset
+                 w _OBJC_CLASS_$_PHAssetChangeRequest
+                 w _OBJC_CLASS_$_PHPhotoLibrary
                  U _OBJC_CLASS_$_UIDevice
 ---------------- D _OBJC_CLASS_$_WBNewVideoObject
 ---------------- D _OBJC_IVAR_$_WBNewVideoObject._delegate

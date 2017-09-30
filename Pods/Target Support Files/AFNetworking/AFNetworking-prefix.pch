@@ -141,14 +141,14 @@
 #ifndef SDWebImageCombinedOperation
 #define SDWebImageCombinedOperation _STCC85C932DEE0D51BFA01F23BE72D7EFA5_
 #endif
-#ifndef serializer
-#define serializer _STCDEACA1268F9709EF3DCED3F8C9CC1ED5_
-#endif
 #ifndef cachePathForKey
 #define cachePathForKey _STCD0AA426AB2C5040D10ABB89BE4745E2B_
 #endif
 #ifndef inPath
 #define inPath _STCBF6CA1E77B9DCCD03676CBBEE1855356_
+#endif
+#ifndef serializer
+#define serializer _STCDEACA1268F9709EF3DCED3F8C9CC1ED5_
 #endif
 #ifndef cleanUpProgressForTask
 #define cleanUpProgressForTask _STC4D076BAD1CD6737840C18D2A9BB3DCA5_
@@ -180,14 +180,14 @@
 #ifndef queryCacheOperationForKey
 #define queryCacheOperationForKey _STCB80F97C067CB71174274995A787DE24E_
 #endif
-#ifndef createNewSessionWithConfiguration
-#define createNewSessionWithConfiguration _STC5F1C25265703D22351D24ADEA3D0F6DD_
-#endif
 #ifndef downloadImageForURLRequest
 #define downloadImageForURLRequest _STCB14AEF0A83053FB41DED344449A5EBD0_
 #endif
 #ifndef withReceiptID
 #define withReceiptID _STC756C4D9AD06F066F68C7F29A75EB6C51_
+#endif
+#ifndef createNewSessionWithConfiguration
+#define createNewSessionWithConfiguration _STC5F1C25265703D22351D24ADEA3D0F6DD_
 #endif
 #ifndef callCompletionBlocksWithError
 #define callCompletionBlocksWithError _STC99F2B14B3028B3513A1A9BDB4089AFCA_
@@ -213,14 +213,11 @@
 #ifndef orientationFromPropertyValue
 #define orientationFromPropertyValue _STC6E3BD06EEBE00D0B928B68E874A7217D_
 #endif
-#ifndef activationDelayTimerFired
-#define activationDelayTimerFired _STC86415F2511FBAEA38665D91A8F404A06_
-#endif
 #ifndef testAFNetworking
 #define testAFNetworking _STC6BFBF5A39487E6AC9F8BA6FE9558A2E8_
 #endif
-#ifndef PATCH
-#define PATCH _STC39E6C063CD8C37D907C56498CE0B1A27_
+#ifndef activationDelayTimerFired
+#define activationDelayTimerFired _STC86415F2511FBAEA38665D91A8F404A06_
 #endif
 #ifndef sharedImagePrefetcher
 #define sharedImagePrefetcher _STCDC6096A0F68A09D358D76DAEF186EC58_
@@ -228,11 +225,14 @@
 #ifndef certificatesInBundle
 #define certificatesInBundle _STC9BB4439A9D1BF5747106C7121E43ABD4_
 #endif
-#ifndef backgroundDeleteOldFiles
-#define backgroundDeleteOldFiles _STC4CD68996FCA817DF897E135B4FD5A13F_
+#ifndef PATCH
+#define PATCH _STC39E6C063CD8C37D907C56498CE0B1A27_
 #endif
 #ifndef startCompletionDelayTimer
 #define startCompletionDelayTimer _STC69249F67CC4CFF9C41BB7C708FB83577_
+#endif
+#ifndef backgroundDeleteOldFiles
+#define backgroundDeleteOldFiles _STC4CD68996FCA817DF897E135B4FD5A13F_
 #endif
 #ifndef POST
 #define POST _STCFA7E63B678C7D1BABD11564C5863794A_
@@ -309,14 +309,14 @@
 #ifndef compoundSerializerWithResponseSerializers
 #define compoundSerializerWithResponseSerializers _STC0647D5C3C718029A589D494C30428815_
 #endif
+#ifndef networkRequestDidStart
+#define networkRequestDidStart _STC1E9F5FFE8A88DB30A253F4BE943F921D_
+#endif
 #ifndef evaluateServerTrust
 #define evaluateServerTrust _STCF83A19189FE5A8A6AB8E0EDE01D2C19D_
 #endif
 #ifndef forDomain
 #define forDomain _STCCED4BC9A9C6D807C0DF87B53F815C513_
-#endif
-#ifndef networkRequestDidStart
-#define networkRequestDidStart _STC1E9F5FFE8A88DB30A253F4BE943F921D_
 #endif
 #ifndef incrementActivityCount
 #define incrementActivityCount _STC7FA841C4EA26EC72D10FE24F2FB12652_
@@ -372,14 +372,14 @@
 #ifndef updateCurrentStateForNetworkActivityChange
 #define updateCurrentStateForNetworkActivityChange _STC9214773B7F1526C3F2B99E74455D77A7_
 #endif
-#ifndef DELETE
-#define DELETE _STC68ACD03A94AE55F4819CF57A73D64044_
-#endif
 #ifndef dequeueMergedTask
 #define dequeueMergedTask _STC261B62C2CCDBA02B4116E504ED88D3F5_
 #endif
 #ifndef storeImage
 #define storeImage _STCB95B585E35AE76738B66F3428562CBE8_
+#endif
+#ifndef DELETE
+#define DELETE _STC68ACD03A94AE55F4819CF57A73D64044_
 #endif
 #ifndef safelyStartNextTaskIfNecessary
 #define safelyStartNextTaskIfNecessary _STC301B056FE93942840C8CA202CDCEB08B_
@@ -420,9 +420,6 @@
 #ifndef getSize
 #define getSize _STCE9D05E22678D917D45FE20E59D089D03_
 #endif
-#ifndef managerForDomain
-#define managerForDomain _STCD8287993A91961E186F160E70FD8CAFF_
-#endif
 #ifndef cancelInternal
 #define cancelInternal _STC17ADE7E20A407CA6ED2A5FB5BABBB4A4_
 #endif
@@ -462,17 +459,20 @@
 #ifndef removeResponseHandler
 #define removeResponseHandler _STC9E0F6F4B0726BA081C9B5AA1CDAA1303_
 #endif
-#ifndef tasksForKeyPath
-#define tasksForKeyPath _STC4E736B5E657D1F27824CBB8B06E3E2C6_
-#endif
 #ifndef setInitialAndFinalBoundaries
 #define setInitialAndFinalBoundaries _STCA317E3CDDE9D38528E49287428F5E5CE_
 #endif
 #ifndef cancelAll
 #define cancelAll _STC52AB61CD6BD1053A3D1AAC078835760F_
 #endif
+#ifndef tasksForKeyPath
+#define tasksForKeyPath _STC4E736B5E657D1F27824CBB8B06E3E2C6_
+#endif
 #ifndef policyWithPinningMode
 #define policyWithPinningMode _STC7A3366FDDC1102283AB48CEC3750512A_
+#endif
+#ifndef calculateSizeWithCompletionBlock
+#define calculateSizeWithCompletionBlock _STC1A537A92A5E1AC1D5EDA53C03964EF22_
 #endif
 #ifndef addProgressCallback
 #define addProgressCallback _STCBF82F4C3D44CD52CE4E9B473EC2709AB_
@@ -482,9 +482,6 @@
 #endif
 #ifndef createCallback
 #define createCallback _STC15B9E9B50E7C507760D963A558D9A42D_
-#endif
-#ifndef calculateSizeWithCompletionBlock
-#define calculateSizeWithCompletionBlock _STC1A537A92A5E1AC1D5EDA53C03964EF22_
 #endif
 #ifndef safelyDecrementActiveTaskCount
 #define safelyDecrementActiveTaskCount _STC8D475B381710B139A93B9795959CDA9F_
@@ -513,6 +510,9 @@
 #ifndef serializerWithReadingOptions
 #define serializerWithReadingOptions _STCC1FE28E231650BB3526BA26FE702C498_
 #endif
+#ifndef removeImageForKey
+#define removeImageForKey _STC7A9A67FEB0941FE23AF7496B4C1409FD_
+#endif
 #ifndef testInheritUnConfusedClass
 #define testInheritUnConfusedClass _STC4FD1F90D3DAE3FB34F175802FBB533CB_
 #endif
@@ -521,9 +521,6 @@
 #endif
 #ifndef toDisk
 #define toDisk _STCE99490CCB769A2F2E71008A1ACA9F092_
-#endif
-#ifndef removeImageForKey
-#define removeImageForKey _STC7A9A67FEB0941FE23AF7496B4C1409FD_
 #endif
 #ifndef addNotificationObserverForTask
 #define addNotificationObserverForTask _STCDB5E0DF0D1D7537E1F996BD2CD509F24_
@@ -699,15 +696,6 @@
 #ifndef setNetworkActivityActionBlock
 #define setNetworkActivityActionBlock set_STC1B37814605C2C4845E62F2FD4FFCB917_
 #endif
-#ifndef shouldUseCredentialStorage
-#define shouldUseCredentialStorage _STC1BD06F8E52F7D31FAB17D5D00D0A8268_
-#endif
-#ifndef _shouldUseCredentialStorage
-#define _shouldUseCredentialStorage __STC1BD06F8E52F7D31FAB17D5D00D0A8268_
-#endif
-#ifndef setShouldUseCredentialStorage
-#define setShouldUseCredentialStorage set_STC1BD06F8E52F7D31FAB17D5D00D0A8268_
-#endif
 #ifndef networkReachabilityStatus
 #define networkReachabilityStatus _STCDEA5A31E067BEEA6D77D408D6D99401E_
 #endif
@@ -716,6 +704,15 @@
 #endif
 #ifndef setNetworkReachabilityStatus
 #define setNetworkReachabilityStatus set_STCDEA5A31E067BEEA6D77D408D6D99401E_
+#endif
+#ifndef shouldUseCredentialStorage
+#define shouldUseCredentialStorage _STC1BD06F8E52F7D31FAB17D5D00D0A8268_
+#endif
+#ifndef _shouldUseCredentialStorage
+#define _shouldUseCredentialStorage __STC1BD06F8E52F7D31FAB17D5D00D0A8268_
+#endif
+#ifndef setShouldUseCredentialStorage
+#define setShouldUseCredentialStorage set_STC1BD06F8E52F7D31FAB17D5D00D0A8268_
 #endif
 #ifndef upProgressForTask
 #define upProgressForTask _STCB97EB6F3933890D9A1300A6DCE77303C_
@@ -726,15 +723,6 @@
 #ifndef setUpProgressForTask
 #define setUpProgressForTask set_STCB97EB6F3933890D9A1300A6DCE77303C_
 #endif
-#ifndef taskWillPerformHTTPRedirection
-#define taskWillPerformHTTPRedirection _STC5894C2102A39AB43CD6CFD98F7106C70_
-#endif
-#ifndef _taskWillPerformHTTPRedirection
-#define _taskWillPerformHTTPRedirection __STC5894C2102A39AB43CD6CFD98F7106C70_
-#endif
-#ifndef setTaskWillPerformHTTPRedirection
-#define setTaskWillPerformHTTPRedirection set_STC5894C2102A39AB43CD6CFD98F7106C70_
-#endif
 #ifndef dataTaskDidReceiveData
 #define dataTaskDidReceiveData _STCDC8DEFF4645387C5AF84246D068BBF9A_
 #endif
@@ -744,6 +732,15 @@
 #ifndef setDataTaskDidReceiveData
 #define setDataTaskDidReceiveData set_STCDC8DEFF4645387C5AF84246D068BBF9A_
 #endif
+#ifndef taskWillPerformHTTPRedirection
+#define taskWillPerformHTTPRedirection _STC5894C2102A39AB43CD6CFD98F7106C70_
+#endif
+#ifndef _taskWillPerformHTTPRedirection
+#define _taskWillPerformHTTPRedirection __STC5894C2102A39AB43CD6CFD98F7106C70_
+#endif
+#ifndef setTaskWillPerformHTTPRedirection
+#define setTaskWillPerformHTTPRedirection set_STC5894C2102A39AB43CD6CFD98F7106C70_
+#endif
 #ifndef ownedSession
 #define ownedSession _STC8FAE2C4D56147610A7F0DA4506B3467B_
 #endif
@@ -752,15 +749,6 @@
 #endif
 #ifndef setOwnedSession
 #define setOwnedSession set_STC8FAE2C4D56147610A7F0DA4506B3467B_
-#endif
-#ifndef operationClass
-#define operationClass _STCCD4CDA8B7201BBF3D9BE9A45C174F60B_
-#endif
-#ifndef _operationClass
-#define _operationClass __STCCD4CDA8B7201BBF3D9BE9A45C174F60B_
-#endif
-#ifndef setOperationClass
-#define setOperationClass set_STCCD4CDA8B7201BBF3D9BE9A45C174F60B_
 #endif
 #ifndef detailItem
 #define detailItem _STCF1E4D99371C6C3E31FC2374A70D63EE2_
@@ -879,24 +867,6 @@
 #ifndef setCachedImages
 #define setCachedImages set_STC2C861D10C1C279772ED048778A60417D_
 #endif
-#ifndef ioQueue
-#define ioQueue _STC3E647E16A029553A9FB577CE4C33F23C_
-#endif
-#ifndef _ioQueue
-#define _ioQueue __STC3E647E16A029553A9FB577CE4C33F23C_
-#endif
-#ifndef setIoQueue
-#define setIoQueue set_STC3E647E16A029553A9FB577CE4C33F23C_
-#endif
-#ifndef shouldDisableiCloud
-#define shouldDisableiCloud _STCE7E61D4E89122AAE26A00B1ACAB7DA21_
-#endif
-#ifndef _shouldDisableiCloud
-#define _shouldDisableiCloud __STCE7E61D4E89122AAE26A00B1ACAB7DA21_
-#endif
-#ifndef setShouldDisableiCloud
-#define setShouldDisableiCloud set_STCE7E61D4E89122AAE26A00B1ACAB7DA21_
-#endif
 #ifndef queryStringSerializationStyle
 #define queryStringSerializationStyle _STCE8DD3734E1F1CEAB5026B9FF269FB88E_
 #endif
@@ -914,6 +884,24 @@
 #endif
 #ifndef setPinnedCertificates
 #define setPinnedCertificates set_STC0A453E8BC613480087AE53B6708C44C6_
+#endif
+#ifndef shouldDisableiCloud
+#define shouldDisableiCloud _STCE7E61D4E89122AAE26A00B1ACAB7DA21_
+#endif
+#ifndef _shouldDisableiCloud
+#define _shouldDisableiCloud __STCE7E61D4E89122AAE26A00B1ACAB7DA21_
+#endif
+#ifndef setShouldDisableiCloud
+#define setShouldDisableiCloud set_STCE7E61D4E89122AAE26A00B1ACAB7DA21_
+#endif
+#ifndef ioQueue
+#define ioQueue _STC3E647E16A029553A9FB577CE4C33F23C_
+#endif
+#ifndef _ioQueue
+#define _ioQueue __STC3E647E16A029553A9FB577CE4C33F23C_
+#endif
+#ifndef setIoQueue
+#define setIoQueue set_STC3E647E16A029553A9FB577CE4C33F23C_
 #endif
 #ifndef lastAccessDate
 #define lastAccessDate _STCF1B666F0E161F05033C24D8351557F9A_
@@ -1005,15 +993,6 @@
 #ifndef setCurrentDownloadCount
 #define setCurrentDownloadCount set_STCC93D7222D906F1BC4A82C67D754C9637_
 #endif
-#ifndef field
-#define field _STC5CB98935F956B0530F1F49C20EF745E3_
-#endif
-#ifndef _field
-#define _field __STC5CB98935F956B0530F1F49C20EF745E3_
-#endif
-#ifndef setField
-#define setField set_STC5CB98935F956B0530F1F49C20EF745E3_
-#endif
 #ifndef downloadOperationCancelToken
 #define downloadOperationCancelToken _STC87030087F9A2B5EAFEE6D23146FE489F_
 #endif
@@ -1032,15 +1011,6 @@
 #ifndef setNetworkReachabilityStatusBlock
 #define setNetworkReachabilityStatusBlock set_STCBA516C32FC875B43FE6004BF8A792731_
 #endif
-#ifndef taskDidComplete
-#define taskDidComplete _STC0990731FF7D3508A5CA82098F63FCCF2_
-#endif
-#ifndef _taskDidComplete
-#define _taskDidComplete __STC0990731FF7D3508A5CA82098F63FCCF2_
-#endif
-#ifndef setTaskDidComplete
-#define setTaskDidComplete set_STC0990731FF7D3508A5CA82098F63FCCF2_
-#endif
 #ifndef automaticallyInflatesResponseImage
 #define automaticallyInflatesResponseImage _STCC28EF00ED6EA7412BA68771DAB42FBB4_
 #endif
@@ -1049,6 +1019,15 @@
 #endif
 #ifndef setAutomaticallyInflatesResponseImage
 #define setAutomaticallyInflatesResponseImage set_STCC28EF00ED6EA7412BA68771DAB42FBB4_
+#endif
+#ifndef taskDidComplete
+#define taskDidComplete _STC0990731FF7D3508A5CA82098F63FCCF2_
+#endif
+#ifndef _taskDidComplete
+#define _taskDidComplete __STC0990731FF7D3508A5CA82098F63FCCF2_
+#endif
+#ifndef setTaskDidComplete
+#define setTaskDidComplete set_STC0990731FF7D3508A5CA82098F63FCCF2_
 #endif
 #ifndef callbackBlocks
 #define callbackBlocks _STC96D630106B33AF6149B00BF9B5DA9D31_
@@ -1077,15 +1056,6 @@
 #ifndef setAcceptableStatusCodes
 #define setAcceptableStatusCodes set_STC5FC349661EA5DD9E0C4A7B9900211F6D_
 #endif
-#ifndef dataTasks
-#define dataTasks _STCADDF066167950E5D4A27B83FFAB793EF_
-#endif
-#ifndef _dataTasks
-#define _dataTasks __STCADDF066167950E5D4A27B83FFAB793EF_
-#endif
-#ifndef setDataTasks
-#define setDataTasks set_STCADDF066167950E5D4A27B83FFAB793EF_
-#endif
 #ifndef downloadTaskDidWriteData
 #define downloadTaskDidWriteData _STC8974B2838779902A3DD0ADC612B76E6F_
 #endif
@@ -1094,6 +1064,15 @@
 #endif
 #ifndef setDownloadTaskDidWriteData
 #define setDownloadTaskDidWriteData set_STC8974B2838779902A3DD0ADC612B76E6F_
+#endif
+#ifndef dataTasks
+#define dataTasks _STCADDF066167950E5D4A27B83FFAB793EF_
+#endif
+#ifndef _dataTasks
+#define _dataTasks __STCADDF066167950E5D4A27B83FFAB793EF_
+#endif
+#ifndef setDataTasks
+#define setDataTasks set_STCADDF066167950E5D4A27B83FFAB793EF_
 #endif
 #ifndef startedTime
 #define startedTime _STC5A77061F5E353C72681E77DB886A5266_
@@ -1167,6 +1146,15 @@
 #ifndef setMaxMemoryCountLimit
 #define setMaxMemoryCountLimit set_STC0C2EF834122345A408C1B23775395746_
 #endif
+#ifndef writeOptions
+#define writeOptions _STC34888B7CE640DD4260D81B14EF886CE6_
+#endif
+#ifndef _writeOptions
+#define _writeOptions __STC34888B7CE640DD4260D81B14EF886CE6_
+#endif
+#ifndef setWriteOptions
+#define setWriteOptions set_STC34888B7CE640DD4260D81B14EF886CE6_
+#endif
 #ifndef downloadProgress
 #define downloadProgress _STCE98435B73DCDA76A05AB20479C142EC5_
 #endif
@@ -1184,15 +1172,6 @@
 #endif
 #ifndef setTaskDescriptionForSessionTasks
 #define setTaskDescriptionForSessionTasks set_STCD9015B762A807ABB5232879759B95F11_
-#endif
-#ifndef writeOptions
-#define writeOptions _STC34888B7CE640DD4260D81B14EF886CE6_
-#endif
-#ifndef _writeOptions
-#define _writeOptions __STC34888B7CE640DD4260D81B14EF886CE6_
-#endif
-#ifndef setWriteOptions
-#define setWriteOptions set_STC34888B7CE640DD4260D81B14EF886CE6_
 #endif
 #ifndef hasFinalBoundary
 #define hasFinalBoundary _STCC9B72E8BB089A7D40D22B8416C14E5AD_
@@ -1311,15 +1290,6 @@
 #ifndef setFinishedCount
 #define setFinishedCount set_STC4770AEB365F259D6876B15DB476CC6E0_
 #endif
-#ifndef maxCacheSize
-#define maxCacheSize _STCFC1AEA65EC75A604420034DD0BB7747B_
-#endif
-#ifndef _maxCacheSize
-#define _maxCacheSize __STCFC1AEA65EC75A604420034DD0BB7747B_
-#endif
-#ifndef setMaxCacheSize
-#define setMaxCacheSize set_STCFC1AEA65EC75A604420034DD0BB7747B_
-#endif
 #ifndef customPaths
 #define customPaths _STCAF58F8152A88F4CA0707F0072D912955_
 #endif
@@ -1329,14 +1299,23 @@
 #ifndef setCustomPaths
 #define setCustomPaths set_STCAF58F8152A88F4CA0707F0072D912955_
 #endif
-#ifndef maxMemoryCost
-#define maxMemoryCost _STC49FD50282921E107611F178B6862A200_
+#ifndef uploadProgressBlock
+#define uploadProgressBlock _STCD13AB28635CCD0EFB807B641ACCD695C_
 #endif
-#ifndef _maxMemoryCost
-#define _maxMemoryCost __STC49FD50282921E107611F178B6862A200_
+#ifndef _uploadProgressBlock
+#define _uploadProgressBlock __STCD13AB28635CCD0EFB807B641ACCD695C_
 #endif
-#ifndef setMaxMemoryCost
-#define setMaxMemoryCost set_STC49FD50282921E107611F178B6862A200_
+#ifndef setUploadProgressBlock
+#define setUploadProgressBlock set_STCD13AB28635CCD0EFB807B641ACCD695C_
+#endif
+#ifndef maxCacheSize
+#define maxCacheSize _STCFC1AEA65EC75A604420034DD0BB7747B_
+#endif
+#ifndef _maxCacheSize
+#define _maxCacheSize __STCFC1AEA65EC75A604420034DD0BB7747B_
+#endif
+#ifndef setMaxCacheSize
+#define setMaxCacheSize set_STCFC1AEA65EC75A604420034DD0BB7747B_
 #endif
 #ifndef executionOrder
 #define executionOrder _STCE53E3A3A6D1C90BBCF938793E5097AEC_
@@ -1347,14 +1326,14 @@
 #ifndef setExecutionOrder
 #define setExecutionOrder set_STCE53E3A3A6D1C90BBCF938793E5097AEC_
 #endif
-#ifndef uploadProgressBlock
-#define uploadProgressBlock _STCD13AB28635CCD0EFB807B641ACCD695C_
+#ifndef maxMemoryCost
+#define maxMemoryCost _STC49FD50282921E107611F178B6862A200_
 #endif
-#ifndef _uploadProgressBlock
-#define _uploadProgressBlock __STCD13AB28635CCD0EFB807B641ACCD695C_
+#ifndef _maxMemoryCost
+#define _maxMemoryCost __STC49FD50282921E107611F178B6862A200_
 #endif
-#ifndef setUploadProgressBlock
-#define setUploadProgressBlock set_STCD13AB28635CCD0EFB807B641ACCD695C_
+#ifndef setMaxMemoryCost
+#define setMaxMemoryCost set_STC49FD50282921E107611F178B6862A200_
 #endif
 #ifndef activityIndicatorView
 #define activityIndicatorView _STCC0C1BDF29D008110097DBE62561B58C2_
@@ -1392,15 +1371,6 @@
 #ifndef setAllowInvalidCertificates
 #define setAllowInvalidCertificates set_STC8F49E327C830CD1B654443E271C8C70D_
 #endif
-#ifndef detailDescriptionLabel
-#define detailDescriptionLabel _STC534F2DCC946748C8B04893CCD94D24B0_
-#endif
-#ifndef _detailDescriptionLabel
-#define _detailDescriptionLabel __STC534F2DCC946748C8B04893CCD94D24B0_
-#endif
-#ifndef setDetailDescriptionLabel
-#define setDetailDescriptionLabel set_STC534F2DCC946748C8B04893CCD94D24B0_
-#endif
 #ifndef URLOperations
 #define URLOperations _STC23A6D65E9D57E4515DDA82289A1906AF_
 #endif
@@ -1409,6 +1379,15 @@
 #endif
 #ifndef setURLOperations
 #define setURLOperations set_STC23A6D65E9D57E4515DDA82289A1906AF_
+#endif
+#ifndef detailDescriptionLabel
+#define detailDescriptionLabel _STC534F2DCC946748C8B04893CCD94D24B0_
+#endif
+#ifndef _detailDescriptionLabel
+#define _detailDescriptionLabel __STC534F2DCC946748C8B04893CCD94D24B0_
+#endif
+#ifndef setDetailDescriptionLabel
+#define setDetailDescriptionLabel set_STC534F2DCC946748C8B04893CCD94D24B0_
 #endif
 #ifndef responseSerializers
 #define responseSerializers _STC32CD14E595BB7C43FC0E396F9548D36A_
@@ -1455,15 +1434,6 @@
 #ifndef setSessionDidReceiveAuthenticationChallenge
 #define setSessionDidReceiveAuthenticationChallenge set_STCE0E5D35901BF9E52928C4D53D2EAD53C_
 #endif
-#ifndef reachabilityManager
-#define reachabilityManager _STC4A09FE49AA3755FCB3EC41448D700AF5_
-#endif
-#ifndef _reachabilityManager
-#define _reachabilityManager __STC4A09FE49AA3755FCB3EC41448D700AF5_
-#endif
-#ifndef setReachabilityManager
-#define setReachabilityManager set_STC4A09FE49AA3755FCB3EC41448D700AF5_
-#endif
 #ifndef activationDelay
 #define activationDelay _STCF086CC112A12AE2475BD67C2F2D1E2C9_
 #endif
@@ -1473,14 +1443,14 @@
 #ifndef setActivationDelay
 #define setActivationDelay set_STCF086CC112A12AE2475BD67C2F2D1E2C9_
 #endif
-#ifndef HTTPRequestHeaders
-#define HTTPRequestHeaders _STC328B5FF9F7D5D21A03D041A375B52E74_
+#ifndef reachabilityManager
+#define reachabilityManager _STC4A09FE49AA3755FCB3EC41448D700AF5_
 #endif
-#ifndef _HTTPRequestHeaders
-#define _HTTPRequestHeaders __STC328B5FF9F7D5D21A03D041A375B52E74_
+#ifndef _reachabilityManager
+#define _reachabilityManager __STC4A09FE49AA3755FCB3EC41448D700AF5_
 #endif
-#ifndef setHTTPRequestHeaders
-#define setHTTPRequestHeaders set_STC328B5FF9F7D5D21A03D041A375B52E74_
+#ifndef setReachabilityManager
+#define setReachabilityManager set_STC4A09FE49AA3755FCB3EC41448D700AF5_
 #endif
 #ifndef numberOfBytesInPacket
 #define numberOfBytesInPacket _STC814CC43D54754F6BDB0B03428472C97D_
@@ -1500,14 +1470,14 @@
 #ifndef setMemCache
 #define setMemCache set_STCA3813E8A1F44A4DC2CF77BF8EB05DD8D_
 #endif
-#ifndef mutableData
-#define mutableData _STC6A622311CA27444EE5237D8505B253F8_
+#ifndef HTTPRequestHeaders
+#define HTTPRequestHeaders _STC328B5FF9F7D5D21A03D041A375B52E74_
 #endif
-#ifndef _mutableData
-#define _mutableData __STC6A622311CA27444EE5237D8505B253F8_
+#ifndef _HTTPRequestHeaders
+#define _HTTPRequestHeaders __STC328B5FF9F7D5D21A03D041A375B52E74_
 #endif
-#ifndef setMutableData
-#define setMutableData set_STC6A622311CA27444EE5237D8505B253F8_
+#ifndef setHTTPRequestHeaders
+#define setHTTPRequestHeaders set_STC328B5FF9F7D5D21A03D041A375B52E74_
 #endif
 #ifndef delegateforTask
 #define delegateforTask _STCF64DBEE4CDDD7B592E32317C295B7B2A_
@@ -1527,15 +1497,6 @@
 #ifndef setDownloadProgressBlock
 #define setDownloadProgressBlock set_STC7ABDD6D21216CB1FB61D3F3EA587D71F_
 #endif
-#ifndef tasks
-#define tasks _STC76EBF71564EAB02A162EFD6CD3F74C0E_
-#endif
-#ifndef _tasks
-#define _tasks __STC76EBF71564EAB02A162EFD6CD3F74C0E_
-#endif
-#ifndef setTasks
-#define setTasks set_STC76EBF71564EAB02A162EFD6CD3F74C0E_
-#endif
 #ifndef HTTPMethodsEncodingParametersInURI
 #define HTTPMethodsEncodingParametersInURI _STC6F63F93A0A117B0BBFB3D37C68FD5108_
 #endif
@@ -1544,15 +1505,6 @@
 #endif
 #ifndef setHTTPMethodsEncodingParametersInURI
 #define setHTTPMethodsEncodingParametersInURI set_STC6F63F93A0A117B0BBFB3D37C68FD5108_
-#endif
-#ifndef backgroundTaskId
-#define backgroundTaskId _STCCF80FC888F476974840CF9B729EACAA7_
-#endif
-#ifndef _backgroundTaskId
-#define _backgroundTaskId __STCCF80FC888F476974840CF9B729EACAA7_
-#endif
-#ifndef setBackgroundTaskId
-#define setBackgroundTaskId set_STCCF80FC888F476974840CF9B729EACAA7_
 #endif
 #ifndef readOptions
 #define readOptions _STC5938A92310CD5982C3D68B7D7C439F49_
@@ -1572,6 +1524,15 @@
 #ifndef setPinnedPublicKeys
 #define setPinnedPublicKeys set_STC26F57FF9A93E0D4FB30455ACA2774E9A_
 #endif
+#ifndef cacheOperation
+#define cacheOperation _STC234E5E786817B093902409BE054F1270_
+#endif
+#ifndef _cacheOperation
+#define _cacheOperation __STC234E5E786817B093902409BE054F1270_
+#endif
+#ifndef setCacheOperation
+#define setCacheOperation set_STC234E5E786817B093902409BE054F1270_
+#endif
 #ifndef securityPolicy
 #define securityPolicy _STC8CF43D9D2E7D12649B2D1DAFD44CC184_
 #endif
@@ -1581,14 +1542,14 @@
 #ifndef setSecurityPolicy
 #define setSecurityPolicy set_STC8CF43D9D2E7D12649B2D1DAFD44CC184_
 #endif
-#ifndef cacheOperation
-#define cacheOperation _STC234E5E786817B093902409BE054F1270_
+#ifndef backgroundTaskId
+#define backgroundTaskId _STCCF80FC888F476974840CF9B729EACAA7_
 #endif
-#ifndef _cacheOperation
-#define _cacheOperation __STC234E5E786817B093902409BE054F1270_
+#ifndef _backgroundTaskId
+#define _backgroundTaskId __STCCF80FC888F476974840CF9B729EACAA7_
 #endif
-#ifndef setCacheOperation
-#define setCacheOperation set_STC234E5E786817B093902409BE054F1270_
+#ifndef setBackgroundTaskId
+#define setBackgroundTaskId set_STCCF80FC888F476974840CF9B729EACAA7_
 #endif
 #ifndef cacheKeyFilter
 #define cacheKeyFilter _STCBEE87363749956D2686E0A6F6C688B77_
@@ -1716,15 +1677,6 @@
 #ifndef setUploadProgress
 #define setUploadProgress set_STCB5FA879EC8F9C4D7FF876A3B3D249113_
 #endif
-#ifndef taskDidReceiveAuthenticationChallenge
-#define taskDidReceiveAuthenticationChallenge _STC8A32E38A2FD1322501CA6A82D151FDA6_
-#endif
-#ifndef _taskDidReceiveAuthenticationChallenge
-#define _taskDidReceiveAuthenticationChallenge __STC8A32E38A2FD1322501CA6A82D151FDA6_
-#endif
-#ifndef setTaskDidReceiveAuthenticationChallenge
-#define setTaskDidReceiveAuthenticationChallenge set_STC8A32E38A2FD1322501CA6A82D151FDA6_
-#endif
 #ifndef currentHTTPBodyPart
 #define currentHTTPBodyPart _STCC761C7C8CAEDF24367F855C9B085D2D9_
 #endif
@@ -1733,6 +1685,15 @@
 #endif
 #ifndef setCurrentHTTPBodyPart
 #define setCurrentHTTPBodyPart set_STCC761C7C8CAEDF24367F855C9B085D2D9_
+#endif
+#ifndef taskDidReceiveAuthenticationChallenge
+#define taskDidReceiveAuthenticationChallenge _STC8A32E38A2FD1322501CA6A82D151FDA6_
+#endif
+#ifndef _taskDidReceiveAuthenticationChallenge
+#define _taskDidReceiveAuthenticationChallenge __STC8A32E38A2FD1322501CA6A82D151FDA6_
+#endif
+#ifndef setTaskDidReceiveAuthenticationChallenge
+#define setTaskDidReceiveAuthenticationChallenge set_STC8A32E38A2FD1322501CA6A82D151FDA6_
 #endif
 
 #endif

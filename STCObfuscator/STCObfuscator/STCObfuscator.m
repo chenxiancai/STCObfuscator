@@ -162,10 +162,11 @@
     NSMutableArray *confuseMethods = [NSMutableArray array];
     
     // filter class method and instance method
-    regex = @"(\\-|\\+)\\[.*?\\]";
+    regex = @"\\](\\s+)(\\-|\\+)\\[.*?\\]";
     [self regularExpressionWithPattern:regex text:linkmap block:^(id obj, BOOL *stop) {
-        NSString *name = [[(NSString *)obj componentsSeparatedByString:@" "] firstObject];
-        NSString *method = [[(NSString *)obj componentsSeparatedByString:@" "] lastObject];
+        NSString *objStr = [(NSString *)obj stringByReplacingOccurrencesOfString:@"] " withString:@""];
+        NSString *name = [[(NSString *)objStr componentsSeparatedByString:@" "] firstObject];
+        NSString *method = [[(NSString *)objStr componentsSeparatedByString:@" "] lastObject];
         name = [name stringByReplacingOccurrencesOfString:@"[" withString:@""];
         name = [name stringByReplacingOccurrencesOfString:@"-" withString:@""];
         name = [name stringByReplacingOccurrencesOfString:@"+" withString:@""];
@@ -344,7 +345,7 @@
     // confuse class name
     [classNameSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
         NSString *name = (NSString *)obj;
-        NSString *newStr = [NSString stringWithFormat:@"#ifndef %@\n#define %@ _%@_\n#endif\n",name, name, [self encodeWithString:name]];
+        NSString *newStr = [NSString stringWithFormat:@"#ifndef %@\n#define %@ %@\n#endif\n",name, name, [self encodeWithString:name]];
         [result appendString:newStr];
         [jsonObjects addEntriesFromDictionary:@{[self encodeWithString:name]: name}];
     }];
@@ -360,7 +361,7 @@
             if (str.length > 1
                 && ![[unConfuseSymbolsDict objectForKey:str] boolValue]) {
                 [confuseMethodSet addObject:str];
-                NSString *newStr = [NSString stringWithFormat:@"#ifndef %@\n#define %@ _%@_\n#endif\n", str,str, [self encodeWithString:str]];
+                NSString *newStr = [NSString stringWithFormat:@"#ifndef %@\n#define %@ %@\n#endif\n", str,str, [self encodeWithString:str]];
                 [result appendString:newStr];
                 [jsonObjects addEntriesFromDictionary:@{[self encodeWithString:str]: str}];
             }
@@ -383,24 +384,25 @@
             [confusePropertySet addObject:setStr];
             [confusePropertySet addObject:[@"_" stringByAppendingString:str]];
             
+            NSString *encryptStr = [self encodeWithString:str];
             // property
-            NSString *newStr = [NSString stringWithFormat:@"#ifndef %@\n#define %@ _%@_\n#endif\n", str, str, [self encodeWithString:str]];
+            NSString *newStr = [NSString stringWithFormat:@"#ifndef %@\n#define %@ %@\n#endif\n", str, str, encryptStr];
             [result appendString:newStr];
-            
+            [jsonObjects addEntriesFromDictionary:@{encryptStr: str}];
+
             // private property
-            newStr = [NSString stringWithFormat:@"#ifndef _%@\n#define _%@ __%@_\n#endif\n", str, str, [self encodeWithString:str]];
+            newStr = [NSString stringWithFormat:@"#ifndef _%@\n#define _%@ _%@\n#endif\n", str, str, encryptStr];
             [result appendString:newStr];
-            
+            [jsonObjects addEntriesFromDictionary:@{[@"_" stringByAppendingString:encryptStr]: [@"_" stringByAppendingString:str]}];
+
             // setter
             NSString *firstStr = [[str substringToIndex:1] uppercaseString];
             NSString *otherStr = [str substringFromIndex:1];
-            newStr = [NSString stringWithFormat:@"#ifndef set%@%@\n#define set%@%@ set_%@_\n#endif\n", firstStr, otherStr,firstStr,otherStr, [self encodeWithString:str]];
+            newStr = [NSString stringWithFormat:@"#ifndef set%@%@\n#define set%@%@ set%@\n#endif\n", firstStr, otherStr,firstStr,otherStr, encryptStr];
             [result appendString:newStr];
+            [jsonObjects addEntriesFromDictionary:@{[@"set" stringByAppendingString:encryptStr]: [@"set" stringByAppendingString:str]}];
+
         }
-    }];
-    
-    [confusePropertySet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
-        [jsonObjects addEntriesFromDictionary:@{[self encodeWithString:obj]: obj}];
     }];
     
     // filter hardcode
@@ -424,7 +426,10 @@
         });
     
         for (NSString *key in hardCodes.allKeys) {
-            [jsonObjects removeObjectForKey:[self encodeWithString:key]];
+            NSString *encryptStr = [self encodeWithString:key];
+            [jsonObjects removeObjectForKey:encryptStr];
+            [jsonObjects removeObjectForKey:[@"_" stringByAppendingString:encryptStr]];
+            [jsonObjects removeObjectForKey:[@"set" stringByAppendingString:encryptStr]];
         }
         
         if (hardCodes.count > 0) {
@@ -961,14 +966,14 @@
     if ([self.md5Salt length] > 0) {
         str = [str stringByAppendingString:self.md5Salt];
     }
-    NSMutableString *output = [NSMutableString stringWithString:@"STC"];
+    NSMutableString *output = [NSMutableString stringWithString:@"_STC"];
     unsigned char temp[CC_MD5_DIGEST_LENGTH];
     CC_LONG len = (CC_LONG)str.length;
     CC_MD5(str.UTF8String, len, temp);
     for (int i = 0 ; i <CC_MD5_DIGEST_LENGTH; i++ ) {
         [output appendFormat:@"%02X", temp[i]^0x5A];
     }
-    return output;
+    return [output stringByAppendingString:@"_"];
 }
 
 #pragma mark - runtime method
