@@ -118,10 +118,10 @@ run project in DEBUG environment with iPhone simulator to generate confuse macro
 
 #### 7、
 ```
-run project in REALEASE environment that class confused. 
+run project in RELEASE environment that class confused. 
 ```
 ```
-在 REALEASE 环境下运行工程，实现代码混淆。 
+在 RELEASE 环境下运行工程，实现代码混淆。 
 ```
 
 #### 8、
