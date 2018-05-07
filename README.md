@@ -21,6 +21,11 @@ pod "STCObfuscator"
 ```
 after you add under code to your project
 
+#import "STCObfuscator.h"
+
+#define STRING(str) _STRING(str)
+#define _STRING(str) #str
+
 #if (DEBUG == 1)
     [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
     [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
@@ -30,6 +35,13 @@ you should finish steps:
 ```
 ```
 在你把下面的代码加入到你的工程之后，你要完成下面的步骤
+
+#import "STCObfuscator.h"
+
+#define STRING(str) _STRING(str)
+#define _STRING(str) #str
+
+
 #if (DEBUG == 1)
     [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
     [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
