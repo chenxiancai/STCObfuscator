@@ -16,6 +16,11 @@
 
 @implementation MasterViewController
 
+- (void)materMethod:(NSString *)methodName todoSomething:(NSString *)something
+{
+    return;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

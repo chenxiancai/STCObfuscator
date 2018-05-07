@@ -7,12 +7,9 @@
  */
 
 #import "SDImageCache.h"
-#import "SDWebImageDecoder.h"
-#import "UIImage+MultiFormat.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "UIImage+GIF.h"
-#import "NSData+ImageContentType.h"
 #import "NSImage+WebCache.h"
+#import "SDWebImageCodersManager.h"
 
 // See https://github.com/rs/SDWebImage/pull/1141 for discussion
 @interface AutoPurgeCache : NSCache
@@ -53,7 +50,7 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
 @property (strong, nonatomic, nonnull) NSCache *memCache;
 @property (strong, nonatomic, nonnull) NSString *diskCachePath;
 @property (strong, nonatomic, nullable) NSMutableArray<NSString *> *customPaths;
-@property (SDDispatchQueueSetterSementics, nonatomic, nullable) dispatch_queue_t ioQueue;
+@property (strong, nonatomic, nullable) dispatch_queue_t ioQueue;
 
 @end
 
@@ -132,7 +129,6 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    SDDispatchQueueRelease(_ioQueue);
 }
 
 - (void)checkIfQueueIsIOQueue {
@@ -171,10 +167,11 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
     }
     unsigned char r[CC_MD5_DIGEST_LENGTH];
     CC_MD5(str, (CC_LONG)strlen(str), r);
+    NSURL *keyURL = [NSURL URLWithString:key];
+    NSString *ext = keyURL ? keyURL.pathExtension : key.pathExtension;
     NSString *filename = [NSString stringWithFormat:@"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%@",
                           r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8], r[9], r[10],
-                          r[11], r[12], r[13], r[14], r[15], [key.pathExtension isEqualToString:@""] ? @"" : [NSString stringWithFormat:@".%@", key.pathExtension]];
-
+                          r[11], r[12], r[13], r[14], r[15], ext.length == 0 ? @"" : [NSString stringWithFormat:@".%@", ext]];
     return filename;
 }
 
@@ -220,9 +217,15 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
             @autoreleasepool {
                 NSData *data = imageData;
                 if (!data && image) {
-                    SDImageFormat imageFormatFromData = [NSData sd_imageFormatForImageData:data];
-                    data = [image sd_imageDataAsFormat:imageFormatFromData];
-                }                
+                    // If we do not have any data to detect image format, check whether it contains alpha channel to use PNG or JPEG format
+                    SDImageFormat format;
+                    if (SDCGImageRefContainsAlpha(image.CGImage)) {
+                        format = SDImageFormatPNG;
+                    } else {
+                        format = SDImageFormatJPEG;
+                    }
+                    data = [[SDWebImageCodersManager sharedInstance] encodedDataWithImage:image format:format];
+                }
                 [self storeImageDataToDisk:data forKey:key];
             }
             
@@ -311,14 +314,14 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
 
 - (nullable NSData *)diskImageDataBySearchingAllPathsForKey:(nullable NSString *)key {
     NSString *defaultPath = [self defaultCachePathForKey:key];
-    NSData *data = [NSData dataWithContentsOfFile:defaultPath];
+    NSData *data = [NSData dataWithContentsOfFile:defaultPath options:self.config.diskCacheReadingOptions error:nil];
     if (data) {
         return data;
     }
 
     // fallback because of https://github.com/rs/SDWebImage/pull/976 that added the extension to the disk file name
     // checking the key with and without the extension
-    data = [NSData dataWithContentsOfFile:defaultPath.stringByDeletingPathExtension];
+    data = [NSData dataWithContentsOfFile:defaultPath.stringByDeletingPathExtension options:self.config.diskCacheReadingOptions error:nil];
     if (data) {
         return data;
     }
@@ -326,14 +329,14 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
     NSArray<NSString *> *customPaths = [self.customPaths copy];
     for (NSString *path in customPaths) {
         NSString *filePath = [self cachePathForKey:key inPath:path];
-        NSData *imageData = [NSData dataWithContentsOfFile:filePath];
+        NSData *imageData = [NSData dataWithContentsOfFile:filePath options:self.config.diskCacheReadingOptions error:nil];
         if (imageData) {
             return imageData;
         }
 
         // fallback because of https://github.com/rs/SDWebImage/pull/976 that added the extension to the disk file name
         // checking the key with and without the extension
-        imageData = [NSData dataWithContentsOfFile:filePath.stringByDeletingPathExtension];
+        imageData = [NSData dataWithContentsOfFile:filePath.stringByDeletingPathExtension options:self.config.diskCacheReadingOptions error:nil];
         if (imageData) {
             return imageData;
         }
@@ -345,10 +348,10 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
 - (nullable UIImage *)diskImageForKey:(nullable NSString *)key {
     NSData *data = [self diskImageDataBySearchingAllPathsForKey:key];
     if (data) {
-        UIImage *image = [UIImage sd_imageWithData:data];
+        UIImage *image = [[SDWebImageCodersManager sharedInstance] decodedImageWithData:data];
         image = [self scaledImageForKey:key image:image];
         if (self.config.shouldDecompressImages) {
-            image = [UIImage decodedImageWithImage:image];
+            image = [[SDWebImageCodersManager sharedInstance] decompressedImageWithImage:image data:&data options:@{SDWebImageCoderScaleDownLargeImagesKey: @(NO)}];
         }
         return image;
     } else {
@@ -372,7 +375,7 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
     UIImage *image = [self imageFromMemoryCacheForKey:key];
     if (image) {
         NSData *diskData = nil;
-        if ([image isGIF]) {
+        if (image.images) {
             diskData = [self diskImageDataBySearchingAllPathsForKey:key];
         }
         if (doneBlock) {

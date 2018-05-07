@@ -10,7 +10,7 @@
 #import "DetailViewController.h"
 #import "STCObfuscator.h"
 
-#import <Weibo_SDK/WeiboSDK.h>
+//import <Weibo_SDK/WeiboSDK.h>
 #import <AFNetworking.h>
 #import <SDWebImage/SDWebImageManager.h>
 #import "UnConfusedClass.h"
@@ -49,7 +49,7 @@
 
 - (void)testStaticLib
 {
-    NSLog(@"%@", [WeiboSDK getSDKVersion]);
+    //NSLog(@"%@", [WeiboSDK getSDKVersion]);
 }
 
 - (void)testAFNetworking
@@ -64,7 +64,7 @@
 
 - (void)testSDWebImage
 {
-    NSURL *url = [NSURL URLWithString:@"www.baidu.com"];
+    NSURL *url = [NSURL URLWithString:@"https://www.baidu.com"];
     [[SDWebImageDownloader sharedDownloader] downloadImageWithURL:url options:SDWebImageDownloaderLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
     } completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
     }];

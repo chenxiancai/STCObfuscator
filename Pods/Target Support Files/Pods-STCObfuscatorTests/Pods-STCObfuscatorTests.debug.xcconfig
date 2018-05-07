@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/Weibo_SDK"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" $(inherited) "${PODS_ROOT}/Weibo_SDK/libWeiboSDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/Weibo_SDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "Photos" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/SDWebImage"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "CoreGraphics" -framework "ImageIO" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

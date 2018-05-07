@@ -7,8 +7,8 @@
  */
 
 #import "SDWebImageManager.h"
-#import <objc/message.h>
 #import "NSImage+WebCache.h"
+#import <objc/message.h>
 
 @interface SDWebImageCombinedOperation : NSObject <SDWebImageOperation>
 
@@ -64,6 +64,10 @@
     } else {
         return url.absoluteString;
     }
+}
+
+- (nullable UIImage *)scaledImageForKey:(nullable NSString *)key image:(nullable UIImage *)image {
+    return SDScaledImageForKey(key, image);
 }
 
 - (void)cachedImageExistsForURL:(nullable NSURL *)url
@@ -201,6 +205,11 @@
                     }
                     
                     BOOL cacheOnDisk = !(options & SDWebImageCacheMemoryOnly);
+                    
+                    // We've done the scale process in SDWebImageDownloader with the shared manager, this is used for custom manager and avoid extra scale.
+                    if (self != [SDWebImageManager sharedManager] && self.cacheKeyFilter && downloadedImage) {
+                        downloadedImage = [self scaledImageForKey:key image:downloadedImage];
+                    }
 
                     if (options & SDWebImageRefreshCached && cachedImage && !downloadedImage) {
                         // Image refresh hit the NSURLCache cache, do not call the completion block
@@ -228,11 +237,14 @@
                     [self safelyRemoveOperationFromRunning:strongOperation];
                 }
             }];
-            operation.cancelBlock = ^{
-                [self.imageDownloader cancel:subOperationToken];
-                __strong __typeof(weakOperation) strongOperation = weakOperation;
-                [self safelyRemoveOperationFromRunning:strongOperation];
-            };
+            @synchronized(operation) {
+                // Need same lock to ensure cancelBlock called because cancel method can be called in different queue
+                operation.cancelBlock = ^{
+                    [self.imageDownloader cancel:subOperationToken];
+                    __strong __typeof(weakOperation) strongOperation = weakOperation;
+                    [self safelyRemoveOperationFromRunning:strongOperation];
+                };
+            }
         } else if (cachedImage) {
             __strong __typeof(weakOperation) strongOperation = weakOperation;
             [self callCompletionBlockForOperation:strongOperation completion:completedBlock image:cachedImage data:cachedData error:nil cacheType:cacheType finished:YES url:url];
@@ -319,18 +331,16 @@
 }
 
 - (void)cancel {
-    self.cancelled = YES;
-    if (self.cacheOperation) {
-        [self.cacheOperation cancel];
-        self.cacheOperation = nil;
-    }
-    if (self.cancelBlock) {
-        self.cancelBlock();
-        
-        // TODO: this is a temporary fix to #809.
-        // Until we can figure the exact cause of the crash, going with the ivar instead of the setter
-//        self.cancelBlock = nil;
-        _cancelBlock = nil;
+    @synchronized(self) {
+        self.cancelled = YES;
+        if (self.cacheOperation) {
+            [self.cacheOperation cancel];
+            self.cacheOperation = nil;
+        }
+        if (self.cancelBlock) {
+            self.cancelBlock();
+            self.cancelBlock = nil;
+        }
     }
 }
 

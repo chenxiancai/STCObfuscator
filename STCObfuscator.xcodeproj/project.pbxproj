@@ -20,6 +20,7 @@
 		5F6BFC0E1F736AAB0058C2F9 /* STCObfuscator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC0D1F736AAB0058C2F9 /* STCObfuscator.m */; };
 		5F6BFC151F739CC70058C2F9 /* ahocorasick.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC111F739CC70058C2F9 /* ahocorasick.c */; };
 		5F6BFC161F739CC70058C2F9 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BFC131F739CC70058C2F9 /* node.c */; };
+		5F77E3E8204E348300886D96 /* ConfusedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F77E3E7204E348300886D96 /* ConfusedClass.m */; };
 		BDC3F8ADF6AB121614323411 /* libPods-STCObfuscatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960E3E3CF568E84506834D97 /* libPods-STCObfuscatorTests.a */; };
 		EE5176DFEB8C5E72173EA355 /* libPods-STCObfuscator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC90D2DECB9F34DFABCAB45 /* libPods-STCObfuscator.a */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,8 @@
 		5F6BFC121F739CC70058C2F9 /* ahocorasick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ahocorasick.h; sourceTree = "<group>"; };
 		5F6BFC131F739CC70058C2F9 /* node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
 		5F6BFC141F739CC70058C2F9 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		5F77E3E6204E348300886D96 /* ConfusedClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfusedClass.h; sourceTree = "<group>"; };
+		5F77E3E7204E348300886D96 /* ConfusedClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfusedClass.m; sourceTree = "<group>"; };
 		6155FA995C66CC74278D7351 /* Pods-STCObfuscator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCObfuscator.release.xcconfig"; path = "Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator.release.xcconfig"; sourceTree = "<group>"; };
 		960E3E3CF568E84506834D97 /* libPods-STCObfuscatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STCObfuscatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEF91E2B7CED79EC8A11D3B /* Pods-STCObfuscator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCObfuscator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				5F6BFBEA1F736A290058C2F9 /* MasterViewController.m */,
 				5F6BFBEC1F736A290058C2F9 /* DetailViewController.h */,
 				5F6BFBED1F736A290058C2F9 /* DetailViewController.m */,
+				5F77E3E6204E348300886D96 /* ConfusedClass.h */,
+				5F77E3E7204E348300886D96 /* ConfusedClass.m */,
 				5F1746C21F74F88D007790A4 /* UnConfusedClass.h */,
 				5F1746C31F74F88D007790A4 /* UnConfusedClass.m */,
 				5F1746C51F74F948007790A4 /* InheritUnConfusedClass.h */,
@@ -418,6 +423,7 @@
 				5F1746C41F74F88D007790A4 /* UnConfusedClass.m in Sources */,
 				5F6BFC151F739CC70058C2F9 /* ahocorasick.c in Sources */,
 				5F6BFC161F739CC70058C2F9 /* node.c in Sources */,
+				5F77E3E8204E348300886D96 /* ConfusedClass.m in Sources */,
 				5F1746BC1F73CD50007790A4 /* AppDelegate.m in Sources */,
 				5F1746C71F74F948007790A4 /* InheritUnConfusedClass.m in Sources */,
 			);

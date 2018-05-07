@@ -16,6 +16,7 @@
 - (instancetype)init NS_UNAVAILABLE;
 
 @property (nonatomic, strong) NSArray *unConfuseClassNames;
+@property (nonatomic, strong) NSArray *unConfuseClassPrefix;
 @property (nonatomic, copy) NSString *md5Salt;
 
 - (void)confuseWithRootPath:(NSString *)rootPath

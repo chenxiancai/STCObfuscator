@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
+- (void)materMethod:(NSString *)methodName todoSomething:(NSString *)something;
 
 @end
 

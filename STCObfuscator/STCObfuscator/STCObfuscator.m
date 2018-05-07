@@ -1054,7 +1054,7 @@
 
 - (BOOL)isCustomUnConfusedClass:(Class)class
 {
-    if (self.unConfuseClassNames.count == 0) {
+    if (self.unConfuseClassNames.count == 0 && self.unConfuseClassPrefix == 0) {
         return NO;
     }
     Class superClass = class;
@@ -1062,6 +1062,11 @@
         NSString *superClassName = NSStringFromClass(superClass);
         for (NSString *className in self.unConfuseClassNames) {
             if ([superClassName isEqualToString:className]) {
+                return YES;
+            }
+        }
+        for (NSString *prefix in self.unConfuseClassPrefix) {
+            if ([superClassName hasPrefix:prefix]) {
                 return YES;
             }
         }
