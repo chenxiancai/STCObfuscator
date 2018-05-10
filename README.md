@@ -23,7 +23,7 @@ pod "STCObfuscator"
 
 #### 1、
 ```
-在 Build Settings-Preprocessor Macros-DEBUG 中添加环境变量
+在 Build Settings->Preprocessor Macros->DEBUG 中添加环境变量
 LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt 
 和
 ROOT_PATH="${SRCROOT}" 
