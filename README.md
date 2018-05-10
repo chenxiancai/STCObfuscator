@@ -77,8 +77,10 @@ done
 
 #### 步骤5、
 ```
-在工程目录下创建STCDefination.h头文件，并加入工程，清空里面的内容。混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
+在工程目录下创建STCDefination.h头文件，并加入工程，清空里面的内容。
+混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
 ```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_21.png)
 
 
 #### 步骤6、
@@ -93,6 +95,14 @@ done
 ```
 在 RELEASE 环境下运行工程，实现代码混淆。 
 ```
+```
+混淆前逆向。 
+```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_25.png)
+```
+混淆后逆向。 
+```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_24.png)
 
 
 
