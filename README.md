@@ -21,7 +21,7 @@ pod "STCObfuscator"
 然后完成下面步骤的设置
 ```
 
-#### 1、
+#### 步骤1、
 ```
 在 Build Settings->Preprocessor Macros->DEBUG 中添加环境变量
 LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt 
@@ -29,12 +29,12 @@ LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CUR
 ROOT_PATH="${SRCROOT}" 
 ```
 
-#### 2、
+#### 步骤2、
 ```
 在 Build Settings 开启Write Link Map File, 设置成 YES
 ```
 
-#### 3、
+#### 步骤3、
 ```
 将下面的脚本添加到 Build Phases
 ```
@@ -58,7 +58,7 @@ fi
 done
 ```
 
-#### 4、
+#### 步骤4、
 ```
 在预编译文件中添加以下
 #if (DEBUG != 1)
@@ -66,25 +66,22 @@ done
 #endif
 ```
 
-#### 5、
+#### 步骤5、
 ```
 在工程目录下创建STCDefination.h头文件，并加入工程，清空里面的内容。混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
 ```
 
-#### 6、
+#### 步骤6、
 ```
 在DEBUG环境下用模拟器运行工程，在STCDefination.h头文件中生成混淆的宏。
+所有的混淆符号会保留在工程目录下的confuse.json。 
 ```
 
-#### 7、
+#### 步骤7、
 ```
 在 RELEASE 环境下运行工程，实现代码混淆。 
 ```
 
-#### 8、
-```
-所有的混淆符号会保留在工程目录下的confuse.json。 
-```
 
 
 ```
@@ -113,7 +110,7 @@ after you add under code to your project
 you should finish steps:
 ```
 
-#### 1、
+#### step 1、
 ```
 add 
 LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt 
@@ -122,12 +119,12 @@ ROOT_PATH="${SRCROOT}"
 to Build Settings Preprocessor Macros 
 ```
 
-#### 2、
+#### step 2、
 ```
 enable Write Link Map File in Build Settings, set YES
 ```
 
-#### 3、
+#### step 3、
 ```
 add shell script to Build Phases
 ```
@@ -151,7 +148,7 @@ fi
 done
 ```
 
-#### 4、
+#### step 4、
 ```
 import STCDefination.h to PrefixHeader File like this:
 #if (DEBUG != 1)
@@ -159,22 +156,19 @@ import STCDefination.h to PrefixHeader File like this:
 #endif
 ```
 
-#### 5、
+#### step 5、
 ```
 add STCDefination.h, clean content in STCDefination.h 
 ```
 
-#### 6、
+#### step 6、
 ```
-run project in DEBUG environment with iPhone simulator to generate confuse macros in STCDefination.h 
+run project in DEBUG environment with iPhone simulator to generate confuse macros in STCDefination.h.
+all confused symbols will save to confuse.json in project catalog. 
 ```
 
-#### 7、
+#### step 7、
 ```
 run project in RELEASE environment that class confused. 
 ```
 
-#### 8、
-```
-all confused symbols will save to confuse.json in project catalog. 
-```
