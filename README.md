@@ -30,11 +30,14 @@ LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CUR
 和
 ROOT_PATH="${SRCROOT}" 
 ```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_17.png)
 
 #### 步骤2、
 ```
 在 Build Settings 开启Write Link Map File, 设置成 YES
 ```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_16.png)
+
 
 #### 步骤3、
 ```
@@ -59,6 +62,8 @@ fi
 fi
 done
 ```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_15.png)
+
 
 #### 步骤4、
 ```
@@ -67,17 +72,22 @@ done
 #import "STCDefination.h"
 #endif
 ```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_19.png)
+
 
 #### 步骤5、
 ```
 在工程目录下创建STCDefination.h头文件，并加入工程，清空里面的内容。混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
 ```
 
+
 #### 步骤6、
 ```
 在DEBUG环境下用模拟器运行工程，在STCDefination.h头文件中生成混淆的宏。
 所有的混淆符号会保留在工程目录下的confuse.json。 
 ```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_20.png)
+
 
 #### 步骤7、
 ```
