@@ -10,7 +10,7 @@ STCObfuscator 是用来进行object-c代码混淆的工具，在模拟器DEBUG�
 如果你的工程支持cocoapod,你可以直接添加！
 pod "STCObfuscator"
 
-在你把下面的代码加入到Appdelegate launch，
+把下面的代码加入到Appdelegate didFinishLaunchingWithOptions方法里，
 
 #import "STCObfuscator.h"
 
