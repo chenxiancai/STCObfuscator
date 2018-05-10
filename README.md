@@ -17,6 +17,8 @@ pod "STCObfuscator"
 #if (DEBUG == 1)
     [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
 #endif
+
+然后完成下面步骤的设置
 ```
 
 #### 1、
