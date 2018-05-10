@@ -1,7 +1,7 @@
 # STCObfuscator
 
 ```
-STCObfuscator 是用来进行代码混淆的工具，在模拟器环境下运行生成混淆宏，
+STCObfuscator 是用来进行代码混淆的工具，在模拟器DEBUG环境下运行生成混淆宏，
 混淆后的宏可以在其他环境下进行编译，支持Cocoapod代码混淆.
 ```
 
