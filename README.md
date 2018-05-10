@@ -89,6 +89,11 @@ done
 所有的混淆符号会保留在工程目录下的confuse.json。 
 ```
 ![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_20.png)
+```
+可用于bug上报后反混淆的文件
+```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_26.png)
+
 
 
 #### 步骤7、
