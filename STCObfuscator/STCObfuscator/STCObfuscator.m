@@ -266,8 +266,17 @@
         
         for (NSString *section in methodSection) {
             // filter system method
+            BOOL hasPre = NO;
+            for (NSString *prefix in self.unConfuseMethodPrefix) {
+                if ([section hasPrefix:prefix]) {
+                    hasPre = YES;
+                    break;
+                }
+            }
+            
             if ([method hasPrefix:@"."]
-                || [method hasPrefix:@"init"]) {
+                || [method hasPrefix:@"init"]
+                || hasPre) {
                 [indexSet addIndex:index];
                 [unConfuseSymbolsDict addEntriesFromDictionary:@{section: @(YES)}];
             // filter custom method
@@ -326,16 +335,6 @@
     
     // start obfuscator
     NSMutableString *result = [[NSMutableString alloc] init];
-    NSArray *header = @[@"#ifdef __OBJC__",@"#import <UIKit/UIKit.h>",
-                        @"#else", @"#ifndef FOUNDATION_EXPORT",
-                        @"#if defined(__cplusplus)", @"#define FOUNDATION_EXPORT extern \"C\"",
-                        @"#else", @"#define FOUNDATION_EXPORT extern", @"#endif",
-                        @"#endif", @"#endif", @"#ifndef TARGET_OS_IOS", @"#define TARGET_OS_IOS TARGET_OS_IPHONE", @"#endif", @"#ifndef TARGET_OS_WATCH", @"#define TARGET_OS_WATCH 0", @"#endif", @"#ifndef TARGET_OS_TV", @"#define TARGET_OS_TV 0", @"#endif"];
-    
-    for (NSString *str in header) {
-        [result appendString:@"\n"];
-        [result appendString:str];
-    }
     [result appendString:@"\n\n#if (DEBUG != 1)\n\n//--------------------Obfuscator--------------------\n\n"];
 
     NSMutableDictionary *jsonObjects = [NSMutableDictionary dictionary];
@@ -474,6 +473,7 @@
         
         NSData *confuseHeaderContent = [NSData dataWithContentsOfFile:filePath];
         NSString *podPath = [NSString stringWithFormat:@"%@/Pods", rootPath];
+
         [self replacePCHInPodFileWithPath:podPath content:confuseHeaderContent];
         
     });
@@ -852,7 +852,15 @@
         }else{
             if ([path hasSuffix:@".pch"]) {
                 fileCount ++;
-                [self saveData:data toPath:path];
+                NSData *content = [NSData dataWithContentsOfFile:path];
+                if (![fileManger fileExistsAtPath:[path stringByAppendingString:@".txt"]]) {
+                    [self saveData:content toPath:[path stringByAppendingString:@".txt"]];
+                } else {
+                    content = [NSData dataWithContentsOfFile:[path stringByAppendingString:@".txt"]];
+                }
+                NSMutableData *mudata = [NSMutableData dataWithData:content];
+                [mudata appendData:data];
+                [self saveData:[mudata copy] toPath:path];
                 NSLog(@"\n[⏰]replace succusss...%@...!\nfile:%@", @(fileCount), path);
             }
         }

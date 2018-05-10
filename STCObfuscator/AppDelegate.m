@@ -16,9 +16,6 @@
 #import "UnConfusedClass.h"
 #import "InheritUnConfusedClass.h"
 
-#define STRING(str) _STRING(str)
-#define _STRING(str) #str
-
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
 @end
@@ -29,7 +26,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
 #if (DEBUG == 1)
+    // 该类的类名、属性和方法都不混淆
     [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
+    // 以URL为前缀开头的方法符号不混淆
+    [STCObfuscator obfuscatorManager].unConfuseMethodPrefix = @[@"testStaticLib"];
+    // 以RAC为前缀开头的类的类名、属性和方法都不混淆
+    [STCObfuscator obfuscatorManager].unConfuseClassPrefix = @[@"RAC"];
+    // md5加盐
+    [STCObfuscator obfuscatorManager].md5Salt = @"go die trump";
     [[STCObfuscator obfuscatorManager] confuseWithRootPath:[NSString stringWithFormat:@"%s", STRING(ROOT_PATH)] resultFilePath:[NSString stringWithFormat:@"%@/STCDefination.h", [NSString stringWithFormat:@"%s", STRING(ROOT_PATH)]] linkmapPath:[NSString stringWithFormat:@"%s", STRING(LINKMAP_FILE)]];
 #endif
     

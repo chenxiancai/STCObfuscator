@@ -1,0 +1,6 @@
+module Pods_STCObfuscator [system] {
+  umbrella header "Pods-STCObfuscator-umbrella.h"
+
+  export *
+  module * { export * }
+}
