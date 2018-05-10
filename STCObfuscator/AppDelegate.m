@@ -28,7 +28,7 @@
 #if (DEBUG == 1)
     // 该类的类名、属性和方法都不混淆
     [STCObfuscator obfuscatorManager].unConfuseClassNames = @[@"UnConfusedClass"];
-    // 以URL为前缀开头的方法符号不混淆
+    // 以testStaticLib为前缀开头的方法符号不混淆
     [STCObfuscator obfuscatorManager].unConfuseMethodPrefix = @[@"testStaticLib"];
     // 以RAC为前缀开头的类的类名、属性和方法都不混淆
     [STCObfuscator obfuscatorManager].unConfuseClassPrefix = @[@"RAC"];
