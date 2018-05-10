@@ -82,7 +82,7 @@ done
 在 RELEASE 环境下运行工程，实现代码混淆。 
 ```
 
-
+====================================================美丽分割线=====================================================
 
 ```
 STCObfuscator is an Objective-C obfuscator for Mach-O executables, 
