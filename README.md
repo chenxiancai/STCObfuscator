@@ -45,7 +45,6 @@ ROOT_PATH="${SRCROOT}"
 ```
 ```
 dir=${SRCROOT}
-file_count=0
 file_list=`ls -R $dir 2> /dev/null | grep -v '^$'`
 for file_name in $file_list
 do
@@ -67,7 +66,7 @@ done
 
 #### 步骤4、
 ```
-在预编译文件中添加以下
+在预编译文件最前面中添加以下代码
 #if (DEBUG != 1)
 #import "STCDefination.h"
 #endif
@@ -90,7 +89,7 @@ done
 #### 步骤6、
 ```
 把工程目录下STCDefination.h头文件加入工程。
-混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
+混淆后，如果工程增加代码，需要再次混淆，先清空STCDefination.h里面的内容，不能留任何空格和换行，然后pod update，再次在模拟器DEBUG环境下运行。
 ```
 ![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_21.png)
 
