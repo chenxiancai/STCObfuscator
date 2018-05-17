@@ -77,14 +77,6 @@ done
 
 #### 步骤5、
 ```
-在工程目录下创建STCDefination.h头文件，并加入工程，清空里面的内容。
-混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
-```
-![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_21.png)
-
-
-#### 步骤6、
-```
 在DEBUG环境下用模拟器运行工程，在STCDefination.h头文件中生成混淆的宏。
 所有的混淆符号会保留在工程目录下的confuse.json。 
 ```
@@ -93,6 +85,15 @@ done
 可用于bug上报后反混淆的文件
 ```
 ![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_26.png)
+
+
+#### 步骤6、
+```
+把工程目录下STCDefination.h头文件加入工程。
+混淆后，如果工程增加代码，需要再次混淆，需要清空STCDefination.h里面的内容，再次在模拟器DEBUG环境下运行。
+```
+![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_21.png)
+
 
 
 
@@ -189,13 +190,13 @@ import STCDefination.h to PrefixHeader File like this:
 
 #### step 5、
 ```
-add STCDefination.h, clean content in STCDefination.h 
+run project in DEBUG environment with iPhone simulator to generate confuse macros in STCDefination.h.
+all confused symbols will save to confuse.json in project catalog. 
 ```
 
 #### step 6、
 ```
-run project in DEBUG environment with iPhone simulator to generate confuse macros in STCDefination.h.
-all confused symbols will save to confuse.json in project catalog. 
+add STCDefination.h.
 ```
 
 #### step 7、
