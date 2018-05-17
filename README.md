@@ -7,7 +7,7 @@ STCObfuscator 是用来进行object-c代码混淆的工具，在模拟器DEBUG�
 
 ## 怎么使用!
 
-相关博客：[https://blog.csdn.net/cating1314/article/details/80189295]https://blog.csdn.net/cating1314/article/details/80189295
+相关博客：https://blog.csdn.net/cating1314/article/details/80189295
 
 ```
 如果你的工程支持cocoapod,你可以直接添加！
