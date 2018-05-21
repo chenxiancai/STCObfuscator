@@ -11,7 +11,7 @@ STCObfuscator 是用来进行object-c代码混淆的工具，在模拟器DEBUG�
 
 ```
 如果你的工程支持cocoapod,你可以直接添加！
-pod "STCObfuscator"
+pod "STCObfuscator"(注：请用最新版本，最好更新下master repo)
 
 把下面的代码加入到Appdelegate didFinishLaunchingWithOptions方法里，
 
@@ -32,6 +32,7 @@ pod "STCObfuscator"
 LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt 
 和
 ROOT_PATH="${SRCROOT}" 
+（注：工程尽量不要放在中文路径下）
 ```
 ![image](https://github.com/chenxiancai/STCObfuscator/raw/master/Snip20180510_17.png)
 
