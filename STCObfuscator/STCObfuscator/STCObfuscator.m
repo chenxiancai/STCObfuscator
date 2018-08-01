@@ -51,7 +51,6 @@
     [unConfuseSymbolsDict addEntriesFromDictionary:[self staticlibSymbolsWithRootPath:rootPath]];
 
     NSString *regex = nil;
-    NSMutableSet *unConfusedClassSet = [NSMutableSet set];
     
     // filter objc symbols
     NSArray *objcSymbols = @[@"assign", @"copy", @"retain", @"atomic", @"nonatomic",
@@ -78,59 +77,6 @@
         [unConfuseSymbolsDict addEntriesFromDictionary:@{obj : @(YES)}];
     }];
     
-    // filter framework
-    regex = @"framework/.*?\\.o\\)";
-    [self regularExpressionWithPattern:regex text:linkmap block:^(id obj, BOOL *stop) {
-        NSString *framework = (NSString *)obj;
-        NSString *reg = @"\\(.*?\\.o\\)";
-        [self regularExpressionWithPattern:reg text:framework block:^(id obj, BOOL *stop) {
-            NSString *name  = (NSString *)obj;
-            name = [name stringByReplacingOccurrencesOfString:@"(" withString:@""];
-            name = [name stringByReplacingOccurrencesOfString:@".o)" withString:@""];
-            [unConfusedClassSet addObject:name];
-        }];
-    }];
-    
-    [unConfusedClassSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
-        [unConfuseSymbolsDict addEntriesFromDictionary:@{obj: @(YES)}];
-    }];
-    
-    // get class from linkmap
-    [unConfusedClassSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
-        NSString *className = (NSString *)obj;
-        NSArray *properties = [self allPropertyWithClass:NSClassFromString(className)];
-        for (NSString *propertyName in properties) {
-            [unConfuseSymbolsDict addEntriesFromDictionary:@{propertyName: @(YES)}];
-        }
-        NSArray *methods = [self allMethodsWithClass:NSClassFromString(className)];
-        for (NSString *methodName in methods) {
-            NSArray *methodSections = [methodName componentsSeparatedByString:@":"];
-            for (NSString *sectionName in methodSections) {
-                if ([sectionName length] > 0) {
-                    [unConfuseSymbolsDict addEntriesFromDictionary:@{sectionName: @(YES)}];
-                }
-            }
-        }
-    }];
-    
-    // get protocol from linkmap
-    [unConfusedClassSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
-        NSString *className = (NSString *)obj;
-        NSArray *protocols = [self allProtocolWithClass:NSClassFromString(className)];
-        for (NSString *protocolName in protocols) {
-            Protocol *protocol = NSProtocolFromString(protocolName);
-            NSArray *methods = [self allProtocolMethodsWithProtocal:protocol];
-            for (NSString *methodName in methods) {
-                NSArray *methodSections = [methodName componentsSeparatedByString:@":"];
-                for (NSString *sectionName in methodSections) {
-                    if ([sectionName length] > 0) {
-                        [unConfuseSymbolsDict addEntriesFromDictionary:@{sectionName: @(YES)}];
-                    }
-                }
-            }
-        }
-    }];
-    
     // filter protocol
     NSMutableSet *unConfuseProtocolSet = [NSMutableSet set];
     regex = @"PROTOCOL_\\$_.*?\\n";
@@ -142,7 +88,7 @@
             [unConfuseProtocolSet addObject:name];
         }
     }];
-    
+
     // filter protocol of protocol
     [unConfuseProtocolSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
         NSString *protocolName = (NSString *)obj;
@@ -491,7 +437,10 @@
     NSFileHandle *fileHandle = [NSFileHandle fileHandleForUpdatingAtPath:filePath];
     NSData* data = [fileHandle readDataToEndOfFile];
     [fileHandle closeFile];
-    if (data.length == 0) {
+    NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    str = [str stringByReplacingOccurrencesOfString:@" " withString:@""];
+    str = [str stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    if (str.length == 0) {
         return NO;
     } else {
         return YES;
@@ -735,7 +684,7 @@
                 [files addObjectsFromArray:fileArray];
             }
         }else{
-            if ([path hasSuffix:@".a.txt"]) {
+            if ([path hasSuffix:@".a.txt"] || [path hasSuffix:@".framework.txt"]) {
                 fileCount ++;
                 return @[path];
             } else {

@@ -1,0 +1,58 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a(UMSocialOfficialWechatHandler.o):
+---------------- t +[UMSocialOfficialWechatHandler defaultManager]
+---------------- t +[UMSocialOfficialWechatHandler load]
+---------------- t -[UMSocialOfficialWechatHandler handleOpenURL:]
+---------------- t -[UMSocialOfficialWechatHandler onResp:]
+---------------- t -[UMSocialOfficialWechatHandler sendAuthRequest]
+---------------- t -[UMSocialOfficialWechatHandler sendShareRequest:withType:]
+---------------- t -[UMSocialOfficialWechatHandler umSocial_PlatformSDKVersion]
+---------------- t -[UMSocialOfficialWechatHandler umSocial_isInstall]
+---------------- t -[UMSocialOfficialWechatHandler umSocial_isSupport]
+---------------- t -[UMSocialOfficialWechatHandler umSocial_setAppKey:withAppSecret:withRedirectURL:]
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_SendAuthReq
+                 U _OBJC_CLASS_$_SendAuthResp
+                 U _OBJC_CLASS_$_SendMessageToWXReq
+                 U _OBJC_CLASS_$_SendMessageToWXResp
+---------------- D _OBJC_CLASS_$_UMSocialOfficialWechatHandler
+                 U _OBJC_CLASS_$_UMSocialPlatformConfig
+                 U _OBJC_CLASS_$_UMSocialWechatHandler
+                 U _OBJC_CLASS_$_WXApi
+                 U _OBJC_CLASS_$_WXEmoticonObject
+                 U _OBJC_CLASS_$_WXFileObject
+                 U _OBJC_CLASS_$_WXImageObject
+                 U _OBJC_CLASS_$_WXMediaMessage
+                 U _OBJC_CLASS_$_WXMiniProgramObject
+                 U _OBJC_CLASS_$_WXMusicObject
+                 U _OBJC_CLASS_$_WXVideoObject
+                 U _OBJC_CLASS_$_WXWebpageObject
+                 U _OBJC_EHTYPE_$_NSException
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialOfficialWechatHandler
+                 U _OBJC_METACLASS_$_UMSocialWechatHandler
+                 U _UMSocialLog
+                 U _UMSocialLogDebugFlagString
+                 U __NSConcreteStackBlock
+---------------- t ___47+[UMSocialOfficialWechatHandler defaultManager]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- t ___copy_helper_block_
+---------------- t ___destroy_helper_block_
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+---------------- d _defaultManager.instance
+---------------- d _defaultManager.onceToken
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_begin_catch
+                 U _objc_end_catch
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_WXApiDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_WXApiDelegate

@@ -1,0 +1,295 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/libSocialSina.a(UMSocialSinaHandler.o):
+---------------- t +[UMSocialCharacterUtilityForSina UMSocial_IsAscii:]
+---------------- t +[UMSocialCharacterUtilityForSina UMSocial_IsChinese:]
+---------------- t +[UMSocialCharacterUtilityForSina UMSocial_IsEmoji:]
+---------------- t +[UMSocialCharacterUtilityForSina doIsAscii:]
+---------------- t +[UMSocialSinaHandler defaultManager]
+---------------- t +[UMSocialSinaHandler load]
+---------------- t +[UMSocialSinaHandler socialPlatformTypes]
+---------------- t -[UMSocialSinaHandler .cxx_destruct]
+---------------- t -[UMSocialSinaHandler authWithScope:userInfo:URI:]
+---------------- t -[UMSocialSinaHandler backFromBriefWebController]
+---------------- t -[UMSocialSinaHandler briefWebView:didFailLoadWithError:]
+---------------- t -[UMSocialSinaHandler briefWebView:shouldStartLoadWithRequest:navigationType:]
+---------------- t -[UMSocialSinaHandler checkInstall]
+---------------- t -[UMSocialSinaHandler checkSinaKey:]
+---------------- t -[UMSocialSinaHandler checkSourceWordLength:stepWordLength:targetWordLength:]
+---------------- t -[UMSocialSinaHandler checkUrlSchema]
+---------------- t -[UMSocialSinaHandler configHandle]
+---------------- t -[UMSocialSinaHandler currentInstalledScheme]
+---------------- t -[UMSocialSinaHandler directShare:withType:andUserInfo:]
+---------------- t -[UMSocialSinaHandler encode:]
+---------------- t -[UMSocialSinaHandler getSinaInfo]
+---------------- t -[UMSocialSinaHandler getSinaKeyRefrenceFromeData:]
+---------------- t -[UMSocialSinaHandler handleAuthResponse:withSocialResponse:]
+---------------- t -[UMSocialSinaHandler handleOpenURL:]
+---------------- t -[UMSocialSinaHandler handleShareResponse:withSocialResponse:]
+---------------- t -[UMSocialSinaHandler handlerUserInfo:withToken:error:completion:]
+---------------- t -[UMSocialSinaHandler init]
+---------------- t -[UMSocialSinaHandler joinComponentToString:]
+---------------- t -[UMSocialSinaHandler loadAuthView:userInfo:URI:]
+---------------- t -[UMSocialSinaHandler logoutSinaWithCompletion:]
+---------------- t -[UMSocialSinaHandler md5Value:]
+---------------- t -[UMSocialSinaHandler packageDictionaryWithDict:]
+---------------- t -[UMSocialSinaHandler parseResultUrl:]
+---------------- t -[UMSocialSinaHandler platformSchemeList]
+---------------- t -[UMSocialSinaHandler receiveAuthResponse:userInfo:]
+---------------- t -[UMSocialSinaHandler receiveShareResponse:userInfo:]
+---------------- t -[UMSocialSinaHandler requestSinaWeibo:uri:completion:]
+---------------- t -[UMSocialSinaHandler sendAsyncRequestWithRequest:withCompletion:]
+---------------- t -[UMSocialSinaHandler sendAsyncRequestWithUrl:withCompletion:]
+---------------- t -[UMSocialSinaHandler sendAuthRequest:userInfo:URI:]
+---------------- t -[UMSocialSinaHandler sendCancelAuth:]
+---------------- t -[UMSocialSinaHandler sendRequestWithObject:userInfo:andId:]
+---------------- t -[UMSocialSinaHandler sendShareRequest:withType:andUserInfo:]
+---------------- t -[UMSocialSinaHandler sendUserInfoRequest:accesstoken:CompletionHandler:]
+---------------- t -[UMSocialSinaHandler setCurrentInstalledScheme:]
+---------------- t -[UMSocialSinaHandler setPlatformSchemeList:]
+---------------- t -[UMSocialSinaHandler setSinaAction:]
+---------------- t -[UMSocialSinaHandler setSinaKey:]
+---------------- t -[UMSocialSinaHandler setSinaRootVC:]
+---------------- t -[UMSocialSinaHandler setWbCurrentUserID:]
+---------------- t -[UMSocialSinaHandler setWbRefreshToken:]
+---------------- t -[UMSocialSinaHandler setWbtoken:]
+---------------- t -[UMSocialSinaHandler shareImage:]
+---------------- t -[UMSocialSinaHandler shareMusic:]
+---------------- t -[UMSocialSinaHandler shareTextObject:]
+---------------- t -[UMSocialSinaHandler shareToSinaWithMessage:withType:]
+---------------- t -[UMSocialSinaHandler shareVedio:]
+---------------- t -[UMSocialSinaHandler shareWebPage:]
+---------------- t -[UMSocialSinaHandler sinaAction]
+---------------- t -[UMSocialSinaHandler sinaEncodeData:]
+---------------- t -[UMSocialSinaHandler sinaKey]
+---------------- t -[UMSocialSinaHandler sinaRootVC]
+---------------- t -[UMSocialSinaHandler truncationTextForSina:withTextLimit:]
+---------------- t -[UMSocialSinaHandler umSocial_AuthorizeWithUserInfo:withCompletionHandler:]
+---------------- t -[UMSocialSinaHandler umSocial_PlatformSDKVersion]
+---------------- t -[UMSocialSinaHandler umSocial_RequestForUserProfileWithCompletionHandler:]
+---------------- t -[UMSocialSinaHandler umSocial_ShareWithObject:withCompletionHandler:]
+---------------- t -[UMSocialSinaHandler umSocial_SupportedFeatures]
+---------------- t -[UMSocialSinaHandler umSocial_cancelAuthWithCompletionHandler:]
+---------------- t -[UMSocialSinaHandler umSocial_clearCacheData]
+---------------- t -[UMSocialSinaHandler umSocial_handleOpenURL:]
+---------------- t -[UMSocialSinaHandler umSocial_isInstall]
+---------------- t -[UMSocialSinaHandler umSocial_isSupport]
+---------------- t -[UMSocialSinaHandler umSocial_setAppKey:withAppSecret:withRedirectURL:]
+---------------- t -[UMSocialSinaHandler urlDecode:]
+---------------- t -[UMSocialSinaHandler urlEncode:]
+---------------- t -[UMSocialSinaHandler wbCurrentUserID]
+---------------- t -[UMSocialSinaHandler wbRefreshToken]
+---------------- t -[UMSocialSinaHandler wbtoken]
+                 U _AES128Decrypt
+                 U _CC_MD5
+                 U _CFRelease
+                 U _CFStringConvertNSStringEncodingToEncoding
+                 U _CFURLCreateStringByAddingPercentEscapes
+                 U _CFURLCreateStringByReplacingPercentEscapesUsingEncoding
+                 U _NSClassFromString
+                 U _NSSelectorFromString
+                 U _NSStringFromClass
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSBundle
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDateFormatter
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSInvocation
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSKeyedArchiver
+                 U _OBJC_CLASS_$_NSKeyedUnarchiver
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSMutableURLRequest
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSURL
+                 U _OBJC_CLASS_$_NSURLConnection
+                 U _OBJC_CLASS_$_NSURLRequest
+                 U _OBJC_CLASS_$_NSUUID
+                 U _OBJC_CLASS_$_NSUserDefaults
+                 U _OBJC_CLASS_$_UIApplication
+                 U _OBJC_CLASS_$_UIDevice
+                 U _OBJC_CLASS_$_UIImage
+                 U _OBJC_CLASS_$_UINavigationController
+                 U _OBJC_CLASS_$_UIPasteboard
+                 U _OBJC_CLASS_$_UIScreen
+                 U _OBJC_CLASS_$_UMShareImageObject
+                 U _OBJC_CLASS_$_UMShareMusicObject
+                 U _OBJC_CLASS_$_UMShareObject
+                 U _OBJC_CLASS_$_UMShareVideoObject
+                 U _OBJC_CLASS_$_UMShareWebpageObject
+                 U _OBJC_CLASS_$_UMSocialAuthResponse
+                 U _OBJC_CLASS_$_UMSocialBriefWebController
+---------------- D _OBJC_CLASS_$_UMSocialCharacterUtilityForSina
+                 U _OBJC_CLASS_$_UMSocialDataManager
+                 U _OBJC_CLASS_$_UMSocialGlobal
+                 U _OBJC_CLASS_$_UMSocialHandler
+                 U _OBJC_CLASS_$_UMSocialPlatformConfig
+                 U _OBJC_CLASS_$_UMSocialShareResponse
+---------------- D _OBJC_CLASS_$_UMSocialSinaHandler
+                 U _OBJC_CLASS_$_UMSocialUserInfoResponse
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._currentInstalledScheme
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._platformSchemeList
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._sinaAction
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._sinaKey
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._sinaRootVC
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._wbCurrentUserID
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._wbRefreshToken
+---------------- D _OBJC_IVAR_$_UMSocialSinaHandler._wbtoken
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialCharacterUtilityForSina
+                 U _OBJC_METACLASS_$_UMSocialHandler
+---------------- D _OBJC_METACLASS_$_UMSocialSinaHandler
+                 U _SecCertificateCreateWithData
+                 U _SecKeyEncrypt
+                 U _SecKeyGetBlockSize
+                 U _SecPolicyCreateBasicX509
+                 U _SecTrustCopyPublicKey
+                 U _SecTrustCreateWithCertificates
+                 U _SecTrustEvaluate
+                 U _UIImagePNGRepresentation
+                 U _UMSocialLog
+                 U _UMSocialLogErrorFlagString
+                 U _UMSocialLogInfoFlagString
+                 U _UMSocialLogWarnFlagString
+                 U _UMSocialLogWithLocalizedKey
+                 U _UMSocialShareDataTypeIllegalMessage
+                 U __Block_object_assign
+                 U __Block_object_dispose
+                 U __NSConcreteGlobalBlock
+                 U __NSConcreteStackBlock
+---------------- t ___34-[UMSocialSinaHandler shareImage:]_block_invoke
+---------------- t ___34-[UMSocialSinaHandler shareMusic:]_block_invoke
+---------------- t ___34-[UMSocialSinaHandler shareVedio:]_block_invoke
+---------------- t ___36-[UMSocialSinaHandler shareWebPage:]_block_invoke
+---------------- t ___36-[UMSocialSinaHandler shareWebPage:]_block_invoke_2
+---------------- t ___37+[UMSocialSinaHandler defaultManager]_block_invoke
+---------------- t ___48-[UMSocialSinaHandler logoutSinaWithCompletion:]_block_invoke
+---------------- t ___48-[UMSocialSinaHandler logoutSinaWithCompletion:]_block_invoke_2
+---------------- t ___52-[UMSocialSinaHandler sendAuthRequest:userInfo:URI:]_block_invoke
+---------------- t ___55-[UMSocialSinaHandler requestSinaWeibo:uri:completion:]_block_invoke
+---------------- t ___56-[UMSocialSinaHandler directShare:withType:andUserInfo:]_block_invoke
+---------------- t ___56-[UMSocialSinaHandler directShare:withType:andUserInfo:]_block_invoke.910
+---------------- t ___56-[UMSocialSinaHandler directShare:withType:andUserInfo:]_block_invoke.945
+---------------- t ___56-[UMSocialSinaHandler directShare:withType:andUserInfo:]_block_invoke_2
+---------------- t ___59-[UMSocialSinaHandler truncationTextForSina:withTextLimit:]_block_invoke
+---------------- t ___66-[UMSocialSinaHandler sendAsyncRequestWithRequest:withCompletion:]_block_invoke
+---------------- t ___73-[UMSocialSinaHandler sendUserInfoRequest:accesstoken:CompletionHandler:]_block_invoke
+---------------- t ___75-[UMSocialSinaHandler umSocial_RequestForUserProfileWithCompletionHandler:]_block_invoke
+---------------- t ___78-[UMSocialSinaHandler briefWebView:shouldStartLoadWithRequest:navigationType:]_block_invoke
+---------------- t ___Block_byref_object_copy_
+---------------- t ___Block_byref_object_dispose_
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.1002
+---------------- s ___block_descriptor_tmp.1037
+---------------- s ___block_descriptor_tmp.212
+---------------- s ___block_descriptor_tmp.280
+---------------- s ___block_descriptor_tmp.349
+---------------- s ___block_descriptor_tmp.380
+---------------- s ___block_descriptor_tmp.483
+---------------- s ___block_descriptor_tmp.486
+---------------- s ___block_descriptor_tmp.523
+---------------- s ___block_descriptor_tmp.632
+---------------- s ___block_descriptor_tmp.733
+---------------- s ___block_descriptor_tmp.820
+---------------- s ___block_descriptor_tmp.823
+---------------- s ___block_descriptor_tmp.841
+---------------- s ___block_descriptor_tmp.891
+---------------- s ___block_descriptor_tmp.903
+---------------- s ___block_descriptor_tmp.919
+---------------- s ___block_descriptor_tmp.952
+---------------- s ___block_literal_global
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.1000
+---------------- t ___copy_helper_block_.1034
+---------------- t ___copy_helper_block_.209
+---------------- t ___copy_helper_block_.277
+---------------- t ___copy_helper_block_.347
+---------------- t ___copy_helper_block_.378
+---------------- t ___copy_helper_block_.481
+---------------- t ___copy_helper_block_.484
+---------------- t ___copy_helper_block_.520
+---------------- t ___copy_helper_block_.630
+---------------- t ___copy_helper_block_.731
+---------------- t ___copy_helper_block_.821
+---------------- t ___copy_helper_block_.839
+---------------- t ___copy_helper_block_.888
+---------------- t ___copy_helper_block_.900
+---------------- t ___copy_helper_block_.917
+---------------- t ___copy_helper_block_.950
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.1001
+---------------- t ___destroy_helper_block_.1035
+---------------- t ___destroy_helper_block_.210
+---------------- t ___destroy_helper_block_.278
+---------------- t ___destroy_helper_block_.348
+---------------- t ___destroy_helper_block_.379
+---------------- t ___destroy_helper_block_.482
+---------------- t ___destroy_helper_block_.485
+---------------- t ___destroy_helper_block_.521
+---------------- t ___destroy_helper_block_.631
+---------------- t ___destroy_helper_block_.732
+---------------- t ___destroy_helper_block_.822
+---------------- t ___destroy_helper_block_.840
+---------------- t ___destroy_helper_block_.889
+---------------- t ___destroy_helper_block_.901
+---------------- t ___destroy_helper_block_.918
+---------------- t ___destroy_helper_block_.951
+                 U ___objc_personality_v0
+                 U __dispatch_main_q
+                 U __objc_empty_cache
+                 U _arc4random
+                 U _ceil
+                 U _clang.arc.use
+---------------- d _defaultManager.instance
+---------------- d _defaultManager.onceToken
+                 U _dispatch_after
+                 U _dispatch_once
+                 U _dispatch_time
+---------------- s _encode:.base64EncodingTable
+                 U _free
+---------------- d _g_sina_UMSocialHttpManagerCls
+---------------- d _g_sina_UMSocialHttpManagerMetaCls
+                 U _kCFAllocatorDefault
+                 U _kUMSocialAuthAccessToken
+                 U _kUMSocialAuthExpireDate
+                 U _kUMSocialAuthRefreshToken
+                 U _kUMSocialAuthUID
+                 U _malloc
+                 U _objc_autorelease
+                 U _objc_autoreleaseReturnValue
+                 U _objc_copyWeak
+                 U _objc_destroyWeak
+                 U _objc_enumerationMutation
+                 U _objc_getMetaClass
+                 U _objc_initWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_retainBlock
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- T _sina_getMetaUMSocialHttpManager
+---------------- T _sina_getUMSocialHttpManager
+                 U _strlen
+                 U _sysctlbyname
+---------------- W l_OBJC_LABEL_PROTOCOL_$_BriefWebControllerDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialPlatformProvider
+---------------- W l_OBJC_PROTOCOL_$_BriefWebControllerDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UIWebViewDelegate
+---------------- W l_OBJC_PROTOCOL_$_UMSocialPlatformProvider

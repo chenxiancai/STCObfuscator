@@ -1,0 +1,1058 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialShareTitleView.o):
+---------------- t -[UMSocialShareTitleView configShareTitleView]
+---------------- t -[UMSocialShareTitleView dealloc]
+---------------- t -[UMSocialShareTitleView drawTextInRect:]
+---------------- t -[UMSocialShareTitleView getShareTitleViewSize]
+---------------- t -[UMSocialShareTitleView initWithFrame:]
+---------------- t -[UMSocialShareTitleView setVerticalAlignment:]
+---------------- t -[UMSocialShareTitleView textRectForBounds:limitedToNumberOfLines:]
+---------------- t -[UMSocialShareTitleView verticalAlignment]
+                 U _CGSizeZero
+                 U _OBJC_CLASS_$_UILabel
+---------------- D _OBJC_CLASS_$_UMSocialShareTitleView
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleView._verticalAlignment
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UILabel
+---------------- D _OBJC_METACLASS_$_UMSocialShareTitleView
+                 U __objc_empty_cache
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSendSuper2_stret
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retainAutoreleasedReturnValue
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialUIUtility.o):
+---------------- t +[UMSocialUIUtility colorWithHexString:]
+---------------- t +[UMSocialUIUtility configWithPlatformType:withImageName:withPlatformName:]
+---------------- t +[UMSocialUIUtility gBundle]
+---------------- t +[UMSocialUIUtility imageNamed:]
+---------------- t +[UMSocialUIUtility localizedString:defaultString:]
+                 U _OBJC_CLASS_$_NSBundle
+                 U _OBJC_CLASS_$_NSCharacterSet
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSScanner
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSUserDefaults
+                 U _OBJC_CLASS_$_UIColor
+                 U _OBJC_CLASS_$_UIImage
+---------------- D _OBJC_CLASS_$_UMSocialUIUtility
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialUIUtility
+                 U __NSConcreteGlobalBlock
+---------------- t ___28+[UMSocialUIUtility gBundle]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_literal_global
+                 U __objc_empty_cache
+                 U _dispatch_once
+---------------- d _gBundle.g_localBundle
+---------------- d _gBundle.onceToken
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialShareCancelControl.o):
+---------------- t +[UMSocialShareCancelControl buttonImageFromColor:]
+---------------- t -[UMSocialShareCancelControl .cxx_destruct]
+---------------- t -[UMSocialShareCancelControl configShareCancelControl]
+---------------- t -[UMSocialShareCancelControl getShareCancelControlSize]
+---------------- t -[UMSocialShareCancelControl handleShareCancelControl:]
+---------------- t -[UMSocialShareCancelControl highlightedColor]
+---------------- t -[UMSocialShareCancelControl initWithFrame:]
+---------------- t -[UMSocialShareCancelControl setHighlightedColor:]
+---------------- t -[UMSocialShareCancelControl setShareCancelControlDelegate:]
+---------------- t -[UMSocialShareCancelControl shareCancelControlDelegate]
+                 U _CGContextFillRect
+                 U _CGContextSetFillColorWithColor
+                 U _CGSizeZero
+                 U _OBJC_CLASS_$_UIButton
+                 U _OBJC_CLASS_$_UIColor
+---------------- D _OBJC_CLASS_$_UMSocialShareCancelControl
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControl._highlightedColor
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControl._shareCancelControlDelegate
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIButton
+---------------- D _OBJC_METACLASS_$_UMSocialShareCancelControl
+                 U _UIGraphicsBeginImageContext
+                 U _UIGraphicsEndImageContext
+                 U _UIGraphicsGetCurrentContext
+                 U _UIGraphicsGetImageFromCurrentImageContext
+                 U __objc_empty_cache
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialGradientView.o):
+---------------- t -[UMSocialGradientView .cxx_destruct]
+---------------- t -[UMSocialGradientView creatGradientLayer]
+---------------- t -[UMSocialGradientView gradientEndColor]
+---------------- t -[UMSocialGradientView gradientStartColor]
+---------------- t -[UMSocialGradientView gradientType]
+---------------- t -[UMSocialGradientView headerLayer]
+---------------- t -[UMSocialGradientView initWithFrame:withGradientStartColor:withGradientEndColor:withGradientType:]
+---------------- t -[UMSocialGradientView insertTransparentGradient]
+---------------- t -[UMSocialGradientView reloadLayout]
+---------------- t -[UMSocialGradientView setGradientEndColor:]
+---------------- t -[UMSocialGradientView setGradientStartColor:]
+---------------- t -[UMSocialGradientView setGradientType:]
+---------------- t -[UMSocialGradientView setHeaderLayer:]
+                 U _OBJC_CLASS_$_CAGradientLayer
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_UIColor
+                 U _OBJC_CLASS_$_UIView
+---------------- D _OBJC_CLASS_$_UMSocialGradientView
+---------------- D _OBJC_IVAR_$_UMSocialGradientView._gradientEndColor
+---------------- D _OBJC_IVAR_$_UMSocialGradientView._gradientStartColor
+---------------- D _OBJC_IVAR_$_UMSocialGradientView._gradientType
+---------------- D _OBJC_IVAR_$_UMSocialGradientView._headerLayer
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIView
+---------------- D _OBJC_METACLASS_$_UMSocialGradientView
+                 U __objc_empty_cache
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialShareContainer.o):
+---------------- t -[UMSocialShareContainer .cxx_destruct]
+---------------- t -[UMSocialShareContainer addCustomPlatforms:withCustomPlatformInfos:]
+---------------- t -[UMSocialShareContainer adjustRect]
+---------------- t -[UMSocialShareContainer configShareContainer]
+---------------- t -[UMSocialShareContainer creatShareScrollView]
+---------------- t -[UMSocialShareContainer creatShareTitleView]
+---------------- t -[UMSocialShareContainer createCancelControl]
+---------------- t -[UMSocialShareContainer createGradientView]
+---------------- t -[UMSocialShareContainer createPageControl]
+---------------- t -[UMSocialShareContainer createSubView]
+---------------- t -[UMSocialShareContainer dealloc]
+---------------- t -[UMSocialShareContainer handlePlatformTypeDelegate]
+---------------- t -[UMSocialShareContainer initWithFrame:]
+---------------- t -[UMSocialShareContainer isShareContainerHaveGradient]
+---------------- t -[UMSocialShareContainer resetSelfFrame]
+---------------- t -[UMSocialShareContainer resetSubViewFrame]
+---------------- t -[UMSocialShareContainer reset]
+---------------- t -[UMSocialShareContainer rootView]
+---------------- t -[UMSocialShareContainer setHandlePlatformTypeDelegate:]
+---------------- t -[UMSocialShareContainer setIsShareContainerHaveGradient:]
+---------------- t -[UMSocialShareContainer setPlatformArray:]
+---------------- t -[UMSocialShareContainer setRootView:]
+---------------- t -[UMSocialShareContainer setShareCancelControl:]
+---------------- t -[UMSocialShareContainer setShareContainerCornerRadius:]
+---------------- t -[UMSocialShareContainer setShareContainerGradientEndColor:]
+---------------- t -[UMSocialShareContainer setShareContainerGradientLeftWidth:]
+---------------- t -[UMSocialShareContainer setShareContainerGradientRightWidth:]
+---------------- t -[UMSocialShareContainer setShareContainerGradientStartColor:]
+---------------- t -[UMSocialShareContainer setShareContainerMarginBottom:]
+---------------- t -[UMSocialShareContainer setShareContainerMarginLeft:]
+---------------- t -[UMSocialShareContainer setShareContainerMarginRight:]
+---------------- t -[UMSocialShareContainer setShareContainerMarginTop:]
+---------------- t -[UMSocialShareContainer setShareLeftGradientView:]
+---------------- t -[UMSocialShareContainer setSharePageControl:]
+---------------- t -[UMSocialShareContainer setSharePageScrollView:]
+---------------- t -[UMSocialShareContainer setSharePostionType:]
+---------------- t -[UMSocialShareContainer setShareRightGradientView:]
+---------------- t -[UMSocialShareContainer setShareTitleView:]
+---------------- t -[UMSocialShareContainer shareCancelControl]
+---------------- t -[UMSocialShareContainer shareContainerCornerRadius]
+---------------- t -[UMSocialShareContainer shareContainerGradientEndColor]
+---------------- t -[UMSocialShareContainer shareContainerGradientLeftWidth]
+---------------- t -[UMSocialShareContainer shareContainerGradientRightWidth]
+---------------- t -[UMSocialShareContainer shareContainerGradientStartColor]
+---------------- t -[UMSocialShareContainer shareContainerMarginBottom]
+---------------- t -[UMSocialShareContainer shareContainerMarginLeft]
+---------------- t -[UMSocialShareContainer shareContainerMarginRight]
+---------------- t -[UMSocialShareContainer shareContainerMarginTop]
+---------------- t -[UMSocialShareContainer shareLeftGradientView]
+---------------- t -[UMSocialShareContainer sharePageControl]
+---------------- t -[UMSocialShareContainer sharePageScrollView]
+---------------- t -[UMSocialShareContainer sharePostionType]
+---------------- t -[UMSocialShareContainer shareRightGradientView]
+---------------- t -[UMSocialShareContainer shareTitleView]
+                 U _CGPointZero
+                 U _CGRectZero
+                 U _CGSizeZero
+                 U _OBJC_CLASS_$_UIDevice
+                 U _OBJC_CLASS_$_UIScreen
+                 U _OBJC_CLASS_$_UIView
+                 U _OBJC_CLASS_$_UMSocialGradientView
+                 U _OBJC_CLASS_$_UMSocialShareCancelControl
+---------------- D _OBJC_CLASS_$_UMSocialShareContainer
+                 U _OBJC_CLASS_$_UMSocialSharePageControl
+                 U _OBJC_CLASS_$_UMSocialSharePageScrollView
+                 U _OBJC_CLASS_$_UMSocialShareTitleView
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._handlePlatformTypeDelegate
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._isShareContainerHaveGradient
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._rootView
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareCancelControl
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerCornerRadius
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerGradientEndColor
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerGradientLeftWidth
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerGradientRightWidth
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerGradientStartColor
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerMarginBottom
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerMarginLeft
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerMarginRight
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareContainerMarginTop
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareLeftGradientView
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._sharePageControl
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._sharePageScrollView
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._sharePostionType
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareRightGradientView
+---------------- D _OBJC_IVAR_$_UMSocialShareContainer._shareTitleView
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIView
+---------------- D _OBJC_METACLASS_$_UMSocialShareContainer
+                 U __objc_empty_cache
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialUIManager.o):
+---------------- t +[UMSocialUIManager addCustomPlatformWithoutFilted:withPlatformIcon:withPlatformName:]
+---------------- t +[UMSocialUIManager defaultManager]
+---------------- t +[UMSocialUIManager removeAllCustomPlatformWithoutFilted]
+---------------- t +[UMSocialUIManager removeCustomPlatformWithoutFilted:]
+---------------- t +[UMSocialUIManager setPreDefinePlatforms:]
+---------------- t +[UMSocialUIManager setShareMenuViewDelegate:]
+---------------- t +[UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:]
+---------------- t -[UMSocialUIManager .cxx_destruct]
+---------------- t -[UMSocialUIManager UMSocialShareMenuViewInternalDidDisappear]
+---------------- t -[UMSocialUIManager creatSharePageGroupView]
+---------------- t -[UMSocialUIManager init]
+---------------- t -[UMSocialUIManager setSharePageGroup:]
+---------------- t -[UMSocialUIManager sharePageGroup]
+---------------- t -[UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:]
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_UMSocialSharePageGroupView
+---------------- D _OBJC_CLASS_$_UMSocialUIManager
+---------------- D _OBJC_IVAR_$_UMSocialUIManager._isDestroySharePageGroupViewWhenHide
+---------------- D _OBJC_IVAR_$_UMSocialUIManager._sharePageGroup
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialUIManager
+                 U __Block_object_assign
+                 U __NSConcreteStackBlock
+---------------- t ___35+[UMSocialUIManager defaultManager]_block_invoke
+---------------- t ___73-[UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:]_block_invoke
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.14
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.11
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.12
+                 U __objc_empty_cache
+---------------- d _defaultManager.instance
+---------------- d _defaultManager.onceToken
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialShareMenuViewInternalDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialShareMenuViewInternalDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialPlatformItemView.o):
+---------------- t +[UMSocialPlatformItemView createSocialPlatformItemViewWithMaxWidth:withMaxHeight:withPlatformType:withPlatformImage:withPlatformName:withPlatformItemBackgroudType:]
+---------------- t -[UMSocialImageCellIconView .cxx_destruct]
+---------------- t -[UMSocialImageCellIconView backgroudView]
+---------------- t -[UMSocialImageCellIconView createSubView]
+---------------- t -[UMSocialImageCellIconView handleClickIconView:]
+---------------- t -[UMSocialImageCellIconView handlePlatformTypeDelegate]
+---------------- t -[UMSocialImageCellIconView handleSelfBTN:]
+---------------- t -[UMSocialImageCellIconView iconView]
+---------------- t -[UMSocialImageCellIconView initWithFrame:]
+---------------- t -[UMSocialImageCellIconView relayoutSubviewWithBackgroudType:withImage:withMaxItemIconWidth:withMaxItemIconHeight:]
+---------------- t -[UMSocialImageCellIconView setBackgroudView:]
+---------------- t -[UMSocialImageCellIconView setHandlePlatformTypeDelegate:]
+---------------- t -[UMSocialImageCellIconView setIconView:]
+---------------- t -[UMSocialImageCellIconView touchesBegan:withEvent:]
+---------------- t -[UMSocialImageCellIconView touchesCancelled:withEvent:]
+---------------- t -[UMSocialImageCellIconView touchesEnded:withEvent:]
+---------------- t -[UMSocialPlatformItemView .cxx_destruct]
+---------------- t -[UMSocialPlatformItemView handlePlatformType:withUserInfo:]
+---------------- t -[UMSocialPlatformItemView handlePlatformTypeDelegate]
+---------------- t -[UMSocialPlatformItemView iconView]
+---------------- t -[UMSocialPlatformItemView initWithFrame:]
+---------------- t -[UMSocialPlatformItemView platformImage]
+---------------- t -[UMSocialPlatformItemView platformItemBackgroudType]
+---------------- t -[UMSocialPlatformItemView platformName]
+---------------- t -[UMSocialPlatformItemView platformType]
+---------------- t -[UMSocialPlatformItemView reloadLayout]
+---------------- t -[UMSocialPlatformItemView setHandlePlatformTypeDelegate:]
+---------------- t -[UMSocialPlatformItemView setIconView:]
+---------------- t -[UMSocialPlatformItemView setPlatformImage:]
+---------------- t -[UMSocialPlatformItemView setPlatformItemBackgroudType:]
+---------------- t -[UMSocialPlatformItemView setPlatformName:]
+---------------- t -[UMSocialPlatformItemView setPlatformType:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemBGHeight:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemBGWidth:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemHeight:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemIconHeight:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemIconWidth:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemNameHeight:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemNameWidth:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemSpaceBetweenIconAndName:]
+---------------- t -[UMSocialPlatformItemView setShareScrollViewPageMaxItemWidth:]
+---------------- t -[UMSocialPlatformItemView setTextView:]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemBGHeight]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemBGWidth]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemHeight]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemIconHeight]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemIconWidth]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemNameHeight]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemNameWidth]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemSpaceBetweenIconAndName]
+---------------- t -[UMSocialPlatformItemView shareScrollViewPageMaxItemWidth]
+---------------- t -[UMSocialPlatformItemView textView]
+                 U _OBJC_CLASS_$_UIButton
+                 U _OBJC_CLASS_$_UIColor
+                 U _OBJC_CLASS_$_UIFont
+                 U _OBJC_CLASS_$_UILabel
+                 U _OBJC_CLASS_$_UIView
+---------------- D _OBJC_CLASS_$_UMSocialImageCellIconView
+---------------- D _OBJC_CLASS_$_UMSocialPlatformItemView
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+---------------- D _OBJC_IVAR_$_UMSocialImageCellIconView._backgroudView
+---------------- D _OBJC_IVAR_$_UMSocialImageCellIconView._handlePlatformTypeDelegate
+---------------- D _OBJC_IVAR_$_UMSocialImageCellIconView._iconView
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._handlePlatformTypeDelegate
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._iconView
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._platformImage
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._platformItemBackgroudType
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._platformName
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._platformType
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemBGHeight
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemBGWidth
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemHeight
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemIconHeight
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemIconWidth
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemNameHeight
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemNameWidth
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemSpaceBetweenIconAndName
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._shareScrollViewPageMaxItemWidth
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemView._textView
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIButton
+                 U _OBJC_METACLASS_$_UIView
+---------------- D _OBJC_METACLASS_$_UMSocialImageCellIconView
+---------------- D _OBJC_METACLASS_$_UMSocialPlatformItemView
+                 U __objc_empty_cache
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialHandlePlatformTypeDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialHandlePlatformTypeDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialSharePageGroupView.o):
+---------------- t -[UMSocialSharePageGroupView .cxx_destruct]
+---------------- t -[UMSocialSharePageGroupView addCustomPlatformWithoutFilted:withPlatformIcon:withPlatformName:]
+---------------- t -[UMSocialSharePageGroupView adjustFrame]
+---------------- t -[UMSocialSharePageGroupView backgroundGrayView]
+---------------- t -[UMSocialSharePageGroupView checkIndex:]
+---------------- t -[UMSocialSharePageGroupView configSharePageScrollView]
+---------------- t -[UMSocialSharePageGroupView creatBackgroundGrayView]
+---------------- t -[UMSocialSharePageGroupView createCustomPlatformArrrayAndPlatformInfo]
+---------------- t -[UMSocialSharePageGroupView createShareContainer]
+---------------- t -[UMSocialSharePageGroupView createSubView]
+---------------- t -[UMSocialSharePageGroupView curOrient]
+---------------- t -[UMSocialSharePageGroupView customPlatformInfos]
+---------------- t -[UMSocialSharePageGroupView customPlatforms]
+---------------- t -[UMSocialSharePageGroupView dealloc]
+---------------- t -[UMSocialSharePageGroupView doRotateAction:]
+---------------- t -[UMSocialSharePageGroupView getParentView]
+---------------- t -[UMSocialSharePageGroupView handlePlatformType:withUserInfo:]
+---------------- t -[UMSocialSharePageGroupView handleShareCancelControl]
+---------------- t -[UMSocialSharePageGroupView hiddenShareMenuView]
+---------------- t -[UMSocialSharePageGroupView initWithFrame:]
+---------------- t -[UMSocialSharePageGroupView layoutSubviews]
+---------------- t -[UMSocialSharePageGroupView postSharePanelNotificationForStatisticsV2]
+---------------- t -[UMSocialSharePageGroupView preDefinePlatforms]
+---------------- t -[UMSocialSharePageGroupView preShareSuperViewBounds]
+---------------- t -[UMSocialSharePageGroupView regsiterObserver]
+---------------- t -[UMSocialSharePageGroupView removeAllCustomPlatformWithoutFilted]
+---------------- t -[UMSocialSharePageGroupView removeCustomPlatformWithoutFilted:]
+---------------- t -[UMSocialSharePageGroupView resetSelfFrame]
+---------------- t -[UMSocialSharePageGroupView resetSubViewFrame]
+---------------- t -[UMSocialSharePageGroupView reset]
+---------------- t -[UMSocialSharePageGroupView setBackgroundGrayView:]
+---------------- t -[UMSocialSharePageGroupView setCurOrient:]
+---------------- t -[UMSocialSharePageGroupView setCustomPlatformInfos:]
+---------------- t -[UMSocialSharePageGroupView setCustomPlatforms:]
+---------------- t -[UMSocialSharePageGroupView setPlatformArray:]
+---------------- t -[UMSocialSharePageGroupView setPreDefinePlatforms:]
+---------------- t -[UMSocialSharePageGroupView setPreShareSuperViewBounds:]
+---------------- t -[UMSocialSharePageGroupView setShareContainer:]
+---------------- t -[UMSocialSharePageGroupView setShareMenuViewDelegate:]
+---------------- t -[UMSocialSharePageGroupView setShareMenuViewInternalDelegate:]
+---------------- t -[UMSocialSharePageGroupView setSharePostionType:]
+---------------- t -[UMSocialSharePageGroupView setShareSelectionBlock:]
+---------------- t -[UMSocialSharePageGroupView setShareSuperView:]
+---------------- t -[UMSocialSharePageGroupView shareContainer]
+---------------- t -[UMSocialSharePageGroupView shareMenuViewDelegate]
+---------------- t -[UMSocialSharePageGroupView shareMenuViewInternalDelegate]
+---------------- t -[UMSocialSharePageGroupView sharePostionType]
+---------------- t -[UMSocialSharePageGroupView shareSelectionBlock]
+---------------- t -[UMSocialSharePageGroupView shareSuperView]
+---------------- t -[UMSocialSharePageGroupView show]
+                 U _CGRectEqualToRect
+                 U _NSRunLoopCommonModes
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSNotification
+                 U _OBJC_CLASS_$_NSNotificationCenter
+                 U _OBJC_CLASS_$_NSNotificationQueue
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_UIApplication
+                 U _OBJC_CLASS_$_UIColor
+                 U _OBJC_CLASS_$_UIDevice
+                 U _OBJC_CLASS_$_UIFont
+                 U _OBJC_CLASS_$_UILabel
+                 U _OBJC_CLASS_$_UITapGestureRecognizer
+                 U _OBJC_CLASS_$_UIView
+                 U _OBJC_CLASS_$_UMSocialItemInfo
+                 U _OBJC_CLASS_$_UMSocialShareContainer
+---------------- D _OBJC_CLASS_$_UMSocialSharePageGroupView
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._backgroundGrayView
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._curOrient
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._customPlatformInfos
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._customPlatforms
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._isDestroyWhenHide
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._preDefinePlatforms
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._preShareSuperViewBounds
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._shareContainer
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._shareMenuViewDelegate
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._shareMenuViewInternalDelegate
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._sharePostionType
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._shareSelectionBlock
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupView._shareSuperView
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIView
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageGroupView
+                 U _UIDeviceOrientationDidChangeNotification
+                 U __NSConcreteStackBlock
+---------------- t ___34-[UMSocialSharePageGroupView show]_block_invoke
+---------------- t ___41-[UMSocialSharePageGroupView adjustFrame]_block_invoke
+---------------- t ___44-[UMSocialSharePageGroupView resetSelfFrame]_block_invoke
+---------------- t ___44-[UMSocialSharePageGroupView resetSelfFrame]_block_invoke.100
+---------------- t ___49-[UMSocialSharePageGroupView hiddenShareMenuView]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.104
+---------------- s ___block_descriptor_tmp.140
+---------------- s ___block_descriptor_tmp.182
+---------------- s ___block_descriptor_tmp.191
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.101
+---------------- t ___copy_helper_block_.138
+---------------- t ___copy_helper_block_.180
+---------------- t ___copy_helper_block_.189
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.102
+---------------- t ___destroy_helper_block_.139
+---------------- t ___destroy_helper_block_.181
+---------------- t ___destroy_helper_block_.190
+                 U __dispatch_main_q
+                 U __objc_empty_cache
+---------------- d _adjustFrame.onceToken
+---------------- d _adjustFrame.tipLabel
+                 U _clang.arc.use
+                 U _dispatch_async
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_getProperty
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialHandlePlatformTypeDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialShareCancelControlDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialShareMenuViewDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialHandlePlatformTypeDelegate
+---------------- W l_OBJC_PROTOCOL_$_UMSocialShareCancelControlDelegate
+---------------- W l_OBJC_PROTOCOL_$_UMSocialShareMenuViewDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialShareUIConfig.o):
+---------------- t +[UMSocialShareUIConfig shareInstance]
+---------------- t -[UMSocialPlatformItemViewConfig .cxx_destruct]
+---------------- t -[UMSocialPlatformItemViewConfig setSharePlatformItemViewBGRadiusColor:]
+---------------- t -[UMSocialPlatformItemViewConfig setSharePlatformItemViewBGRadiusColorPressed:]
+---------------- t -[UMSocialPlatformItemViewConfig setSharePlatformItemViewPlatformNameColor:]
+---------------- t -[UMSocialPlatformItemViewConfig sharePlatformItemViewBGRadiusColorPressed]
+---------------- t -[UMSocialPlatformItemViewConfig sharePlatformItemViewBGRadiusColor]
+---------------- t -[UMSocialPlatformItemViewConfig sharePlatformItemViewPlatformNameColor]
+---------------- t -[UMSocialShareCancelControlConfig .cxx_destruct]
+---------------- t -[UMSocialShareCancelControlConfig isShow]
+---------------- t -[UMSocialShareCancelControlConfig setIsShow:]
+---------------- t -[UMSocialShareCancelControlConfig setShareCancelControlBackgroundColor:]
+---------------- t -[UMSocialShareCancelControlConfig setShareCancelControlBackgroundColorPressed:]
+---------------- t -[UMSocialShareCancelControlConfig setShareCancelControlText:]
+---------------- t -[UMSocialShareCancelControlConfig setShareCancelControlTextColor:]
+---------------- t -[UMSocialShareCancelControlConfig setShareCancelControlTextFont:]
+---------------- t -[UMSocialShareCancelControlConfig shareCancelControlBackgroundColorPressed]
+---------------- t -[UMSocialShareCancelControlConfig shareCancelControlBackgroundColor]
+---------------- t -[UMSocialShareCancelControlConfig shareCancelControlTextColor]
+---------------- t -[UMSocialShareCancelControlConfig shareCancelControlTextFont]
+---------------- t -[UMSocialShareCancelControlConfig shareCancelControlText]
+---------------- t -[UMSocialShareContainerConfig .cxx_destruct]
+---------------- t -[UMSocialShareContainerConfig isShareContainerHaveGradient]
+---------------- t -[UMSocialShareContainerConfig setIsShareContainerHaveGradient:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerBackgroundColor:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerCornerRadius:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerGradientEndColor:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerGradientLeftWidth:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerGradientRightWidth:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerGradientStartColor:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerMarginBottom:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerMarginLeft:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerMarginLeftForMid:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerMarginRight:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerMarginRightForMid:]
+---------------- t -[UMSocialShareContainerConfig setShareContainerMarginTop:]
+---------------- t -[UMSocialShareContainerConfig shareContainerBackgroundColor]
+---------------- t -[UMSocialShareContainerConfig shareContainerCornerRadius]
+---------------- t -[UMSocialShareContainerConfig shareContainerGradientEndColor]
+---------------- t -[UMSocialShareContainerConfig shareContainerGradientLeftWidth]
+---------------- t -[UMSocialShareContainerConfig shareContainerGradientRightWidth]
+---------------- t -[UMSocialShareContainerConfig shareContainerGradientStartColor]
+---------------- t -[UMSocialShareContainerConfig shareContainerMarginBottom]
+---------------- t -[UMSocialShareContainerConfig shareContainerMarginLeftForMid]
+---------------- t -[UMSocialShareContainerConfig shareContainerMarginLeft]
+---------------- t -[UMSocialShareContainerConfig shareContainerMarginRightForMid]
+---------------- t -[UMSocialShareContainerConfig shareContainerMarginRight]
+---------------- t -[UMSocialShareContainerConfig shareContainerMarginTop]
+---------------- t -[UMSocialSharePageControlConfig .cxx_destruct]
+---------------- t -[UMSocialSharePageControlConfig isShow]
+---------------- t -[UMSocialSharePageControlConfig setIsShow:]
+---------------- t -[UMSocialSharePageControlConfig setSharePageControlBackgroundColor:]
+---------------- t -[UMSocialSharePageControlConfig setSharePageControlCurrentPageIndicatorTintColor:]
+---------------- t -[UMSocialSharePageControlConfig setSharePageControlHidesForSinglePage:]
+---------------- t -[UMSocialSharePageControlConfig setSharePageControlPageIndicatorTintColor:]
+---------------- t -[UMSocialSharePageControlConfig sharePageControlBackgroundColor]
+---------------- t -[UMSocialSharePageControlConfig sharePageControlCurrentPageIndicatorTintColor]
+---------------- t -[UMSocialSharePageControlConfig sharePageControlHidesForSinglePage]
+---------------- t -[UMSocialSharePageControlConfig sharePageControlPageIndicatorTintColor]
+---------------- t -[UMSocialSharePageGroupViewConfig .cxx_destruct]
+---------------- t -[UMSocialSharePageGroupViewConfig setSharePageGroupViewBackgroundColor:]
+---------------- t -[UMSocialSharePageGroupViewConfig setSharePageGroupViewMaskColor:]
+---------------- t -[UMSocialSharePageGroupViewConfig setSharePageGroupViewMaskViewAlpha:]
+---------------- t -[UMSocialSharePageGroupViewConfig setSharePageGroupViewPostionType:]
+---------------- t -[UMSocialSharePageGroupViewConfig sharePageGroupViewBackgroundColor]
+---------------- t -[UMSocialSharePageGroupViewConfig sharePageGroupViewMaskColor]
+---------------- t -[UMSocialSharePageGroupViewConfig sharePageGroupViewMaskViewAlpha]
+---------------- t -[UMSocialSharePageGroupViewConfig sharePageGroupViewPostionType]
+---------------- t -[UMSocialSharePageScrollViewConfig .cxx_destruct]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewBackgroundColor:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPadingBottom:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPadingLeft:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPadingRight:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPadingTop:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageBGColor:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageColumnSpace:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageItemStyleType:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMarginBottom:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMarginLeft:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMarginRight:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMarginTop:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxColumnCountForLandscapeAndBottom:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxColumnCountForLandscapeAndMid:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxColumnCountForPortraitAndBottom:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxColumnCountForPortraitAndMid:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemBGHeight:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemBGWidth:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemHeight:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemIconHeight:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemIconWidth:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemNameHeight:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemNameWidth:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemSpaceBetweenIconAndName:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxItemWidth:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxRowCountForLandscapeAndBottom:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxRowCountForLandscapeAndMid:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxRowCountForPortraitAndBottom:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageMaxRowCountForPortraitAndMid:]
+---------------- t -[UMSocialSharePageScrollViewConfig setShareScrollViewPageRowSpace:]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewBackgroundColor]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPadingBottom]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPadingLeft]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPadingRight]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPadingTop]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageBGColor]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageColumnSpace]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageItemStyleType]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMarginBottom]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMarginLeft]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMarginRight]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMarginTop]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxColumnCountForLandscapeAndBottom]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxColumnCountForLandscapeAndMid]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxColumnCountForPortraitAndBottom]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxColumnCountForPortraitAndMid]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemBGHeight]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemBGWidth]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemHeight]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemIconHeight]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemIconWidth]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemNameHeight]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemNameWidth]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemSpaceBetweenIconAndName]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxItemWidth]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxRowCountForLandscapeAndBottom]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxRowCountForLandscapeAndMid]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxRowCountForPortraitAndBottom]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageMaxRowCountForPortraitAndMid]
+---------------- t -[UMSocialSharePageScrollViewConfig shareScrollViewPageRowSpace]
+---------------- t -[UMSocialShareTitleViewConfig .cxx_destruct]
+---------------- t -[UMSocialShareTitleViewConfig isShow]
+---------------- t -[UMSocialShareTitleViewConfig setIsShow:]
+---------------- t -[UMSocialShareTitleViewConfig setShareTitleViewBackgroundColor:]
+---------------- t -[UMSocialShareTitleViewConfig setShareTitleViewFont:]
+---------------- t -[UMSocialShareTitleViewConfig setShareTitleViewPaddingBottom:]
+---------------- t -[UMSocialShareTitleViewConfig setShareTitleViewPaddingTop:]
+---------------- t -[UMSocialShareTitleViewConfig setShareTitleViewTitleColor:]
+---------------- t -[UMSocialShareTitleViewConfig setShareTitleViewTitleString:]
+---------------- t -[UMSocialShareTitleViewConfig shareTitleViewBackgroundColor]
+---------------- t -[UMSocialShareTitleViewConfig shareTitleViewFont]
+---------------- t -[UMSocialShareTitleViewConfig shareTitleViewPaddingBottom]
+---------------- t -[UMSocialShareTitleViewConfig shareTitleViewPaddingTop]
+---------------- t -[UMSocialShareTitleViewConfig shareTitleViewTitleColor]
+---------------- t -[UMSocialShareTitleViewConfig shareTitleViewTitleString]
+---------------- t -[UMSocialShareUIConfig .cxx_destruct]
+---------------- t -[UMSocialShareUIConfig configShareUI]
+---------------- t -[UMSocialShareUIConfig init]
+---------------- t -[UMSocialShareUIConfig setShareCancelControlConfig:]
+---------------- t -[UMSocialShareUIConfig setShareContainerConfig:]
+---------------- t -[UMSocialShareUIConfig setSharePageControlConfig:]
+---------------- t -[UMSocialShareUIConfig setSharePageGroupViewConfig:]
+---------------- t -[UMSocialShareUIConfig setSharePageScrollViewConfig:]
+---------------- t -[UMSocialShareUIConfig setSharePlatformItemViewConfig:]
+---------------- t -[UMSocialShareUIConfig setShareTitleViewConfig:]
+---------------- t -[UMSocialShareUIConfig shareCancelControlConfig]
+---------------- t -[UMSocialShareUIConfig shareContainerConfig]
+---------------- t -[UMSocialShareUIConfig sharePageControlConfig]
+---------------- t -[UMSocialShareUIConfig sharePageGroupViewConfig]
+---------------- t -[UMSocialShareUIConfig sharePageScrollViewConfig]
+---------------- t -[UMSocialShareUIConfig sharePlatformItemViewConfig]
+---------------- t -[UMSocialShareUIConfig shareTitleViewConfig]
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_UIColor
+                 U _OBJC_CLASS_$_UIDevice
+                 U _OBJC_CLASS_$_UIFont
+---------------- D _OBJC_CLASS_$_UMSocialPlatformItemViewConfig
+---------------- D _OBJC_CLASS_$_UMSocialShareCancelControlConfig
+---------------- D _OBJC_CLASS_$_UMSocialShareContainerConfig
+---------------- D _OBJC_CLASS_$_UMSocialSharePageControlConfig
+---------------- D _OBJC_CLASS_$_UMSocialSharePageGroupViewConfig
+---------------- D _OBJC_CLASS_$_UMSocialSharePageScrollViewConfig
+---------------- D _OBJC_CLASS_$_UMSocialShareTitleViewConfig
+---------------- D _OBJC_CLASS_$_UMSocialShareUIConfig
+                 U _OBJC_CLASS_$_UMSocialUIUtility
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemViewConfig._sharePlatformItemViewBGRadiusColor
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemViewConfig._sharePlatformItemViewBGRadiusColorPressed
+---------------- D _OBJC_IVAR_$_UMSocialPlatformItemViewConfig._sharePlatformItemViewPlatformNameColor
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControlConfig._isShow
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControlConfig._shareCancelControlBackgroundColor
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControlConfig._shareCancelControlBackgroundColorPressed
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControlConfig._shareCancelControlText
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControlConfig._shareCancelControlTextColor
+---------------- D _OBJC_IVAR_$_UMSocialShareCancelControlConfig._shareCancelControlTextFont
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._isShareContainerHaveGradient
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerBackgroundColor
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerCornerRadius
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerGradientEndColor
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerGradientLeftWidth
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerGradientRightWidth
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerGradientStartColor
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerMarginBottom
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerMarginLeft
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerMarginLeftForMid
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerMarginRight
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerMarginRightForMid
+---------------- D _OBJC_IVAR_$_UMSocialShareContainerConfig._shareContainerMarginTop
+---------------- D _OBJC_IVAR_$_UMSocialSharePageControlConfig._isShow
+---------------- D _OBJC_IVAR_$_UMSocialSharePageControlConfig._sharePageControlBackgroundColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageControlConfig._sharePageControlCurrentPageIndicatorTintColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageControlConfig._sharePageControlHidesForSinglePage
+---------------- D _OBJC_IVAR_$_UMSocialSharePageControlConfig._sharePageControlPageIndicatorTintColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupViewConfig._sharePageGroupViewBackgroundColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupViewConfig._sharePageGroupViewMaskColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupViewConfig._sharePageGroupViewMaskViewAlpha
+---------------- D _OBJC_IVAR_$_UMSocialSharePageGroupViewConfig._sharePageGroupViewPostionType
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewBackgroundColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPadingBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPadingLeft
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPadingRight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPadingTop
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageBGColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageColumnSpace
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageItemStyleType
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMarginBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMarginLeft
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMarginRight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMarginTop
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxColumnCountForLandscapeAndBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxColumnCountForLandscapeAndMid
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxColumnCountForPortraitAndBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxColumnCountForPortraitAndMid
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemBGHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemBGWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemIconHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemIconWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemNameHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemNameWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemSpaceBetweenIconAndName
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxItemWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxRowCountForLandscapeAndBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxRowCountForLandscapeAndMid
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxRowCountForPortraitAndBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageMaxRowCountForPortraitAndMid
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollViewConfig._shareScrollViewPageRowSpace
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._isShow
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._shareTitleViewBackgroundColor
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._shareTitleViewFont
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._shareTitleViewPaddingBottom
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._shareTitleViewPaddingTop
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._shareTitleViewTitleColor
+---------------- D _OBJC_IVAR_$_UMSocialShareTitleViewConfig._shareTitleViewTitleString
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._shareCancelControlConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._shareContainerConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._sharePageControlConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._sharePageGroupViewConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._sharePageScrollViewConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._sharePlatformItemViewConfig
+---------------- D _OBJC_IVAR_$_UMSocialShareUIConfig._shareTitleViewConfig
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialPlatformItemViewConfig
+---------------- D _OBJC_METACLASS_$_UMSocialShareCancelControlConfig
+---------------- D _OBJC_METACLASS_$_UMSocialShareContainerConfig
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageControlConfig
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageGroupViewConfig
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageScrollViewConfig
+---------------- D _OBJC_METACLASS_$_UMSocialShareTitleViewConfig
+---------------- D _OBJC_METACLASS_$_UMSocialShareUIConfig
+                 U __NSConcreteGlobalBlock
+---------------- t ___38+[UMSocialShareUIConfig shareInstance]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_literal_global
+                 U __objc_empty_cache
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+---------------- d _shareInstance._UMSocialShareUIConfig
+---------------- d _shareInstance.onceToken
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialSharePageControl.o):
+---------------- t -[UMSocialSharePageControl .cxx_destruct]
+---------------- t -[UMSocialSharePageControl getSharePageControlSize]
+---------------- t -[UMSocialSharePageControl handleSocialSharePageScrollView:withNumberOfPages:withCurrentPage:]
+---------------- t -[UMSocialSharePageControl initWithFrame:]
+---------------- t -[UMSocialSharePageControl setSharePageControlDelegate:]
+---------------- t -[UMSocialSharePageControl sharePageControlDelegate]
+---------------- t -[UMSocialSharePageControl tapDotAction:]
+                 U _CGSizeZero
+                 U _OBJC_CLASS_$_UIPageControl
+---------------- D _OBJC_CLASS_$_UMSocialSharePageControl
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+---------------- D _OBJC_IVAR_$_UMSocialSharePageControl._sharePageControlDelegate
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIPageControl
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageControl
+                 U __objc_empty_cache
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeWeak
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialSharePageScrollViewDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialSharePageScrollViewDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UMSocialSharePageScrollView.o):
+---------------- t -[UMSocialItemInfo .cxx_destruct]
+---------------- t -[UMSocialItemInfo itemHeight]
+---------------- t -[UMSocialItemInfo itemImageIcon]
+---------------- t -[UMSocialItemInfo itemImageName]
+---------------- t -[UMSocialItemInfo itemName]
+---------------- t -[UMSocialItemInfo itemWidth]
+---------------- t -[UMSocialItemInfo platformType]
+---------------- t -[UMSocialItemInfo setItemHeight:]
+---------------- t -[UMSocialItemInfo setItemImageIcon:]
+---------------- t -[UMSocialItemInfo setItemImageName:]
+---------------- t -[UMSocialItemInfo setItemName:]
+---------------- t -[UMSocialItemInfo setItemWidth:]
+---------------- t -[UMSocialItemInfo setPlatformType:]
+---------------- t -[UMSocialSharePageScrollView .cxx_destruct]
+---------------- t -[UMSocialSharePageScrollView addCustomPlatforms:withCustomPlatformInfos:]
+---------------- t -[UMSocialSharePageScrollView calculatePageSizeWithFixedItemWidthAndHeigh]
+---------------- t -[UMSocialSharePageScrollView checkAndContainObjectAndRemoveFromCusttomPlatforms:withCusttomPlatforms:]
+---------------- t -[UMSocialSharePageScrollView checkContainObjectFromCore:]
+---------------- t -[UMSocialSharePageScrollView checkContainObjectFromCusttomPlatforms:]
+---------------- t -[UMSocialSharePageScrollView checkValidPlatformType:]
+---------------- t -[UMSocialSharePageScrollView checkValidUserDefinePlatformType:]
+---------------- t -[UMSocialSharePageScrollView configItemInfo:withPlatformType:]
+---------------- t -[UMSocialSharePageScrollView configSharePageScrollView]
+---------------- t -[UMSocialSharePageScrollView createItems]
+---------------- t -[UMSocialSharePageScrollView currentPage]
+---------------- t -[UMSocialSharePageScrollView customPlatformInfos]
+---------------- t -[UMSocialSharePageScrollView customPlatforms]
+---------------- t -[UMSocialSharePageScrollView dequeuePageView]
+---------------- t -[UMSocialSharePageScrollView didScrollToPosition:]
+---------------- t -[UMSocialSharePageScrollView displayPlatformArray]
+---------------- t -[UMSocialSharePageScrollView getShareScrollViewSize]
+---------------- t -[UMSocialSharePageScrollView handlePlatformType:withUserInfo:]
+---------------- t -[UMSocialSharePageScrollView handlePlatformTypeDelegate]
+---------------- t -[UMSocialSharePageScrollView handleSocialSharePageControl:withNewPage:]
+---------------- t -[UMSocialSharePageScrollView initWithFrame:]
+---------------- t -[UMSocialSharePageScrollView itemColumnSpace]
+---------------- t -[UMSocialSharePageScrollView itemInfoArray]
+---------------- t -[UMSocialSharePageScrollView itemInfoDic]
+---------------- t -[UMSocialSharePageScrollView itemViewDic]
+---------------- t -[UMSocialSharePageScrollView layoutPlatformItemView:withSuperview:withIndex:]
+---------------- t -[UMSocialSharePageScrollView layoutSubviews]
+---------------- t -[UMSocialSharePageScrollView loadDataWithPageView:]
+---------------- t -[UMSocialSharePageScrollView maxItemCountInPageRow]
+---------------- t -[UMSocialSharePageScrollView maxItemCountInPage]
+---------------- t -[UMSocialSharePageScrollView numberOfPages]
+---------------- t -[UMSocialSharePageScrollView pageReuseEnabled]
+---------------- t -[UMSocialSharePageScrollView pageSize]
+---------------- t -[UMSocialSharePageScrollView pageViewWithTag:]
+---------------- t -[UMSocialSharePageScrollView pageViews]
+---------------- t -[UMSocialSharePageScrollView platformArrayFromCore]
+---------------- t -[UMSocialSharePageScrollView queuePageView:]
+---------------- t -[UMSocialSharePageScrollView refreshDimensions]
+---------------- t -[UMSocialSharePageScrollView reset]
+---------------- t -[UMSocialSharePageScrollView setContentOffset:]
+---------------- t -[UMSocialSharePageScrollView setCurrentPage:]
+---------------- t -[UMSocialSharePageScrollView setCustomPlatformInfos:]
+---------------- t -[UMSocialSharePageScrollView setCustomPlatforms:]
+---------------- t -[UMSocialSharePageScrollView setDisplayPlatformArray:]
+---------------- t -[UMSocialSharePageScrollView setHandlePlatformTypeDelegate:]
+---------------- t -[UMSocialSharePageScrollView setItemColumnSpace:]
+---------------- t -[UMSocialSharePageScrollView setItemInfoArray:]
+---------------- t -[UMSocialSharePageScrollView setItemInfoDic:]
+---------------- t -[UMSocialSharePageScrollView setItemViewDic:]
+---------------- t -[UMSocialSharePageScrollView setMaxItemCountInPage:]
+---------------- t -[UMSocialSharePageScrollView setMaxItemCountInPageRow:]
+---------------- t -[UMSocialSharePageScrollView setNumberOfPages:]
+---------------- t -[UMSocialSharePageScrollView setPageReuseEnabled:]
+---------------- t -[UMSocialSharePageScrollView setPageSize:]
+---------------- t -[UMSocialSharePageScrollView setPageViews:]
+---------------- t -[UMSocialSharePageScrollView setPlatformArray:]
+---------------- t -[UMSocialSharePageScrollView setPlatformArrayFormUMSocialCore]
+---------------- t -[UMSocialSharePageScrollView setPlatformArrayFromCore:]
+---------------- t -[UMSocialSharePageScrollView setSharePageScrollViewDelegate:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPadingBottom:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPadingLeft:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPadingRight:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPadingTop:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageBGColor:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageColumnSpace:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageItemStyleType:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMarginBottom:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMarginLeft:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMarginRight:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMarginTop:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxColumnCount:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemBGHeight:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemBGWidth:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemHeight:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemIconHeight:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemIconWidth:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemNameHeight:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemNameWidth:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemSpaceBetweenIconAndName:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxItemWidth:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageMaxRowCount:]
+---------------- t -[UMSocialSharePageScrollView setShareScrollViewPageRowSpace:]
+---------------- t -[UMSocialSharePageScrollView sharePageScrollViewDelegate]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPadingBottom]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPadingLeft]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPadingRight]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPadingTop]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageBGColor]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageColumnSpace]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageItemStyleType]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMarginBottom]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMarginLeft]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMarginRight]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMarginTop]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxColumnCount]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemBGHeight]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemBGWidth]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemHeight]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemIconHeight]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemIconWidth]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemNameHeight]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemNameWidth]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemSpaceBetweenIconAndName]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxItemWidth]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageMaxRowCount]
+---------------- t -[UMSocialSharePageScrollView shareScrollViewPageRowSpace]
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_UIDevice
+                 U _OBJC_CLASS_$_UIScrollView
+                 U _OBJC_CLASS_$_UIView
+---------------- D _OBJC_CLASS_$_UMSocialItemInfo
+                 U _OBJC_CLASS_$_UMSocialManager
+                 U _OBJC_CLASS_$_UMSocialPlatformItemView
+---------------- D _OBJC_CLASS_$_UMSocialSharePageScrollView
+---------------- D _OBJC_CLASS_$_UMSocialSharePageView
+                 U _OBJC_CLASS_$_UMSocialShareUIConfig
+                 U _OBJC_CLASS_$_UMSocialUIUtility
+---------------- D _OBJC_IVAR_$_UMSocialItemInfo._itemHeight
+---------------- D _OBJC_IVAR_$_UMSocialItemInfo._itemImageIcon
+---------------- D _OBJC_IVAR_$_UMSocialItemInfo._itemImageName
+---------------- D _OBJC_IVAR_$_UMSocialItemInfo._itemName
+---------------- D _OBJC_IVAR_$_UMSocialItemInfo._itemWidth
+---------------- D _OBJC_IVAR_$_UMSocialItemInfo._platformType
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._customPlatformInfos
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._customPlatforms
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._displayPlatformArray
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._handlePlatformTypeDelegate
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._itemColumnSpace
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._itemInfoArray
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._itemInfoDic
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._itemViewDic
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._maxItemCountInPage
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._maxItemCountInPageRow
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._numberOfPages
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._pageReuseEnabled
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._pageSize
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._pageViews
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._platformArrayFromCore
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._sharePageScrollViewDelegate
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPadingBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPadingLeft
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPadingRight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPadingTop
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageBGColor
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageColumnSpace
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageItemStyleType
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMarginBottom
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMarginLeft
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMarginRight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMarginTop
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxColumnCount
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemBGHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemBGWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemIconHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemIconWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemNameHeight
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemNameWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemSpaceBetweenIconAndName
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxItemWidth
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageMaxRowCount
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView._shareScrollViewPageRowSpace
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView.instantaneousPreviousPage
+---------------- D _OBJC_IVAR_$_UMSocialSharePageScrollView.previousPage
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UIScrollView
+                 U _OBJC_METACLASS_$_UIView
+---------------- D _OBJC_METACLASS_$_UMSocialItemInfo
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageScrollView
+---------------- D _OBJC_METACLASS_$_UMSocialSharePageView
+                 U _UIEdgeInsetsZero
+                 U __NSConcreteGlobalBlock
+---------------- t ___63-[UMSocialSharePageScrollView setPlatformArrayFormUMSocialCore]_block_invoke
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_literal_global
+                 U __objc_empty_cache
+                 U _clang.arc.use
+                 U _objc_autoreleaseReturnValue
+                 U _objc_destroyWeak
+                 U _objc_enumerationMutation
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_msgSend_stret
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+                 U _round
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialHandlePlatformTypeDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialSharePageControlDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+---------------- W l_OBJC_PROTOCOL_$_UMSocialHandlePlatformTypeDelegate
+---------------- W l_OBJC_PROTOCOL_$_UMSocialSharePageControlDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialUI/UShareUI.framework/UShareUI(UShareUI_vers.o):
+---------------- S _UShareUIVersionNumber
+---------------- S _UShareUIVersionString

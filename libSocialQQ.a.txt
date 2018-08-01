@@ -1,0 +1,280 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/QQ/libSocialQQ.a(UMSocialQQHandler.o):
+---------------- t +[UMSocialQQHandler defaultManager]
+---------------- t +[UMSocialQQHandler load]
+---------------- t +[UMSocialQQHandler socialPlatformTypes]
+---------------- t -[UMSocialQQHandler .cxx_destruct]
+---------------- t -[UMSocialQQHandler backFromBriefWebController]
+---------------- t -[UMSocialQQHandler briefWebView:didFailLoadWithError:]
+---------------- t -[UMSocialQQHandler briefWebView:shouldStartLoadWithRequest:navigationType:]
+---------------- t -[UMSocialQQHandler checkQQInstall]
+---------------- t -[UMSocialQQHandler checkQZoneInstall]
+---------------- t -[UMSocialQQHandler checkTimInstall]
+---------------- t -[UMSocialQQHandler checkUrl:]
+---------------- t -[UMSocialQQHandler checkUrlSchema]
+---------------- t -[UMSocialQQHandler configHandle]
+---------------- t -[UMSocialQQHandler doCheckValidAuthData:withCompletion:]
+---------------- t -[UMSocialQQHandler doUMSocial_AuthorizeAndRequestForUserProfileWithCompletionHandler:]
+---------------- t -[UMSocialQQHandler doUMSocial_RequestForUserProfileWithCompletionHandler:]
+---------------- t -[UMSocialQQHandler handleAuthResp:source:]
+---------------- t -[UMSocialQQHandler handleOpenURL:]
+---------------- t -[UMSocialQQHandler handleSendShareResult:]
+---------------- t -[UMSocialQQHandler handleShareResp:source:]
+---------------- t -[UMSocialQQHandler handleUserInfo:error:withAuthObj:]
+---------------- t -[UMSocialQQHandler init]
+---------------- t -[UMSocialQQHandler qqRootVC]
+---------------- t -[UMSocialQQHandler qqSchemeList]
+---------------- t -[UMSocialQQHandler qzoneSchemeList]
+---------------- t -[UMSocialQQHandler saveAuthInfo:]
+---------------- t -[UMSocialQQHandler saveAuthInfo:accessToken:refreshToken:expiration:openid:source:]
+---------------- t -[UMSocialQQHandler sendAsyncRequestWithUrl:needRawData:withCompletion:]
+---------------- t -[UMSocialQQHandler sendAuthRequest:appId:safari:]
+---------------- t -[UMSocialQQHandler sendCancelAuth]
+---------------- t -[UMSocialQQHandler sendMessage:message:]
+---------------- t -[UMSocialQQHandler sendUnionIdRequest:completion:]
+---------------- t -[UMSocialQQHandler sendUserInfoRequest:]
+---------------- t -[UMSocialQQHandler setQqRootVC:]
+---------------- t -[UMSocialQQHandler setQqSchemeList:]
+---------------- t -[UMSocialQQHandler setQzoneSchemeList:]
+---------------- t -[UMSocialQQHandler setSupportWebView:]
+---------------- t -[UMSocialQQHandler setTimSchemeList:]
+---------------- t -[UMSocialQQHandler setWechatRootVC:]
+---------------- t -[UMSocialQQHandler shareImage:]
+---------------- t -[UMSocialQQHandler shareMusic:]
+---------------- t -[UMSocialQQHandler shareTextObject:]
+---------------- t -[UMSocialQQHandler shareVedio:]
+---------------- t -[UMSocialQQHandler shareWebPage:]
+---------------- t -[UMSocialQQHandler timSchemeList]
+---------------- t -[UMSocialQQHandler umSocial_AuthorizeWithUserInfo:withCompletionHandler:]
+---------------- t -[UMSocialQQHandler umSocial_PlatformSDKVersion]
+---------------- t -[UMSocialQQHandler umSocial_RequestForUserProfileWithCompletionHandler:]
+---------------- t -[UMSocialQQHandler umSocial_ShareWithObject:withCompletionHandler:]
+---------------- t -[UMSocialQQHandler umSocial_SupportedFeatures]
+---------------- t -[UMSocialQQHandler umSocial_cancelAuthWithCompletionHandler:]
+---------------- t -[UMSocialQQHandler umSocial_clearCacheData]
+---------------- t -[UMSocialQQHandler umSocial_handleOpenURL:]
+---------------- t -[UMSocialQQHandler umSocial_isInstall]
+---------------- t -[UMSocialQQHandler umSocial_isSupport]
+---------------- t -[UMSocialQQHandler umSocial_setAppKey:withAppSecret:withRedirectURL:]
+---------------- t -[UMSocialQQHandler wechatRootVC]
+                 U _NSClassFromString
+                 U _NSSelectorFromString
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSBundle
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSKeyedArchiver
+                 U _OBJC_CLASS_$_NSKeyedUnarchiver
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSURL
+                 U _OBJC_CLASS_$_NSURLConnection
+                 U _OBJC_CLASS_$_NSURLRequest
+                 U _OBJC_CLASS_$_UIApplication
+                 U _OBJC_CLASS_$_UIDevice
+                 U _OBJC_CLASS_$_UIImage
+                 U _OBJC_CLASS_$_UINavigationController
+                 U _OBJC_CLASS_$_UIPasteboard
+                 U _OBJC_CLASS_$_UMShareImageObject
+                 U _OBJC_CLASS_$_UMShareMusicObject
+                 U _OBJC_CLASS_$_UMShareObject
+                 U _OBJC_CLASS_$_UMShareVideoObject
+                 U _OBJC_CLASS_$_UMShareWebpageObject
+                 U _OBJC_CLASS_$_UMSocialAuthResponse
+                 U _OBJC_CLASS_$_UMSocialAuthTransferObject
+                 U _OBJC_CLASS_$_UMSocialBriefWebController
+                 U _OBJC_CLASS_$_UMSocialDataManager
+                 U _OBJC_CLASS_$_UMSocialGlobal
+                 U _OBJC_CLASS_$_UMSocialHandler
+                 U _OBJC_CLASS_$_UMSocialPlatformConfig
+---------------- D _OBJC_CLASS_$_UMSocialQQHandler
+                 U _OBJC_CLASS_$_UMSocialShareResponse
+                 U _OBJC_CLASS_$_UMSocialUserInfoResponse
+---------------- D _OBJC_IVAR_$_UMSocialQQHandler._qqRootVC
+---------------- D _OBJC_IVAR_$_UMSocialQQHandler._qqSchemeList
+---------------- D _OBJC_IVAR_$_UMSocialQQHandler._qzoneSchemeList
+---------------- D _OBJC_IVAR_$_UMSocialQQHandler._timSchemeList
+---------------- D _OBJC_IVAR_$_UMSocialQQHandler._wechatRootVC
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UMSocialHandler
+---------------- D _OBJC_METACLASS_$_UMSocialQQHandler
+                 U _UMSocialLog
+                 U _UMSocialLogErrorFlagString
+                 U _UMSocialLogInfoFlagString
+                 U _UMSocialLogWarnFlagString
+                 U _UMSocialLogWithLocalizedKey
+---------------- D _UShareDecode64
+---------------- t _UShareDecode64_block_invoke_2
+---------------- D _UShareEncode64
+---------------- t _UShareEncode64_block_invoke
+                 U _UShareQQaccessToken
+                 U _UShareQQcallback_name
+                 U _UShareQQcallback_type
+                 U _UShareQQcflag
+                 U _UShareQQclient_id
+                 U _UShareQQdisplay
+                 U _UShareQQoauth_consumer_key
+                 U _UShareQQopenId
+                 U _UShareQQredirect_uri
+                 U _UShareQQresponse_type
+                 U _UShareQQsdkp
+                 U _UShareQQsdkv
+                 U _UShareQQshareType
+                 U _UShareQQsrc_type
+                 U _UShareQQstate
+                 U _UShareQQstatus_machine
+                 U _UShareQQstatus_os
+                 U _UShareQQstatus_version
+                 U _UShareQQswitch
+                 U _UShareQQthirdAppDisplayName
+                 U _UShareQQunionId
+                 U _UShareQQuser_cancelled
+                 U _UShareQQversion
+                 U __Block_object_assign
+                 U __NSConcreteGlobalBlock
+                 U __NSConcreteStackBlock
+---------------- t ___32-[UMSocialQQHandler shareImage:]_block_invoke
+---------------- t ___32-[UMSocialQQHandler shareMusic:]_block_invoke
+---------------- t ___32-[UMSocialQQHandler shareVedio:]_block_invoke
+---------------- t ___34-[UMSocialQQHandler shareWebPage:]_block_invoke
+---------------- t ___35+[UMSocialQQHandler defaultManager]_block_invoke
+---------------- t ___41-[UMSocialQQHandler sendMessage:message:]_block_invoke
+---------------- t ___41-[UMSocialQQHandler sendUserInfoRequest:]_block_invoke
+---------------- t ___43-[UMSocialQQHandler handleAuthResp:source:]_block_invoke
+---------------- t ___51-[UMSocialQQHandler sendUnionIdRequest:completion:]_block_invoke
+---------------- t ___72-[UMSocialQQHandler sendAsyncRequestWithUrl:needRawData:withCompletion:]_block_invoke
+---------------- t ___87-[UMSocialQQHandler doUMSocial_AuthorizeAndRequestForUserProfileWithCompletionHandler:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.290
+---------------- s ___block_descriptor_tmp.401
+---------------- s ___block_descriptor_tmp.431
+---------------- s ___block_descriptor_tmp.440
+---------------- s ___block_descriptor_tmp.451
+---------------- s ___block_descriptor_tmp.459
+---------------- s ___block_descriptor_tmp.463
+---------------- s ___block_descriptor_tmp.620
+---------------- s ___block_descriptor_tmp.633
+---------------- s ___block_descriptor_tmp.651
+---------------- s ___block_descriptor_tmp.707
+---------------- s ___block_descriptor_tmp.747
+---------------- s ___block_literal_global
+---------------- s ___block_literal_global.464
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.287
+---------------- t ___copy_helper_block_.398
+---------------- t ___copy_helper_block_.429
+---------------- t ___copy_helper_block_.438
+---------------- t ___copy_helper_block_.449
+---------------- t ___copy_helper_block_.617
+---------------- t ___copy_helper_block_.631
+---------------- t ___copy_helper_block_.648
+---------------- t ___copy_helper_block_.705
+---------------- t ___copy_helper_block_.744
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.288
+---------------- t ___destroy_helper_block_.399
+---------------- t ___destroy_helper_block_.430
+---------------- t ___destroy_helper_block_.439
+---------------- t ___destroy_helper_block_.450
+---------------- t ___destroy_helper_block_.618
+---------------- t ___destroy_helper_block_.632
+---------------- t ___destroy_helper_block_.649
+---------------- t ___destroy_helper_block_.706
+---------------- t ___destroy_helper_block_.745
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+                 U _clang.arc.use
+---------------- d _defaultManager.instance
+---------------- d _defaultManager.onceToken
+                 U _dispatch_once
+                 U _kUMSocialAuthAccessToken
+                 U _kUMSocialAuthExpireDate
+                 U _kUMSocialAuthOpenID
+                 U _kUMSocialAuthUID
+                 U _objc_autorelease
+                 U _objc_autoreleaseReturnValue
+                 U _objc_copyWeak
+                 U _objc_destroyWeak
+                 U _objc_enumerationMutation
+                 U _objc_initWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- W l_OBJC_LABEL_PROTOCOL_$_BriefWebControllerDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialPlatformProvider
+---------------- W l_OBJC_PROTOCOL_$_BriefWebControllerDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialPlatformProvider
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/QQ/libSocialQQ.a(UMSocialQQCommon.o):
+---------------- t +[UMSocialAuthTransferObject objectForAuthResponse:]
+---------------- t -[UMSocialAuthTransferObject .cxx_destruct]
+---------------- t -[UMSocialAuthTransferObject accessToken]
+---------------- t -[UMSocialAuthTransferObject expiration]
+---------------- t -[UMSocialAuthTransferObject openid]
+---------------- t -[UMSocialAuthTransferObject refreshToken]
+---------------- t -[UMSocialAuthTransferObject setAccessToken:]
+---------------- t -[UMSocialAuthTransferObject setExpiration:]
+---------------- t -[UMSocialAuthTransferObject setOpenid:]
+---------------- t -[UMSocialAuthTransferObject setRefreshToken:]
+---------------- t -[UMSocialAuthTransferObject setUnionId:]
+---------------- t -[UMSocialAuthTransferObject unionId]
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_UMSocialAuthResponse
+---------------- D _OBJC_CLASS_$_UMSocialAuthTransferObject
+---------------- D _OBJC_IVAR_$_UMSocialAuthTransferObject._accessToken
+---------------- D _OBJC_IVAR_$_UMSocialAuthTransferObject._expiration
+---------------- D _OBJC_IVAR_$_UMSocialAuthTransferObject._openid
+---------------- D _OBJC_IVAR_$_UMSocialAuthTransferObject._refreshToken
+---------------- D _OBJC_IVAR_$_UMSocialAuthTransferObject._unionId
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialAuthTransferObject
+---------------- S _UShareQQaccessToken
+---------------- S _UShareQQcallback_name
+---------------- S _UShareQQcallback_type
+---------------- S _UShareQQcflag
+---------------- S _UShareQQclient_id
+---------------- S _UShareQQdisplay
+---------------- S _UShareQQexiration
+---------------- S _UShareQQoauth_consumer_key
+---------------- S _UShareQQopenId
+---------------- S _UShareQQredirect_uri
+---------------- S _UShareQQresponse_type
+---------------- S _UShareQQsdkp
+---------------- S _UShareQQsdkv
+---------------- S _UShareQQshareType
+---------------- S _UShareQQsrc_type
+---------------- S _UShareQQstate
+---------------- S _UShareQQstatus_machine
+---------------- S _UShareQQstatus_os
+---------------- S _UShareQQstatus_version
+---------------- S _UShareQQswitch
+---------------- S _UShareQQthirdAppDisplayName
+---------------- S _UShareQQunionId
+---------------- S _UShareQQuser_cancelled
+---------------- S _UShareQQversion
+                 U ___CFConstantStringClassReference
+                 U __objc_empty_cache
+                 U _objc_autoreleaseReturnValue
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong

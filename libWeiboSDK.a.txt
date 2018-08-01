@@ -1,5 +1,85 @@
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKNormalWebViewController.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(UMSocialOfficialSinaHandler.o):
+---------------- t +[UMSocialOfficialSinaHandler defaultManager]
+---------------- t +[UMSocialOfficialSinaHandler load]
+---------------- t -[UMSocialOfficialSinaHandler .cxx_destruct]
+---------------- t -[UMSocialOfficialSinaHandler didReceiveWeiboResponse:]
+---------------- t -[UMSocialOfficialSinaHandler handleOpenURL:]
+---------------- t -[UMSocialOfficialSinaHandler request:didFailWithError:]
+---------------- t -[UMSocialOfficialSinaHandler request:didFinishLoadingWithDataResult:]
+---------------- t -[UMSocialOfficialSinaHandler request:didFinishLoadingWithResult:]
+---------------- t -[UMSocialOfficialSinaHandler request:didReceiveResponse:]
+---------------- t -[UMSocialOfficialSinaHandler request:didReciveRedirectResponseWithURI:]
+---------------- t -[UMSocialOfficialSinaHandler sendAuthRequest:userInfo:URI:]
+---------------- t -[UMSocialOfficialSinaHandler sendCancelAuth:]
+---------------- t -[UMSocialOfficialSinaHandler sendShareRequest:withType:andUserInfo:]
+---------------- t -[UMSocialOfficialSinaHandler sendUserInfoRequest:accesstoken:CompletionHandler:]
+---------------- t -[UMSocialOfficialSinaHandler sendWbRequestWithURL:HttpMethod:params:completion:]
+---------------- t -[UMSocialOfficialSinaHandler setWbRequestCompletion:]
+---------------- t -[UMSocialOfficialSinaHandler umSocial_PlatformSDKVersion]
+---------------- t -[UMSocialOfficialSinaHandler umSocial_isInstall]
+---------------- t -[UMSocialOfficialSinaHandler umSocial_isSupport]
+---------------- t -[UMSocialOfficialSinaHandler umSocial_setAppKey:withAppSecret:withRedirectURL:]
+---------------- t -[UMSocialOfficialSinaHandler wbRequestCompletion]
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_UMSocialAuthResponse
+                 U _OBJC_CLASS_$_UMSocialDataManager
+---------------- D _OBJC_CLASS_$_UMSocialOfficialSinaHandler
+                 U _OBJC_CLASS_$_UMSocialPlatformConfig
+                 U _OBJC_CLASS_$_UMSocialShareResponse
+                 U _OBJC_CLASS_$_UMSocialSinaHandler
+                 U _OBJC_CLASS_$_WBAuthorizeRequest
+                 U _OBJC_CLASS_$_WBAuthorizeResponse
+                 U _OBJC_CLASS_$_WBHttpRequest
+                 U _OBJC_CLASS_$_WBImageObject
+                 U _OBJC_CLASS_$_WBMessageObject
+                 U _OBJC_CLASS_$_WBSendMessageToWeiboRequest
+                 U _OBJC_CLASS_$_WBSendMessageToWeiboResponse
+                 U _OBJC_CLASS_$_WBWebpageObject
+                 U _OBJC_CLASS_$_WeiboSDK
+---------------- D _OBJC_IVAR_$_UMSocialOfficialSinaHandler._wbRequestCompletion
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialOfficialSinaHandler
+                 U _OBJC_METACLASS_$_UMSocialSinaHandler
+                 U __Block_object_assign
+                 U __NSConcreteStackBlock
+---------------- t ___45+[UMSocialOfficialSinaHandler defaultManager]_block_invoke
+---------------- t ___81-[UMSocialOfficialSinaHandler sendUserInfoRequest:accesstoken:CompletionHandler:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.69
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.66
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.67
+                 U __objc_empty_cache
+                 U _clang.arc.use
+---------------- d _defaultManager.instance
+---------------- d _defaultManager.onceToken
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialPlatformProvider
+---------------- W l_OBJC_LABEL_PROTOCOL_$_WBHttpRequestDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_WeiboSDKDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialPlatformProvider
+---------------- W l_OBJC_PROTOCOL_$_WBHttpRequestDelegate
+---------------- W l_OBJC_PROTOCOL_$_WeiboSDKDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKNormalWebViewController.o):
 ---------------- t -[WBSDKNormalWebRequest .cxx_destruct]
 ---------------- t -[WBSDKNormalWebRequest init]
 ---------------- t -[WBSDKNormalWebRequest setUrl:]
@@ -65,7 +145,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKUtil.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKUtil.o):
 ---------------- t +[WBSDKUtil md5:]
                  U _CC_MD5
                  U _OBJC_CLASS_$_NSObject
@@ -81,7 +161,85 @@
                  U _objc_retainAutorelease
                  U _strlen
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKAuthorizeWebViewController.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKFMDatabasePool.o):
+---------------- t +[WBSDKFMDatabasePool databasePoolWithPath:]
+---------------- t -[WBSDKFMDatabasePool beginTransaction:withBlock:]
+---------------- t -[WBSDKFMDatabasePool countOfCheckedInDatabases]
+---------------- t -[WBSDKFMDatabasePool countOfCheckedOutDatabases]
+---------------- t -[WBSDKFMDatabasePool countOfOpenDatabases]
+---------------- t -[WBSDKFMDatabasePool db]
+---------------- t -[WBSDKFMDatabasePool dealloc]
+---------------- t -[WBSDKFMDatabasePool delegate]
+---------------- t -[WBSDKFMDatabasePool executeLocked:]
+---------------- t -[WBSDKFMDatabasePool inDatabase:]
+---------------- t -[WBSDKFMDatabasePool inDeferredTransaction:]
+---------------- t -[WBSDKFMDatabasePool inSavePoint:]
+---------------- t -[WBSDKFMDatabasePool inTransaction:]
+---------------- t -[WBSDKFMDatabasePool initWithPath:]
+---------------- t -[WBSDKFMDatabasePool maximumNumberOfDatabasesToCreate]
+---------------- t -[WBSDKFMDatabasePool path]
+---------------- t -[WBSDKFMDatabasePool pushDatabaseBackInPool:]
+---------------- t -[WBSDKFMDatabasePool releaseAllDatabases]
+---------------- t -[WBSDKFMDatabasePool setDelegate:]
+---------------- t -[WBSDKFMDatabasePool setMaximumNumberOfDatabasesToCreate:]
+---------------- t -[WBSDKFMDatabasePool setPath:]
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSException
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_WBSDKFMDatabase
+---------------- D _OBJC_CLASS_$_WBSDKFMDatabasePool
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabasePool._databaseInPool
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabasePool._databaseOutPool
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabasePool._delegate
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabasePool._lockQueue
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabasePool._maximumNumberOfDatabasesToCreate
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabasePool._path
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKFMDatabasePool
+                 U __Block_object_assign
+                 U __Block_object_dispose
+                 U __NSConcreteStackBlock
+---------------- t ___25-[WBSDKFMDatabasePool db]_block_invoke
+---------------- t ___42-[WBSDKFMDatabasePool releaseAllDatabases]_block_invoke
+---------------- t ___43-[WBSDKFMDatabasePool countOfOpenDatabases]_block_invoke
+---------------- t ___46-[WBSDKFMDatabasePool pushDatabaseBackInPool:]_block_invoke
+---------------- t ___48-[WBSDKFMDatabasePool countOfCheckedInDatabases]_block_invoke
+---------------- t ___49-[WBSDKFMDatabasePool countOfCheckedOutDatabases]_block_invoke
+---------------- t ___Block_byref_object_copy_
+---------------- t ___Block_byref_object_dispose_
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.63
+---------------- s ___block_descriptor_tmp.66
+---------------- s ___block_descriptor_tmp.69
+---------------- s ___block_descriptor_tmp.72
+---------------- s ___block_descriptor_tmp.77
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.61
+---------------- t ___copy_helper_block_.64
+---------------- t ___copy_helper_block_.67
+---------------- t ___copy_helper_block_.70
+---------------- t ___copy_helper_block_.75
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.62
+---------------- t ___destroy_helper_block_.65
+---------------- t ___destroy_helper_block_.68
+---------------- t ___destroy_helper_block_.71
+---------------- t ___destroy_helper_block_.76
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+                 U _dispatch_queue_create
+                 U _dispatch_release
+                 U _dispatch_sync
+---------------- d _inSavePoint:.savePointIdx
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_setProperty_atomic
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKAuthorizeWebViewController.o):
 ---------------- t -[NSString(WBSDKNSStringUtils) wbsdk_stringByReplacingRange:with:]
 ---------------- t -[WBSDKAuthorizeWebViewController authorizeDidFinishWithResponseCode:info:]
 ---------------- t -[WBSDKAuthorizeWebViewController didReceiveMemoryWarning]
@@ -126,7 +284,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_retainBlock
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBAuthorizeRequest.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBAuthorizeRequest.o):
 ---------------- t +[WBAuthorizeRequest associateResponseClass]
 ---------------- t -[WBAuthorizeRequest .cxx_destruct]
 ---------------- t -[WBAuthorizeRequest canBeReceived]
@@ -161,7 +319,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBAuthorizeResponse.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBAuthorizeResponse.o):
 ---------------- t -[WBAuthorizeResponse .cxx_destruct]
 ---------------- t -[WBAuthorizeResponse accessToken]
 ---------------- t -[WBAuthorizeResponse canBeReceived]
@@ -195,7 +353,19 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKWebViewProgressView.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(NSThread+WBSDKFMDDispatchSync.o):
+---------------- t -[NSThread(WBSDKFMDDispatchSync) wbsdkfmd_operationAddOfQueue:]
+---------------- t -[NSThread(WBSDKFMDDispatchSync) wbsdkfmd_operationCountKeyForDispatchQueue:]
+---------------- t -[NSThread(WBSDKFMDDispatchSync) wbsdkfmd_operationCountOfQueue:]
+---------------- t -[NSThread(WBSDKFMDDispatchSync) wbsdkfmd_operationEndOfQueue:]
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSThread
+                 U ___CFConstantStringClassReference
+                 U _dispatch_queue_get_label
+                 U _objc_msgSend
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKWebViewProgressView.o):
 ---------------- t -[WBSDKWebViewProgressView .cxx_destruct]
 ---------------- t -[WBSDKWebViewProgressView _setProgress:]
 ---------------- t -[WBSDKWebViewProgressView animateFromCurrentState]
@@ -276,7 +446,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKSFHFKeychainUtils.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKSFHFKeychainUtils.o):
 ---------------- t +[WBSDKSFHFKeychainUtils deleteItemForUsername:andServiceName:error:]
 ---------------- t +[WBSDKSFHFKeychainUtils getPasswordForUsername:andServiceName:error:]
 ---------------- t +[WBSDKSFHFKeychainUtils storeUsername:andPassword:forServiceName:updateExisting:error:]
@@ -306,7 +476,7 @@
                  U _kSecValueData
                  U _objc_msgSend
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBBaseMediaObject.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBBaseMediaObject.o):
 ---------------- t +[WBBaseMediaObject dictionaryWithMediaObject:]
 ---------------- t +[WBBaseMediaObject mappedMediaObjectWithDictionary:]
 ---------------- t +[WBBaseMediaObject nothing]
@@ -347,7 +517,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBBaseRequest.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBBaseRequest.o):
 ---------------- t +[WBBaseRequest associateResponseClass]
 ---------------- t +[WBBaseRequest mappedObjectWithDictionary:]
 ---------------- t +[WBBaseRequest nothing]
@@ -390,7 +560,7 @@
                  U _objc_storeStrong
                  U _objc_storeWeak
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBBaseResponse.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBBaseResponse.o):
 ---------------- t +[WBBaseResponse mappedObjectWithDictionary:]
 ---------------- t +[WBBaseResponse nothing]
 ---------------- t +[WBBaseResponse objectFromPasteboardWithID:sdkVersion:]
@@ -438,7 +608,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKWebViewErrorView.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKWebViewErrorView.o):
 ---------------- t -[WBSDKWebViewErrorView .cxx_destruct]
 ---------------- t -[WBSDKWebViewErrorView buttonsContainer]
 ---------------- t -[WBSDKWebViewErrorView closeButton]
@@ -481,7 +651,319 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKWebView.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKStatisticsRecordManager.o):
+---------------- t +[WBSDKStatisticsRecordManager sharedManager]
+---------------- t -[NSMutableDictionary(WBSDKStatisticsSetValue) wbsdkstatistic_setSafeObject:forKey:]
+---------------- t -[WBSDKStatisticsRecordManager .cxx_destruct]
+---------------- t -[WBSDKStatisticsRecordManager applicationDidEnterBackground:]
+---------------- t -[WBSDKStatisticsRecordManager applicationWillEnterForeground:]
+---------------- t -[WBSDKStatisticsRecordManager beginLogEvent:onPageView:withUserInfo:]
+---------------- t -[WBSDKStatisticsRecordManager beginLogPageView:]
+---------------- t -[WBSDKStatisticsRecordManager canUpload:]
+---------------- t -[WBSDKStatisticsRecordManager channelID]
+---------------- t -[WBSDKStatisticsRecordManager cleanHistoryUnlessRecord]
+---------------- t -[WBSDKStatisticsRecordManager dealloc]
+---------------- t -[WBSDKStatisticsRecordManager enableDebugLog]
+---------------- t -[WBSDKStatisticsRecordManager endApp]
+---------------- t -[WBSDKStatisticsRecordManager endLogEvent:onPageView:withUserInfo:]
+---------------- t -[WBSDKStatisticsRecordManager endLogPageView:]
+---------------- t -[WBSDKStatisticsRecordManager event:onPageView:withUserInfo:]
+---------------- t -[WBSDKStatisticsRecordManager firstStartApp]
+---------------- t -[WBSDKStatisticsRecordManager forceUpload]
+---------------- t -[WBSDKStatisticsRecordManager idfaMD5]
+---------------- t -[WBSDKStatisticsRecordManager init]
+---------------- t -[WBSDKStatisticsRecordManager internalEvent:onPageView:withUserInfo:]
+---------------- t -[WBSDKStatisticsRecordManager io_queue]
+---------------- t -[WBSDKStatisticsRecordManager keyForRecordWithEventID:PageID:recordType:]
+---------------- t -[WBSDKStatisticsRecordManager lastUploadSuccessTimestamp]
+---------------- t -[WBSDKStatisticsRecordManager postLogsToServerWithRecords:andResultBlock:]
+---------------- t -[WBSDKStatisticsRecordManager recordsDict]
+---------------- t -[WBSDKStatisticsRecordManager resetTimer]
+---------------- t -[WBSDKStatisticsRecordManager setIo_queue:]
+---------------- t -[WBSDKStatisticsRecordManager setLastUploadSuccessTimestamp:]
+---------------- t -[WBSDKStatisticsRecordManager setRecordsDict:]
+---------------- t -[WBSDKStatisticsRecordManager setUploadTimer:]
+---------------- t -[WBSDKStatisticsRecordManager startApp]
+---------------- t -[WBSDKStatisticsRecordManager uploadFormatForRecord:]
+---------------- t -[WBSDKStatisticsRecordManager uploadFormatForRecordUserInfo:]
+---------------- t -[WBSDKStatisticsRecordManager uploadFormatWithRecords:withTimestamp:]
+---------------- t -[WBSDKStatisticsRecordManager uploadFrequencyDidChange]
+---------------- t -[WBSDKStatisticsRecordManager uploadFrequency]
+---------------- t -[WBSDKStatisticsRecordManager uploadTimerFired]
+---------------- t -[WBSDKStatisticsRecordManager uploadTimer]
+---------------- t -[WBSDKStatisticsRecordManager upload]
+---------------- t -[WBSDKStatisticsRecordManager versionString]
+                 U _NSClassFromString
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSBundle
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSMutableURLRequest
+                 U _OBJC_CLASS_$_NSNotificationCenter
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSTimer
+                 U _OBJC_CLASS_$_NSURL
+                 U _OBJC_CLASS_$_NSURLConnection
+                 U _OBJC_CLASS_$_NSUserDefaults
+                 U _OBJC_CLASS_$_WBSDKDBObjectStore
+                 U _OBJC_CLASS_$_WBSDKStatisticsRecord
+---------------- D _OBJC_CLASS_$_WBSDKStatisticsRecordManager
+                 U _OBJC_CLASS_$_WBSDKUtil
+                 U _OBJC_CLASS_$_WeiboSDK
+                 U _OBJC_CLASS_$_WeiboSDK3rdApp
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecordManager._io_queue
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecordManager._recordsDict
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecordManager._uploadTimer
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKStatisticsRecordManager
+                 U _UIApplicationDidEnterBackgroundNotification
+                 U _UIApplicationWillEnterForegroundNotification
+---------------- S _WBSDKStatisticsManagerChannelID
+---------------- S _WBSDKStatisticsManagerDebugLogEnabled
+---------------- S _WBSDKStatisticsManagerEnabled
+---------------- S _WBSDKStatisticsManagerFrquency
+---------------- S _WBSDKStatisticsManagerFrquencyDidChangeNotification
+---------------- S _WBSDKStatisticsManagerLastUploadSuccessTimestamp
+---------------- S _WBSDKStatisticsManagerVersionString
+                 U _WBSDKStatisticsRecordURL
+                 U __Block_object_assign
+                 U __Block_object_dispose
+                 U __NSConcreteStackBlock
+---------------- t ___38-[WBSDKStatisticsRecordManager endApp]_block_invoke
+---------------- t ___38-[WBSDKStatisticsRecordManager upload]_block_invoke
+---------------- t ___38-[WBSDKStatisticsRecordManager upload]_block_invoke_2
+---------------- t ___38-[WBSDKStatisticsRecordManager upload]_block_invoke_3
+---------------- t ___40-[WBSDKStatisticsRecordManager startApp]_block_invoke
+---------------- t ___45+[WBSDKStatisticsRecordManager sharedManager]_block_invoke
+---------------- t ___45-[WBSDKStatisticsRecordManager firstStartApp]_block_invoke
+---------------- t ___47-[WBSDKStatisticsRecordManager endLogPageView:]_block_invoke
+---------------- t ___49-[WBSDKStatisticsRecordManager beginLogPageView:]_block_invoke
+---------------- t ___62-[WBSDKStatisticsRecordManager event:onPageView:withUserInfo:]_block_invoke
+---------------- t ___62-[WBSDKStatisticsRecordManager uploadFormatForRecordUserInfo:]_block_invoke
+---------------- t ___70-[WBSDKStatisticsRecordManager internalEvent:onPageView:withUserInfo:]_block_invoke
+---------------- t ___70-[WBSDKStatisticsRecordManager uploadFormatWithRecords:withTimestamp:]_block_invoke
+---------------- t ___75-[WBSDKStatisticsRecordManager postLogsToServerWithRecords:andResultBlock:]_block_invoke
+---------------- t ___Block_byref_object_copy_
+---------------- t ___Block_byref_object_dispose_
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.100
+---------------- s ___block_descriptor_tmp.103
+---------------- s ___block_descriptor_tmp.112
+---------------- s ___block_descriptor_tmp.132
+---------------- s ___block_descriptor_tmp.137
+---------------- s ___block_descriptor_tmp.166
+---------------- s ___block_descriptor_tmp.171
+---------------- s ___block_descriptor_tmp.175
+---------------- s ___block_descriptor_tmp.238
+---------------- s ___block_descriptor_tmp.267
+---------------- s ___block_descriptor_tmp.333
+---------------- s ___block_descriptor_tmp.76
+---------------- s ___block_descriptor_tmp.95
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.101
+---------------- t ___copy_helper_block_.110
+---------------- t ___copy_helper_block_.130
+---------------- t ___copy_helper_block_.135
+---------------- t ___copy_helper_block_.163
+---------------- t ___copy_helper_block_.169
+---------------- t ___copy_helper_block_.172
+---------------- t ___copy_helper_block_.235
+---------------- t ___copy_helper_block_.264
+---------------- t ___copy_helper_block_.330
+---------------- t ___copy_helper_block_.74
+---------------- t ___copy_helper_block_.93
+---------------- t ___copy_helper_block_.98
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.102
+---------------- t ___destroy_helper_block_.111
+---------------- t ___destroy_helper_block_.131
+---------------- t ___destroy_helper_block_.136
+---------------- t ___destroy_helper_block_.164
+---------------- t ___destroy_helper_block_.170
+---------------- t ___destroy_helper_block_.173
+---------------- t ___destroy_helper_block_.236
+---------------- t ___destroy_helper_block_.265
+---------------- t ___destroy_helper_block_.331
+---------------- t ___destroy_helper_block_.75
+---------------- t ___destroy_helper_block_.94
+---------------- t ___destroy_helper_block_.99
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+                 U _dispatch_async
+                 U _dispatch_once
+                 U _dispatch_queue_create
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+---------------- d _sharedManager.onceQueue
+---------------- d _sharedManager.sharedManager
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKFMDatabase.o):
+---------------- t +[WBSDKFMDatabase databaseWithPath:]
+---------------- t +[WBSDKFMDatabase isSQLiteThreadSafe]
+---------------- t +[WBSDKFMDatabase sqliteLibVersion]
+---------------- t -[WBSDKFMDatabase beginDeferredTransaction]
+---------------- t -[WBSDKFMDatabase beginTransaction]
+---------------- t -[WBSDKFMDatabase bindObject:toColumn:inStatement:]
+---------------- t -[WBSDKFMDatabase busyRetryTimeout]
+---------------- t -[WBSDKFMDatabase cachedStatementForQuery:]
+---------------- t -[WBSDKFMDatabase cachedStatements]
+---------------- t -[WBSDKFMDatabase changes]
+---------------- t -[WBSDKFMDatabase checkedOut]
+---------------- t -[WBSDKFMDatabase clearCachedStatements]
+---------------- t -[WBSDKFMDatabase closeOpenResultSets]
+---------------- t -[WBSDKFMDatabase close]
+---------------- t -[WBSDKFMDatabase commit]
+---------------- t -[WBSDKFMDatabase crashOnErrors]
+---------------- t -[WBSDKFMDatabase databaseExists]
+---------------- t -[WBSDKFMDatabase databasePath]
+---------------- t -[WBSDKFMDatabase dealloc]
+---------------- t -[WBSDKFMDatabase errorWithMessage:]
+---------------- t -[WBSDKFMDatabase executeQuery:]
+---------------- t -[WBSDKFMDatabase executeQuery:withArgumentsInArray:]
+---------------- t -[WBSDKFMDatabase executeQuery:withArgumentsInArray:orDictionary:orVAList:]
+---------------- t -[WBSDKFMDatabase executeQuery:withParameterDictionary:]
+---------------- t -[WBSDKFMDatabase executeQueryWithFormat:]
+---------------- t -[WBSDKFMDatabase executeUpdate:]
+---------------- t -[WBSDKFMDatabase executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:]
+---------------- t -[WBSDKFMDatabase executeUpdate:withArgumentsInArray:]
+---------------- t -[WBSDKFMDatabase executeUpdate:withParameterDictionary:]
+---------------- t -[WBSDKFMDatabase executeUpdateWithFormat:]
+---------------- t -[WBSDKFMDatabase extractSQL:argumentsList:intoString:arguments:]
+---------------- t -[WBSDKFMDatabase finalize]
+---------------- t -[WBSDKFMDatabase goodConnection]
+---------------- t -[WBSDKFMDatabase hadError]
+---------------- t -[WBSDKFMDatabase hasOpenResultSets]
+---------------- t -[WBSDKFMDatabase inSavePoint:]
+---------------- t -[WBSDKFMDatabase inTransaction]
+---------------- t -[WBSDKFMDatabase initWithPath:]
+---------------- t -[WBSDKFMDatabase lastErrorCode]
+---------------- t -[WBSDKFMDatabase lastErrorMessage]
+---------------- t -[WBSDKFMDatabase lastError]
+---------------- t -[WBSDKFMDatabase lastInsertRowId]
+---------------- t -[WBSDKFMDatabase logsErrors]
+---------------- t -[WBSDKFMDatabase makeFunctionNamed:maximumArguments:withBlock:]
+---------------- t -[WBSDKFMDatabase openWithFlags:]
+---------------- t -[WBSDKFMDatabase open]
+---------------- t -[WBSDKFMDatabase rekey:]
+---------------- t -[WBSDKFMDatabase releaseSavePointWithName:error:]
+---------------- t -[WBSDKFMDatabase resultSetDidClose:]
+---------------- t -[WBSDKFMDatabase rollbackToSavePointWithName:error:]
+---------------- t -[WBSDKFMDatabase rollback]
+---------------- t -[WBSDKFMDatabase setBusyRetryTimeout:]
+---------------- t -[WBSDKFMDatabase setCachedStatement:forQuery:]
+---------------- t -[WBSDKFMDatabase setCachedStatements:]
+---------------- t -[WBSDKFMDatabase setCheckedOut:]
+---------------- t -[WBSDKFMDatabase setCrashOnErrors:]
+---------------- t -[WBSDKFMDatabase setKey:]
+---------------- t -[WBSDKFMDatabase setLogsErrors:]
+---------------- t -[WBSDKFMDatabase setShouldCacheStatements:]
+---------------- t -[WBSDKFMDatabase setTraceExecution:]
+---------------- t -[WBSDKFMDatabase shouldCacheStatements]
+---------------- t -[WBSDKFMDatabase sqliteHandle]
+---------------- t -[WBSDKFMDatabase startSavePointWithName:error:]
+---------------- t -[WBSDKFMDatabase traceExecution]
+---------------- t -[WBSDKFMDatabase update:withErrorAndBindings:]
+---------------- t -[WBSDKFMDatabase warnInUse]
+---------------- t -[WBSDKFMStatement close]
+---------------- t -[WBSDKFMStatement dealloc]
+---------------- t -[WBSDKFMStatement description]
+---------------- t -[WBSDKFMStatement finalize]
+---------------- t -[WBSDKFMStatement query]
+---------------- t -[WBSDKFMStatement reset]
+---------------- t -[WBSDKFMStatement setQuery:]
+---------------- t -[WBSDKFMStatement setStatement:]
+---------------- t -[WBSDKFMStatement setUseCount:]
+---------------- t -[WBSDKFMStatement statement]
+---------------- t -[WBSDKFMStatement useCount]
+                 U _NSLocalizedDescriptionKey
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSAssertionHandler
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableSet
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSNull
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSValue
+---------------- D _OBJC_CLASS_$_WBSDKFMDatabase
+                 U _OBJC_CLASS_$_WBSDKFMResultSet
+---------------- D _OBJC_CLASS_$_WBSDKFMStatement
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._busyRetryTimeout
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._cachedStatements
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._checkedOut
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._crashOnErrors
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._databasePath
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._db
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._inTransaction
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._isExecutingStatement
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._logsErrors
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._openFunctions
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._openResultSets
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._shouldCacheStatements
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabase._traceExecution
+---------------- D _OBJC_IVAR_$_WBSDKFMStatement._query
+---------------- D _OBJC_IVAR_$_WBSDKFMStatement._statement
+---------------- D _OBJC_IVAR_$_WBSDKFMStatement._useCount
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKFMDatabase
+---------------- D _OBJC_METACLASS_$_WBSDKFMStatement
+---------------- T _WBSDKFMDBBlockSQLiteCallBackFunction
+                 U ___CFConstantStringClassReference
+                 U ___assert_rtn
+                 U __objc_empty_cache
+                 U _abort
+---------------- d _inSavePoint:.savePointIdx
+                 U _objc_enumerationMutation
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_setProperty_atomic
+                 U _sqlite3_bind_blob
+                 U _sqlite3_bind_double
+                 U _sqlite3_bind_int
+                 U _sqlite3_bind_int64
+                 U _sqlite3_bind_null
+                 U _sqlite3_bind_parameter_count
+                 U _sqlite3_bind_parameter_index
+                 U _sqlite3_bind_text
+                 U _sqlite3_changes
+                 U _sqlite3_close
+                 U _sqlite3_create_function
+                 U _sqlite3_errcode
+                 U _sqlite3_errmsg
+                 U _sqlite3_finalize
+                 U _sqlite3_last_insert_rowid
+                 U _sqlite3_libversion
+                 U _sqlite3_next_stmt
+                 U _sqlite3_open
+                 U _sqlite3_open_v2
+                 U _sqlite3_prepare_v2
+                 U _sqlite3_reset
+                 U _sqlite3_step
+                 U _sqlite3_threadsafe
+                 U _sqlite3_user_data
+                 U _strcmp
+                 U _usleep
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKWebView.o):
 ---------------- t -[WBSDKWebView .cxx_destruct]
 ---------------- t -[WBSDKWebView dealloc]
 ---------------- t -[WBSDKWebView delegate]
@@ -574,13 +1056,37 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSObject
 ---------------- W l_OBJC_PROTOCOL_$_UIWebViewDelegate
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBAidManager.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(NSFileManager+WBSDKUtilities.o):
+---------------- t +[NSFileManager(Utilities) wbsdk_CreateDirectoryIfNotExisted:error:]
+---------------- t +[NSFileManager(Utilities) wbsdk_FileExists:]
+---------------- t +[NSFileManager(Utilities) wbsdk_FilesInFolder:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathForBundleDocumentNamed:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathForFileInCacheNamed:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathForFileInDocumentNamed:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathForItemNamed:inFolder:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathsForBundleDocumentsMatchingExtension:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathsForDocumentsMatchingExtension:]
+---------------- t +[NSFileManager(Utilities) wbsdk_PathsForItemsMatchingExtension:inFolder:]
+---------------- t +[NSFileManager(Utilities) wbsdk_RemoveFileAtPath:]
+                 U _NSSearchPathForDirectoriesInDomains
+                 U _OBJC_CLASS_$_NSBundle
+                 U _OBJC_CLASS_$_NSFileManager
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _objc_msgSend
+---------------- T _wbsdk_NSBundleFolder
+---------------- T _wbsdk_NSCacheFolder
+---------------- d _wbsdk_NSCacheFolder.cacheFolder
+---------------- T _wbsdk_NSDocumentsFolder
+---------------- d _wbsdk_NSDocumentsFolder.documentFolder
+---------------- T _wbsdk_NSLibraryFolder
+---------------- d _wbsdk_NSLibraryFolder.libraryFolder
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBAidManager.o):
 ---------------- t +[WBAidManager sharedInstance]
 ---------------- t -[WBAidManager .cxx_destruct]
 ---------------- t -[WBAidManager advertisementIdentifier]
 ---------------- t -[WBAidManager aid]
 ---------------- t -[WBAidManager app]
----------------- t -[WBAidManager fetchAid:WithOldAid:]
 ---------------- t -[WBAidManager fetchAid:]
 ---------------- t -[WBAidManager fetchAidIfNeededWithApp:]
 ---------------- t -[WBAidManager generateMFPString]
@@ -624,6 +1130,7 @@
                  U _OBJC_CLASS_$_WeiboSDK
 ---------------- D _OBJC_IVAR_$_WBAidManager._app
 ---------------- D _OBJC_IVAR_$_WBAidManager.aidStatus
+---------------- D _OBJC_IVAR_$_WBAidManager.requestWithOldAid
 ---------------- D _OBJC_IVAR_$_WBMFPRSA._pubKeyFilePath
                  U _OBJC_METACLASS_$_NSObject
 ---------------- D _OBJC_METACLASS_$_WBAidManager
@@ -640,15 +1147,15 @@
 ---------------- S _WeiboSDKGetAidFailNotification
 ---------------- S _WeiboSDKGetAidSucessNotification
                  U __NSConcreteStackBlock
+---------------- t ___25-[WBAidManager fetchAid:]_block_invoke
 ---------------- t ___30+[WBAidManager sharedInstance]_block_invoke
----------------- t ___36-[WBAidManager fetchAid:WithOldAid:]_block_invoke
                  U ___CFConstantStringClassReference
 ---------------- s ___block_descriptor_tmp
----------------- s ___block_descriptor_tmp.153
+---------------- s ___block_descriptor_tmp.151
 ---------------- t ___copy_helper_block_
----------------- t ___copy_helper_block_.151
+---------------- t ___copy_helper_block_.149
 ---------------- t ___destroy_helper_block_
----------------- t ___destroy_helper_block_.152
+---------------- t ___destroy_helper_block_.150
                  U ___memset_chk
                  U __dispatch_main_q
                  U __objc_empty_cache
@@ -676,7 +1183,7 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSObject
 ---------------- W l_OBJC_PROTOCOL_$_WBHttpRequestDelegate
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(NSData+WBSDKBase64.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(NSData+WBSDKBase64.o):
 ---------------- t +[NSData(WBSDKBase64) wbsdk_dataFromBase64String:]
 ---------------- t -[NSData(WBSDKBase64) wbsdk_base64EncodedString]
                  U _OBJC_CLASS_$_NSData
@@ -694,7 +1201,7 @@
 ---------------- T _wbsdk_NewBase64Decode
 ---------------- T _wbsdk_NewBase64Encode
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBDataTransferObject.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBDataTransferObject.o):
 ---------------- t +[WBDataTransferObject UUID]
 ---------------- t +[WBDataTransferObject mappedObjectWithDictionary:]
 ---------------- t +[WBDataTransferObject objectFromPasteboardWithID:sdkVersion:]
@@ -785,7 +1292,7 @@
                  U _objc_retainBlock
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKReachability.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKReachability.o):
 ---------------- t +[WBSDKReachability reachabilityForInternetConnection]
 ---------------- t +[WBSDKReachability reachabilityWithAddress:]
 ---------------- t +[WBSDKReachability reachabilityWithHostName:]
@@ -826,7 +1333,127 @@
                  U _objc_retainAutorelease
                  U _objc_retainAutoreleasedReturnValue
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBHttpRequest.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WeiboSDK+Statistics.o):
+---------------- t +[WeiboSDK(Statistics) beginLogEvent:]
+---------------- t +[WeiboSDK(Statistics) beginLogEvent:onPageView:withUserInfo:]
+---------------- t +[WeiboSDK(Statistics) beginLogPageView:]
+---------------- t +[WeiboSDK(Statistics) endLogEvent:]
+---------------- t +[WeiboSDK(Statistics) endLogEvent:onPageView:withUserInfo:]
+---------------- t +[WeiboSDK(Statistics) endLogPageView:]
+---------------- t +[WeiboSDK(Statistics) event:]
+---------------- t +[WeiboSDK(Statistics) event:onPageView:withUserInfo:]
+---------------- t +[WeiboSDK(Statistics) forceUploadRecords]
+---------------- t +[WeiboSDK(Statistics) internalEvent:withStartTime:]
+---------------- t +[WeiboSDK(Statistics) setChannelID:]
+---------------- t +[WeiboSDK(Statistics) setStatisticsEnabled:]
+---------------- t +[WeiboSDK(Statistics) setStatisticsLogEnabled:]
+---------------- t +[WeiboSDK(Statistics) setUploadFrequecy:]
+---------------- t +[WeiboSDK(Statistics) setVersion:]
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNotificationCenter
+                 U _OBJC_CLASS_$_NSUserDefaults
+                 U _OBJC_CLASS_$_WBSDKStatisticsRecordManager
+                 U _OBJC_CLASS_$_WeiboSDK
+                 U _WBSDKStatisticsManagerChannelID
+                 U _WBSDKStatisticsManagerDebugLogEnabled
+                 U _WBSDKStatisticsManagerEnabled
+                 U _WBSDKStatisticsManagerFrquency
+                 U _WBSDKStatisticsManagerFrquencyDidChangeNotification
+                 U _WBSDKStatisticsManagerVersionString
+                 U ___CFConstantStringClassReference
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKFMResultSet.o):
+---------------- t +[WBSDKFMResultSet resultSetWithStatement:usingParentDatabase:]
+---------------- t -[WBSDKFMResultSet UTF8StringForColumnIndex:]
+---------------- t -[WBSDKFMResultSet UTF8StringForColumnName:]
+---------------- t -[WBSDKFMResultSet boolForColumn:]
+---------------- t -[WBSDKFMResultSet boolForColumnIndex:]
+---------------- t -[WBSDKFMResultSet close]
+---------------- t -[WBSDKFMResultSet columnCount]
+---------------- t -[WBSDKFMResultSet columnIndexForName:]
+---------------- t -[WBSDKFMResultSet columnIndexIsNull:]
+---------------- t -[WBSDKFMResultSet columnIsNull:]
+---------------- t -[WBSDKFMResultSet columnNameForIndex:]
+---------------- t -[WBSDKFMResultSet columnNameToIndexMap]
+---------------- t -[WBSDKFMResultSet dataForColumn:]
+---------------- t -[WBSDKFMResultSet dataForColumnIndex:]
+---------------- t -[WBSDKFMResultSet dataNoCopyForColumn:]
+---------------- t -[WBSDKFMResultSet dataNoCopyForColumnIndex:]
+---------------- t -[WBSDKFMResultSet dateForColumn:]
+---------------- t -[WBSDKFMResultSet dateForColumnIndex:]
+---------------- t -[WBSDKFMResultSet dealloc]
+---------------- t -[WBSDKFMResultSet doubleForColumn:]
+---------------- t -[WBSDKFMResultSet doubleForColumnIndex:]
+---------------- t -[WBSDKFMResultSet finalize]
+---------------- t -[WBSDKFMResultSet hasAnotherRow]
+---------------- t -[WBSDKFMResultSet intForColumn:]
+---------------- t -[WBSDKFMResultSet intForColumnIndex:]
+---------------- t -[WBSDKFMResultSet kvcMagic:]
+---------------- t -[WBSDKFMResultSet longForColumn:]
+---------------- t -[WBSDKFMResultSet longForColumnIndex:]
+---------------- t -[WBSDKFMResultSet longLongIntForColumn:]
+---------------- t -[WBSDKFMResultSet longLongIntForColumnIndex:]
+---------------- t -[WBSDKFMResultSet next]
+---------------- t -[WBSDKFMResultSet objectForColumnIndex:]
+---------------- t -[WBSDKFMResultSet objectForColumnName:]
+---------------- t -[WBSDKFMResultSet query]
+---------------- t -[WBSDKFMResultSet resultDict]
+---------------- t -[WBSDKFMResultSet resultDictionary]
+---------------- t -[WBSDKFMResultSet setColumnNameToIndexMap:]
+---------------- t -[WBSDKFMResultSet setParentDB:]
+---------------- t -[WBSDKFMResultSet setQuery:]
+---------------- t -[WBSDKFMResultSet setStatement:]
+---------------- t -[WBSDKFMResultSet setupColumnNames]
+---------------- t -[WBSDKFMResultSet statement]
+---------------- t -[WBSDKFMResultSet stringForColumn:]
+---------------- t -[WBSDKFMResultSet stringForColumnIndex:]
+---------------- t -[WBSDKFMResultSet unsignedLongLongIntForColumn:]
+---------------- t -[WBSDKFMResultSet unsignedLongLongIntForColumnIndex:]
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNull
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+---------------- D _OBJC_CLASS_$_WBSDKFMResultSet
+---------------- D _OBJC_IVAR_$_WBSDKFMResultSet._columnNameToIndexMap
+---------------- D _OBJC_IVAR_$_WBSDKFMResultSet._columnNamesSetup
+---------------- D _OBJC_IVAR_$_WBSDKFMResultSet._parentDB
+---------------- D _OBJC_IVAR_$_WBSDKFMResultSet._query
+---------------- D _OBJC_IVAR_$_WBSDKFMResultSet._statement
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKFMResultSet
+                 U ___CFConstantStringClassReference
+                 U __objc_empty_cache
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_setProperty_atomic
+                 U _sqlite3_column_blob
+                 U _sqlite3_column_bytes
+                 U _sqlite3_column_count
+                 U _sqlite3_column_double
+                 U _sqlite3_column_int
+                 U _sqlite3_column_int64
+                 U _sqlite3_column_name
+                 U _sqlite3_column_text
+                 U _sqlite3_column_type
+                 U _sqlite3_data_count
+                 U _sqlite3_errcode
+                 U _sqlite3_errmsg
+                 U _sqlite3_reset
+                 U _sqlite3_step
+                 U _usleep
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBHttpRequest.o):
 ---------------- t +[WBHttpRequest cleanSubCookies]
 ---------------- t +[WBHttpRequest requestWithAccessToken:url:httpMethod:params:delegate:withTag:]
 ---------------- t +[WBHttpRequest requestWithAccessToken:url:httpMethod:params:delegate:withTag:isGuest:]
@@ -923,7 +1550,7 @@
                  U _objc_storeStrong
                  U _objc_storeWeak
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKBasicWebViewController.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKBasicWebViewController.o):
 ---------------- t -[WBSDKBasicWebViewController .cxx_destruct]
 ---------------- t -[WBSDKBasicWebViewController closeBtnClicked]
 ---------------- t -[WBSDKBasicWebViewController dealloc]
@@ -1000,72 +1627,150 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSObject
 ---------------- W l_OBJC_PROTOCOL_$_WBSDKWebViewDelegate
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBImageObject.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBImageObject.o):
 ---------------- t +[WBImageObject dictionaryWithImageObject:]
 ---------------- t +[WBImageObject imageObjectWithDictionary:]
 ---------------- t +[WBImageObject object]
 ---------------- t -[WBImageObject .cxx_destruct]
----------------- t -[WBImageObject addImageAssets:]
----------------- t -[WBImageObject addImages:]
----------------- t -[WBImageObject delegate]
----------------- t -[WBImageObject finalAssetArray]
 ---------------- t -[WBImageObject imageData]
 ---------------- t -[WBImageObject image]
----------------- t -[WBImageObject isShareToStory]
----------------- t -[WBImageObject setDelegate:]
----------------- t -[WBImageObject setFinalAssetArray:]
 ---------------- t -[WBImageObject setImageData:]
----------------- t -[WBImageObject setIsShareToStory:]
 ---------------- t -[WBImageObject validate]
-                 U _OBJC_CLASS_$_NSMutableArray
                  U _OBJC_CLASS_$_NSMutableDictionary
-                 U _OBJC_CLASS_$_NSNumber
                  U _OBJC_CLASS_$_NSObject
-                 w _OBJC_CLASS_$_PHAsset
-                 w _OBJC_CLASS_$_PHAssetChangeRequest
-                 w _OBJC_CLASS_$_PHPhotoLibrary
                  U _OBJC_CLASS_$_UIImage
 ---------------- D _OBJC_CLASS_$_WBImageObject
----------------- D _OBJC_IVAR_$_WBImageObject._delegate
----------------- D _OBJC_IVAR_$_WBImageObject._finalAssetArray
----------------- D _OBJC_IVAR_$_WBImageObject._isShareToStory
 ---------------- D _OBJC_IVAR_$_WBImageObject.imageData
                  U _OBJC_METACLASS_$_NSObject
 ---------------- D _OBJC_METACLASS_$_WBImageObject
-                 U __NSConcreteStackBlock
----------------- t ___27-[WBImageObject addImages:]_block_invoke
----------------- t ___27-[WBImageObject addImages:]_block_invoke.24
----------------- t ___27-[WBImageObject addImages:]_block_invoke_2
----------------- t ___27-[WBImageObject addImages:]_block_invoke_3
----------------- t ___32-[WBImageObject addImageAssets:]_block_invoke
                  U ___CFConstantStringClassReference
----------------- s ___block_descriptor_tmp
----------------- s ___block_descriptor_tmp.38
----------------- s ___block_descriptor_tmp.44
----------------- s ___block_descriptor_tmp.52
----------------- s ___block_descriptor_tmp.65
----------------- t ___copy_helper_block_
----------------- t ___copy_helper_block_.35
----------------- t ___copy_helper_block_.41
----------------- t ___copy_helper_block_.49
----------------- t ___copy_helper_block_.62
----------------- t ___destroy_helper_block_
----------------- t ___destroy_helper_block_.36
----------------- t ___destroy_helper_block_.42
----------------- t ___destroy_helper_block_.50
----------------- t ___destroy_helper_block_.63
                  U __objc_empty_cache
                  U _objc_autoreleaseReturnValue
-                 U _objc_destroyWeak
-                 U _objc_loadWeakRetained
                  U _objc_msgSend
                  U _objc_release
                  U _objc_retain
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
-                 U _objc_storeWeak
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBMessageObject.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKStatisticsRecord.o):
+---------------- t +[WBSDKStatisticsRecord recordWithEventID:pageID:userInfo:recordType:]
+---------------- t +[WBSDKStatisticsRecord(WBSDKDataBaseStore) createTableIfNeeded:]
+---------------- t +[WBSDKStatisticsRecord(WBSDKDataBaseStore) deleteInDB:fromTime:toTime:]
+---------------- t +[WBSDKStatisticsRecord(WBSDKDataBaseStore) objectFromRS:]
+---------------- t +[WBSDKStatisticsRecord(WBSDKDataBaseStore) selectDB:fromTime:toTime:]
+---------------- t +[WBSDKStatisticsRecord(WBSDKDataBaseStore) tableName]
+---------------- t -[WBSDKStatisticsRecord .cxx_destruct]
+---------------- t -[WBSDKStatisticsRecord aid]
+---------------- t -[WBSDKStatisticsRecord description]
+---------------- t -[WBSDKStatisticsRecord duration]
+---------------- t -[WBSDKStatisticsRecord eventID]
+---------------- t -[WBSDKStatisticsRecord initWithEventID:pageID:userInfo:recordType:]
+---------------- t -[WBSDKStatisticsRecord init]
+---------------- t -[WBSDKStatisticsRecord pageID]
+---------------- t -[WBSDKStatisticsRecord recordType]
+---------------- t -[WBSDKStatisticsRecord setAid:]
+---------------- t -[WBSDKStatisticsRecord setDuration:]
+---------------- t -[WBSDKStatisticsRecord setEventID:]
+---------------- t -[WBSDKStatisticsRecord setPageID:]
+---------------- t -[WBSDKStatisticsRecord setRecordType:]
+---------------- t -[WBSDKStatisticsRecord setTime:]
+---------------- t -[WBSDKStatisticsRecord setUserInfo:]
+---------------- t -[WBSDKStatisticsRecord time]
+---------------- t -[WBSDKStatisticsRecord uniqueID]
+---------------- t -[WBSDKStatisticsRecord userInfo]
+---------------- t -[WBSDKStatisticsRecord(WBSDKDataBaseStore) deleteInDB:]
+---------------- t -[WBSDKStatisticsRecord(WBSDKDataBaseStore) insertToDataBase:]
+---------------- t -[WBSDKStatisticsRecord(WBSDKDataBaseStore) loadFromRS:]
+---------------- t -[WBSDKStatisticsRecord(WBSDKDataBaseStore) updateDB:]
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+---------------- D _OBJC_CLASS_$_WBSDKStatisticsRecord
+                 U _OBJC_CLASS_$_WeiboSDK
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._aid
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._duration
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._eventID
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._pageID
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._recordType
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._time
+---------------- D _OBJC_IVAR_$_WBSDKStatisticsRecord._userInfo
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKStatisticsRecord
+                 U ___CFConstantStringClassReference
+                 U __objc_empty_cache
+                 U _objc_autorelease
+                 U _objc_autoreleaseReturnValue
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_WBSDKDBObjectAccessDelgate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_WBSDKDBObjectAccessDelgate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKDBManager.o):
+---------------- t +[WBSDKDBManager allocWithZone:]
+---------------- t +[WBSDKDBManager sharedManager]
+---------------- t -[WBSDKDBManager .cxx_destruct]
+---------------- t -[WBSDKDBManager beginTransaction]
+---------------- t -[WBSDKDBManager closeDataBase]
+---------------- t -[WBSDKDBManager databaseObjectsWithResultSet:class:]
+---------------- t -[WBSDKDBManager db]
+---------------- t -[WBSDKDBManager dealloc]
+---------------- t -[WBSDKDBManager endTransaction]
+---------------- t -[WBSDKDBManager init]
+---------------- t -[WBSDKDBManager io_queue]
+---------------- t -[WBSDKDBManager openDataBase]
+---------------- t -[WBSDKDBManager readDatabaseBlockInTransaction:]
+---------------- t -[WBSDKDBManager setDb:]
+---------------- t -[WBSDKDBManager setIo_queue:]
+---------------- t -[WBSDKDBManager writeDatabaseBlockInTransaction:]
+                 U _OBJC_CLASS_$_NSFileManager
+                 U _OBJC_CLASS_$_NSObject
+---------------- D _OBJC_CLASS_$_WBSDKDBManager
+                 U _OBJC_CLASS_$_WBSDKFMDatabase
+---------------- D _OBJC_IVAR_$_WBSDKDBManager.db
+---------------- D _OBJC_IVAR_$_WBSDKDBManager.io_queue
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKDBManager
+                 U __Block_object_assign
+                 U __NSConcreteStackBlock
+---------------- t ___49-[WBSDKDBManager readDatabaseBlockInTransaction:]_block_invoke
+---------------- t ___50-[WBSDKDBManager writeDatabaseBlockInTransaction:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.21
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.19
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.20
+                 U ___objc_personality_v0
+                 U __dispatch_queue_attr_concurrent
+                 U __objc_empty_cache
+                 U _clang.arc.use
+                 U _dispatch_async
+                 U _dispatch_barrier_async
+                 U _dispatch_queue_create
+                 U _objc_autoreleasePoolPop
+                 U _objc_autoreleasePoolPush
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_sync_enter
+                 U _objc_sync_exit
+---------------- d _sharedManager
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBMessageObject.o):
 ---------------- t +[WBMessageObject dictionaryWithMessage:]
 ---------------- t +[WBMessageObject messageWithDictionary:]
 ---------------- t +[WBMessageObject message]
@@ -1076,10 +1781,8 @@
 ---------------- t -[WBMessageObject setImageObject:]
 ---------------- t -[WBMessageObject setMediaObject:]
 ---------------- t -[WBMessageObject setText:]
----------------- t -[WBMessageObject setVideoObject:]
 ---------------- t -[WBMessageObject text]
 ---------------- t -[WBMessageObject validate]
----------------- t -[WBMessageObject videoObject]
                  U _NSClassFromString
                  U _NSStringFromClass
                  U _OBJC_CLASS_$_NSMutableDictionary
@@ -1088,11 +1791,9 @@
                  U _OBJC_CLASS_$_WBBaseMediaObject
                  U _OBJC_CLASS_$_WBImageObject
 ---------------- D _OBJC_CLASS_$_WBMessageObject
-                 U _OBJC_CLASS_$_WBNewVideoObject
 ---------------- D _OBJC_IVAR_$_WBMessageObject.imageObject
 ---------------- D _OBJC_IVAR_$_WBMessageObject.mediaObject
 ---------------- D _OBJC_IVAR_$_WBMessageObject.text
----------------- D _OBJC_IVAR_$_WBMessageObject.videoObject
                  U _OBJC_METACLASS_$_NSObject
 ---------------- D _OBJC_METACLASS_$_WBMessageObject
                  U __DefaultRuneLocale
@@ -1107,7 +1808,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBQuickAuth.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBQuickAuth.o):
 ---------------- t -[NSString(SinaWBNSStringUtils) wbsdk_stringByReplacingRange:with:]
 ---------------- t -[NSString(SinaWBNSStringUtils) wbsdk_trimmedString]
 ---------------- t -[WBQuickAuth .cxx_destruct]
@@ -1168,9 +1869,19 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSObject
 ---------------- W l_OBJC_PROTOCOL_$_WBHttpRequestDelegate
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKGetDeviceIdSDK.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(NSDictionary+WBSDKKeyValue.o):
+---------------- t -[NSMutableDictionary(WBSDKSetValue) wbsdk_setObject:forKey:]
+---------------- t -[NSMutableDictionary(WBSDKSetValue) wbsdk_setSafeObject:forKey:]
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSString
+                 U ___CFConstantStringClassReference
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBProvideMessageForWeiboRequest.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKGetDeviceIdSDK.o):
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBProvideMessageForWeiboRequest.o):
 ---------------- t +[WBProvideMessageForWeiboRequest associateResponseClass]
 ---------------- t -[WBProvideMessageForWeiboRequest canBeReceived]
 ---------------- t -[WBProvideMessageForWeiboRequest canBeSent]
@@ -1183,7 +1894,7 @@
                  U __objc_empty_cache
                  U _objc_msgSend
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBProvideMessageForWeiboResponse.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBProvideMessageForWeiboResponse.o):
 ---------------- t +[WBProvideMessageForWeiboResponse responseWithMessage:]
 ---------------- t -[WBProvideMessageForWeiboResponse .cxx_destruct]
 ---------------- t -[WBProvideMessageForWeiboResponse canBeReceived]
@@ -1210,7 +1921,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSendMessageToWeiboRequest.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSendMessageToWeiboRequest.o):
 ---------------- t +[WBSendMessageToWeiboRequest associateResponseClass]
 ---------------- t +[WBSendMessageToWeiboRequest requestWithMessage:]
 ---------------- t +[WBSendMessageToWeiboRequest requestWithMessage:authInfo:access_token:]
@@ -1249,7 +1960,42 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSendMessageToWeiboResponse.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKFMDatabaseAdditions.o):
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) boolForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) columnExists:columnName:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) dataForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) dateForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) doubleForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) getSchema]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) getTableSchema:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) intForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) longForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) stringDictForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) stringDictForQuery:withArgumentsInArray:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) stringForQuery:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) tableExists:]
+---------------- t -[WBSDKFMDatabase(WBSDKFMDatabaseAdditions) validateSQL:error:]
+---------------- t -[WBSDKFMResultSet(Helper) stringResultDict]
+                 U _NSCocoaErrorDomain
+                 U _NSLocalizedDescriptionKey
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_WBSDKFMDatabase
+                 U _OBJC_CLASS_$_WBSDKFMResultSet
+                 U _OBJC_IVAR_$_WBSDKFMDatabase._busyRetryTimeout
+                 U _OBJC_IVAR_$_WBSDKFMDatabase._db
+                 U _OBJC_IVAR_$_WBSDKFMResultSet._columnNamesSetup
+                 U ___CFConstantStringClassReference
+                 U _objc_msgSend
+                 U _sqlite3_data_count
+                 U _sqlite3_finalize
+                 U _sqlite3_prepare_v2
+                 U _usleep
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSendMessageToWeiboResponse.o):
 ---------------- t -[WBSendMessageToWeiboResponse .cxx_destruct]
 ---------------- t -[WBSendMessageToWeiboResponse authResponse]
 ---------------- t -[WBSendMessageToWeiboResponse canBeReceived]
@@ -1273,7 +2019,26 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBWebpageObject.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKGZIP.o):
+---------------- t -[NSData(WBSDKGZIP) wbsdk_gunzippedData]
+---------------- t -[NSData(WBSDKGZIP) wbsdk_gzippedDataWithCompressionLevel:]
+---------------- t -[NSData(WBSDKGZIP) wbsdk_gzippedData]
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _deflate
+                 U _deflateEnd
+                 U _deflateInit2_
+                 U _inflate
+                 U _inflateEnd
+                 U _inflateInit2_
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _roundf
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBWebpageObject.o):
 ---------------- t -[WBWebpageObject .cxx_destruct]
 ---------------- t -[WBWebpageObject loadFromDictionary:]
 ---------------- t -[WBWebpageObject setWebpageUrl:]
@@ -1296,7 +2061,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _objc_storeStrong
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(UIDevice+WBSDKHelpers.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(UIDevice+WBSDKHelpers.o):
 ---------------- t +[UIDevice(WBSDKHelpers) getUniqueStrByUUID]
 ---------------- t +[UIDevice(WBSDKHelpers) wbsdk_getDevicePortrait]
 ---------------- t +[UIDevice(WBSDKHelpers) wbsdk_plainDeviceID]
@@ -1344,7 +2109,7 @@
 ---------------- d _weibosdk_openUniqueIdentifier.onceToken
 ---------------- d _weibosdk_openUniqueIdentifier.udid
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(UIImage+WBSDKResize.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(UIImage+WBSDKResize.o):
 ---------------- t -[UIImage(WBSDKResize) wbsdk_resizedImage:interpolationQuality:]
 ---------------- t -[UIImage(WBSDKResize) wbsdk_resizedImage:transform:drawTransposed:interpolationQuality:]
 ---------------- t -[UIImage(WBSDKResize) wbsdk_resizedImageWithCompressionLevelHighResolution]
@@ -1377,7 +2142,7 @@
                  U _objc_retainAutoreleasedReturnValue
                  U _roundf
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(UIImage+WBSDKStretch.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(UIImage+WBSDKStretch.o):
 ---------------- t -[UIImage(WBSDKStretch) wbsdk_bottomCapHeight]
 ---------------- t -[UIImage(WBSDKStretch) wbsdk_rightCapWidth]
 ---------------- t -[UIImage(WBSDKStretch) wbsdk_stretchableImageByCenter]
@@ -1387,7 +2152,93 @@
                  U _floorf
                  U _objc_msgSend
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKComposerWebViewController.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKDBObjectStore.o):
+---------------- t +[WBSDKDBObjectStore sharedStore:]
+---------------- t -[WBSDKDBObjectStore .cxx_destruct]
+---------------- t -[WBSDKDBObjectStore addObject:]
+---------------- t -[WBSDKDBObjectStore addObjects:]
+---------------- t -[WBSDKDBObjectStore applicationDidEnterBackground:]
+---------------- t -[WBSDKDBObjectStore applicationWillEnterForeground:]
+---------------- t -[WBSDKDBObjectStore bufferSize]
+---------------- t -[WBSDKDBObjectStore createTableIfNeeded]
+---------------- t -[WBSDKDBObjectStore dealloc]
+---------------- t -[WBSDKDBObjectStore deleteObject:]
+---------------- t -[WBSDKDBObjectStore deleteObjectsFromDate:toDate:]
+---------------- t -[WBSDKDBObjectStore deleteObjectsFromTime:toTime:]
+---------------- t -[WBSDKDBObjectStore flushBuffers]
+---------------- t -[WBSDKDBObjectStore init]
+---------------- t -[WBSDKDBObjectStore objectsFromDate:toDate:resultBlock:]
+---------------- t -[WBSDKDBObjectStore objectsFromTime:toTime:resultBlock:]
+---------------- t -[WBSDKDBObjectStore recordBuffers]
+---------------- t -[WBSDKDBObjectStore setBufferSize:]
+---------------- t -[WBSDKDBObjectStore setRecordBuffers:]
+---------------- t -[WBSDKDBObjectStore setStoreObjectClass:]
+---------------- t -[WBSDKDBObjectStore storeObjectClass]
+                 U _NSStringFromClass
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNotificationCenter
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_WBSDKDBManager
+---------------- D _OBJC_CLASS_$_WBSDKDBObjectStore
+                 U _OBJC_CLASS_$_WBSDKStatisticsRecord
+---------------- D _OBJC_IVAR_$_WBSDKDBObjectStore._bufferSize
+---------------- D _OBJC_IVAR_$_WBSDKDBObjectStore._recordBuffers
+---------------- D _OBJC_IVAR_$_WBSDKDBObjectStore._storeObjectClass
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKDBObjectStore
+                 U _UIApplicationDidEnterBackgroundNotification
+                 U _UIApplicationWillEnterForegroundNotification
+                 U __Block_object_assign
+                 U __Block_object_dispose
+                 U __NSConcreteStackBlock
+---------------- t ___33-[WBSDKDBObjectStore addObjects:]_block_invoke
+---------------- t ___34-[WBSDKDBObjectStore flushBuffers]_block_invoke
+---------------- t ___34-[WBSDKDBObjectStore flushBuffers]_block_invoke_2
+---------------- t ___35-[WBSDKDBObjectStore deleteObject:]_block_invoke
+---------------- t ___41-[WBSDKDBObjectStore createTableIfNeeded]_block_invoke
+---------------- t ___51-[WBSDKDBObjectStore deleteObjectsFromTime:toTime:]_block_invoke
+---------------- t ___57-[WBSDKDBObjectStore objectsFromTime:toTime:resultBlock:]_block_invoke
+---------------- t ___Block_byref_object_copy_
+---------------- t ___Block_byref_object_dispose_
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.55
+---------------- s ___block_descriptor_tmp.62
+---------------- s ___block_descriptor_tmp.71
+---------------- s ___block_descriptor_tmp.82
+---------------- s ___block_descriptor_tmp.91
+---------------- s ___block_descriptor_tmp.94
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.52
+---------------- t ___copy_helper_block_.60
+---------------- t ___copy_helper_block_.69
+---------------- t ___copy_helper_block_.80
+---------------- t ___copy_helper_block_.89
+---------------- t ___copy_helper_block_.92
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.53
+---------------- t ___destroy_helper_block_.61
+---------------- t ___destroy_helper_block_.70
+---------------- t ___destroy_helper_block_.81
+---------------- t ___destroy_helper_block_.90
+---------------- t ___destroy_helper_block_.93
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+---------------- d __sharedStores
+---------------- S _kDefaultRecordBufferSize
+                 U _objc_autoreleaseReturnValue
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_atomic
+                 U _objc_storeStrong
+                 U _objc_sync_enter
+                 U _objc_sync_exit
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKComposerWebViewController.o):
 ---------------- t +[WBComposerHttpRequest requestWithURL:httpMethod:params:delegate:withTag:]
 ---------------- t +[WBComposerHttpRequest serializeURL:params:httpMethod:]
 ---------------- t -[NSString(WBSDKNSStringUtils) wbsdk_stringByReplacingRange:with:]
@@ -1471,7 +2322,82 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSObject
 ---------------- W l_OBJC_PROTOCOL_$_WBHttpRequestDelegate
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(UIView+WBSDKSizes.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBHttpRequest+WeiboToken.o):
+---------------- t +[WBHttpRequest(WeiboToken) requestForRenewAccessTokenWithRefreshToken:queue:withCompletionHandler:]
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_WBHttpRequest
+                 U _OBJC_CLASS_$_WeiboSDK3rdApp
+                 U __Block_object_assign
+                 U __NSConcreteStackBlock
+---------------- t ___100+[WBHttpRequest(WeiboToken) requestForRenewAccessTokenWithRefreshToken:queue:withCompletionHandler:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- t ___copy_helper_block_
+---------------- t ___destroy_helper_block_
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKFMDatabaseQueue.o):
+---------------- t +[WBSDKFMDatabaseQueue databaseQueueWithPath:]
+---------------- t -[WBSDKFMDatabaseQueue beginTransaction:withBlock:]
+---------------- t -[WBSDKFMDatabaseQueue close]
+---------------- t -[WBSDKFMDatabaseQueue database]
+---------------- t -[WBSDKFMDatabaseQueue dealloc]
+---------------- t -[WBSDKFMDatabaseQueue inDatabase:]
+---------------- t -[WBSDKFMDatabaseQueue inDeferredTransaction:]
+---------------- t -[WBSDKFMDatabaseQueue inSavePoint:]
+---------------- t -[WBSDKFMDatabaseQueue inTransaction:]
+---------------- t -[WBSDKFMDatabaseQueue initWithPath:]
+---------------- t -[WBSDKFMDatabaseQueue path]
+---------------- t -[WBSDKFMDatabaseQueue setPath:]
+                 U _NSLog
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSThread
+                 U _OBJC_CLASS_$_WBSDKFMDatabase
+---------------- D _OBJC_CLASS_$_WBSDKFMDatabaseQueue
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabaseQueue._db
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabaseQueue._path
+---------------- D _OBJC_IVAR_$_WBSDKFMDatabaseQueue._queue
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_WBSDKFMDatabaseQueue
+                 U __Block_object_assign
+                 U __Block_object_dispose
+                 U __NSConcreteStackBlock
+---------------- t ___29-[WBSDKFMDatabaseQueue close]_block_invoke
+---------------- t ___35-[WBSDKFMDatabaseQueue inDatabase:]_block_invoke
+---------------- t ___36-[WBSDKFMDatabaseQueue inSavePoint:]_block_invoke
+---------------- t ___51-[WBSDKFMDatabaseQueue beginTransaction:withBlock:]_block_invoke
+---------------- t ___Block_byref_object_copy_
+---------------- t ___Block_byref_object_dispose_
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.44
+---------------- s ___block_descriptor_tmp.55
+---------------- s ___block_descriptor_tmp.68
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.42
+---------------- t ___copy_helper_block_.53
+---------------- t ___copy_helper_block_.66
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.43
+---------------- t ___destroy_helper_block_.54
+---------------- t ___destroy_helper_block_.67
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+                 U _dispatch_queue_create
+                 U _dispatch_release
+                 U _dispatch_sync
+---------------- d _inSavePoint:.savePointIdx
+                 U _objc_getProperty
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_setProperty_atomic
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(UIView+WBSDKSizes.o):
 ---------------- t -[UIView(WBSDKSizes) setWbsdkBottom:]
 ---------------- t -[UIView(WBSDKSizes) setWbsdkCenterX:]
 ---------------- t -[UIView(WBSDKSizes) setWbsdkCenterY:]
@@ -1496,7 +2422,7 @@
                  U _objc_msgSend
                  U _objc_msgSend_stret
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WeiboSDK.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WeiboSDK.o):
 ---------------- t +[WeiboSDK activityViewController]
 ---------------- t +[WeiboSDK callbackSchemePrefix]
 ---------------- t +[WeiboSDK commentToWeibo:]
@@ -1504,6 +2430,7 @@
 ---------------- t +[WeiboSDK didReceiveUnSupportedResponse:]
 ---------------- t +[WeiboSDK directlySendResponseToCurrentApp:]
 ---------------- t +[WeiboSDK enableDebugMode:]
+---------------- t +[WeiboSDK firstStart]
 ---------------- t +[WeiboSDK getSDKVersion]
 ---------------- t +[WeiboSDK getWeiboAid]
 ---------------- t +[WeiboSDK getWeiboAppInstallUrl]
@@ -1596,6 +2523,7 @@
                  U _OBJC_CLASS_$_WBSDKAuthorizeWebViewController
                  U _OBJC_CLASS_$_WBSDKBasicWebViewController
                  U _OBJC_CLASS_$_WBSDKComposerWebViewController
+                 U _OBJC_CLASS_$_WBSDKStatisticsRecordManager
                  U _OBJC_CLASS_$_WBSendMessageToWeiboRequest
 ---------------- D _OBJC_CLASS_$_WeiboSDK
 ---------------- D _OBJC_CLASS_$_WeiboSDK3rdApp
@@ -1611,6 +2539,8 @@
 ---------------- D _OBJC_METACLASS_$_WeiboSDK3rdApp
                  U _UIWindowLevelNormal
 ---------------- S _WBSDKAidFetchURL
+                 U _WBSDKStatisticsManagerEnabled
+---------------- S _WBSDKStatisticsRecordURL
 ---------------- S _WBSDKWebAuthorizeHost
 ---------------- S _WBSDKWebAuthorizeURL
 ---------------- S _WBSDKWebShareURL
@@ -1622,7 +2552,7 @@
                  U __Block_object_dispose
                  U __NSConcreteStackBlock
 ---------------- t ___28+[WeiboSDK3rdApp currentApp]_block_invoke
----------------- t ___28+[WeiboSDK3rdApp currentApp]_block_invoke.90
+---------------- t ___28+[WeiboSDK3rdApp currentApp]_block_invoke.92
 ---------------- t ___31+[WeiboSDK registerAppWithApp:]_block_invoke
 ---------------- t ___31+[WeiboSDK registerAppWithApp:]_block_invoke_2
 ---------------- t ___41+[WeiboSDK didReceiveUnSupportedRequest:]_block_invoke
@@ -1630,26 +2560,26 @@
 ---------------- t ___45+[WeiboSDK logOutWithToken:delegate:withTag:]_block_invoke
                  U ___CFConstantStringClassReference
 ---------------- s ___block_descriptor_tmp
----------------- s ___block_descriptor_tmp.179
----------------- s ___block_descriptor_tmp.273
----------------- s ___block_descriptor_tmp.293
----------------- s ___block_descriptor_tmp.470
+---------------- s ___block_descriptor_tmp.181
+---------------- s ___block_descriptor_tmp.275
+---------------- s ___block_descriptor_tmp.295
 ---------------- s ___block_descriptor_tmp.478
----------------- s ___block_descriptor_tmp.94
+---------------- s ___block_descriptor_tmp.486
+---------------- s ___block_descriptor_tmp.96
 ---------------- t ___copy_helper_block_
----------------- t ___copy_helper_block_.176
----------------- t ___copy_helper_block_.269
----------------- t ___copy_helper_block_.291
----------------- t ___copy_helper_block_.467
+---------------- t ___copy_helper_block_.178
+---------------- t ___copy_helper_block_.271
+---------------- t ___copy_helper_block_.293
 ---------------- t ___copy_helper_block_.475
----------------- t ___copy_helper_block_.91
+---------------- t ___copy_helper_block_.483
+---------------- t ___copy_helper_block_.93
 ---------------- t ___destroy_helper_block_
----------------- t ___destroy_helper_block_.177
----------------- t ___destroy_helper_block_.270
----------------- t ___destroy_helper_block_.292
----------------- t ___destroy_helper_block_.468
+---------------- t ___destroy_helper_block_.179
+---------------- t ___destroy_helper_block_.272
+---------------- t ___destroy_helper_block_.294
 ---------------- t ___destroy_helper_block_.476
----------------- t ___destroy_helper_block_.92
+---------------- t ___destroy_helper_block_.484
+---------------- t ___destroy_helper_block_.94
                  U ___objc_personality_v0
                  U __dispatch_main_q
                  U __objc_empty_cache
@@ -1674,7 +2604,7 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSObject
 ---------------- W l_OBJC_PROTOCOL_$_UIAlertViewDelegate
 
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBSDKJSONKit.o):
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a(WBSDKJSONKit.o):
 ---------------- t +[WBSDKJKArray allocWithZone:]
 ---------------- t +[WBSDKJKDictionary allocWithZone:]
 ---------------- t +[WBSDKJKSerializer serializeObject:options:encodeOption:block:delegate:selector:error:]
@@ -1896,56 +2826,3 @@
 ---------------- W l_OBJC_PROTOCOL_$_NSCopying
 ---------------- W l_OBJC_PROTOCOL_$_NSFastEnumeration
 ---------------- W l_OBJC_PROTOCOL_$_NSMutableCopying
-
-/Users/chenxiancai/github/STCObfuscator/Pods/Weibo_SDK/libWeiboSDK/libWeiboSDK.a(WBNewVideoObject.o):
----------------- t +[WBNewVideoObject dictionaryWithVideoObject:]
----------------- t +[WBNewVideoObject object]
----------------- t +[WBNewVideoObject videoObjectWithDictionary:]
----------------- t -[WBNewVideoObject .cxx_destruct]
----------------- t -[WBNewVideoObject addVideo:]
----------------- t -[WBNewVideoObject addVideoAsset:]
----------------- t -[WBNewVideoObject delegate]
----------------- t -[WBNewVideoObject finalAsset]
----------------- t -[WBNewVideoObject isShareToStory]
----------------- t -[WBNewVideoObject setDelegate:]
----------------- t -[WBNewVideoObject setFinalAsset:]
----------------- t -[WBNewVideoObject setIsShareToStory:]
----------------- t -[WBNewVideoObject validate]
-                 U _OBJC_CLASS_$_NSMutableDictionary
-                 U _OBJC_CLASS_$_NSNumber
-                 U _OBJC_CLASS_$_NSObject
-                 U _OBJC_CLASS_$_NSURL
-                 w _OBJC_CLASS_$_PHAsset
-                 w _OBJC_CLASS_$_PHAssetChangeRequest
-                 w _OBJC_CLASS_$_PHPhotoLibrary
-                 U _OBJC_CLASS_$_UIDevice
----------------- D _OBJC_CLASS_$_WBNewVideoObject
----------------- D _OBJC_IVAR_$_WBNewVideoObject._delegate
----------------- D _OBJC_IVAR_$_WBNewVideoObject._finalAsset
----------------- D _OBJC_IVAR_$_WBNewVideoObject._isShareToStory
-                 U _OBJC_METACLASS_$_NSObject
----------------- D _OBJC_METACLASS_$_WBNewVideoObject
-                 U __NSConcreteStackBlock
----------------- t ___29-[WBNewVideoObject addVideo:]_block_invoke
----------------- t ___29-[WBNewVideoObject addVideo:]_block_invoke.27
----------------- t ___29-[WBNewVideoObject addVideo:]_block_invoke_2
-                 U ___CFConstantStringClassReference
----------------- s ___block_descriptor_tmp
----------------- s ___block_descriptor_tmp.39
----------------- s ___block_descriptor_tmp.47
----------------- t ___copy_helper_block_
----------------- t ___copy_helper_block_.36
----------------- t ___copy_helper_block_.44
----------------- t ___destroy_helper_block_
----------------- t ___destroy_helper_block_.37
----------------- t ___destroy_helper_block_.45
-                 U __objc_empty_cache
-                 U _objc_autoreleaseReturnValue
-                 U _objc_destroyWeak
-                 U _objc_loadWeakRetained
-                 U _objc_msgSend
-                 U _objc_release
-                 U _objc_retain
-                 U _objc_retainAutoreleasedReturnValue
-                 U _objc_storeStrong
-                 U _objc_storeWeak

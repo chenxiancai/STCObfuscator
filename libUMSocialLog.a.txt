@@ -1,0 +1,256 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a(UMSocialLogger.o):
+---------------- t +[UMSocialConsoleLogger sharedInstance]
+---------------- t -[UMSocialConsoleLogger .cxx_destruct]
+---------------- t -[UMSocialConsoleLogger dateFormatter]
+---------------- t -[UMSocialConsoleLogger flush]
+---------------- t -[UMSocialConsoleLogger init]
+---------------- t -[UMSocialConsoleLogger level]
+---------------- t -[UMSocialConsoleLogger logMessage:]
+---------------- t -[UMSocialConsoleLogger loggerName]
+---------------- t -[UMSocialConsoleLogger loggerQueue]
+---------------- t -[UMSocialConsoleLogger setDateFormatter:]
+---------------- t -[UMSocialConsoleLogger setLevel:]
+---------------- t -[UMSocialConsoleLogger setLoggerName:]
+---------------- t -[UMSocialConsoleLogger setLoggerQueue:]
+                 U _NSStringFromClass
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDateFormatter
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+---------------- D _OBJC_CLASS_$_UMSocialConsoleLogger
+---------------- D _OBJC_IVAR_$_UMSocialConsoleLogger._dateFormatter
+---------------- D _OBJC_IVAR_$_UMSocialConsoleLogger._level
+---------------- D _OBJC_IVAR_$_UMSocialConsoleLogger._loggerName
+---------------- D _OBJC_IVAR_$_UMSocialConsoleLogger._loggerQueue
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialConsoleLogger
+                 U __NSConcreteStackBlock
+---------------- t ___39+[UMSocialConsoleLogger sharedInstance]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- t ___copy_helper_block_
+---------------- t ___destroy_helper_block_
+                 U __objc_empty_cache
+                 U _dispatch_once
+                 U _dispatch_queue_create
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutorelease
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+                 U _printf
+---------------- d _sharedInstance.onceToken
+---------------- d _sharedInstance.sharedInstance
+                 U _stringFromUMSocialLogFlag
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialLogger
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialLogger
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a(UMSocialLogManager.o):
+---------------- t +[UMSocialLogManager globaleLevel]
+---------------- t +[UMSocialLogManager log:level:flag:context:file:function:line:tag:format:args:]
+---------------- t +[UMSocialLogManager setGlobaleLevel:]
+---------------- t +[UMSocialLogManager sharedInstance]
+---------------- t -[UMSocialLogManager init]
+---------------- t -[UMSocialLogManager level]
+---------------- t -[UMSocialLogManager setLevel:]
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_UMSociaLog
+                 U _OBJC_CLASS_$_UMSocialConsoleLogger
+---------------- D _OBJC_CLASS_$_UMSocialLogManager
+---------------- D _OBJC_IVAR_$_UMSocialLogManager._level
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialLogManager
+                 U __NSConcreteStackBlock
+---------------- t ___36+[UMSocialLogManager sharedInstance]_block_invoke
+---------------- s ___block_descriptor_tmp
+---------------- t ___copy_helper_block_
+---------------- t ___destroy_helper_block_
+                 U __objc_empty_cache
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+---------------- d _sharedInstance._UMSocialLogManager
+---------------- d _sharedInstance.onceToken
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a(UMSocialLogConfig.o):
+                 U ___CFConstantStringClassReference
+                 U _objc_autoreleaseReturnValue
+                 U _objc_release
+                 U _objc_retain
+---------------- T _stringFromUMSocialLogFlag
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a(UMSociaLog.o):
+---------------- t +[UMSociaLog addLogger:]
+---------------- t +[UMSociaLog initialize]
+---------------- t +[UMSociaLog log:level:flag:context:file:function:line:tag:format:]
+---------------- t +[UMSociaLog log:message:level:flag:context:file:function:line:tag:]
+---------------- t +[UMSociaLog removeLogger:]
+---------------- t +[UMSociaLog sharedInstance]
+---------------- t -[UMSociaLog .cxx_destruct]
+---------------- t -[UMSociaLog addLogger:]
+---------------- t -[UMSociaLog addLogger:withLevel:]
+---------------- t -[UMSociaLog applicationWillTerminate:]
+---------------- t -[UMSociaLog doAddLogger:level:]
+---------------- t -[UMSociaLog doFlushLog]
+---------------- t -[UMSociaLog doQueueLogMessage:]
+---------------- t -[UMSociaLog doRemoveLogger:]
+---------------- t -[UMSociaLog flushLog]
+---------------- t -[UMSociaLog init]
+---------------- t -[UMSociaLog log:level:flag:context:file:function:line:tag:format:]
+---------------- t -[UMSociaLog log:level:flag:context:file:function:line:tag:format:args:]
+---------------- t -[UMSociaLog log:message:level:flag:context:file:function:line:tag:]
+---------------- t -[UMSociaLog loggers]
+---------------- t -[UMSociaLog queueLogMessage:asynchronously:]
+---------------- t -[UMSociaLog removeLogger:]
+---------------- t -[UMSociaLog setLoggers:]
+---------------- s _GlobalLoggingQueueIdentityKey
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSNotificationCenter
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSProcessInfo
+                 U _OBJC_CLASS_$_NSString
+---------------- D _OBJC_CLASS_$_UMSociaLog
+                 U _OBJC_CLASS_$_UMSocialLogMessage
+---------------- D _OBJC_IVAR_$_UMSociaLog._loggers
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSociaLog
+                 U __NSConcreteGlobalBlock
+                 U __NSConcreteStackBlock
+---------------- t ___22-[UMSociaLog flushLog]_block_invoke
+---------------- t ___24+[UMSociaLog initialize]_block_invoke
+---------------- t ___24-[UMSociaLog doFlushLog]_block_invoke
+---------------- t ___27-[UMSociaLog removeLogger:]_block_invoke
+---------------- t ___28+[UMSociaLog sharedInstance]_block_invoke
+---------------- t ___32-[UMSociaLog doQueueLogMessage:]_block_invoke
+---------------- t ___32-[UMSociaLog doQueueLogMessage:]_block_invoke.67
+---------------- t ___34-[UMSociaLog addLogger:withLevel:]_block_invoke
+---------------- t ___45-[UMSociaLog queueLogMessage:asynchronously:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.34
+---------------- s ___block_descriptor_tmp.39
+---------------- s ___block_descriptor_tmp.66
+---------------- s ___block_descriptor_tmp.70
+---------------- s ___block_descriptor_tmp.75
+---------------- s ___block_descriptor_tmp.8
+---------------- s ___block_descriptor_tmp.84
+---------------- s ___block_descriptor_tmp.98
+---------------- s ___block_literal_global
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.32
+---------------- t ___copy_helper_block_.37
+---------------- t ___copy_helper_block_.64
+---------------- t ___copy_helper_block_.68
+---------------- t ___copy_helper_block_.73
+---------------- t ___copy_helper_block_.82
+---------------- t ___copy_helper_block_.96
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.33
+---------------- t ___destroy_helper_block_.38
+---------------- t ___destroy_helper_block_.65
+---------------- t ___destroy_helper_block_.69
+---------------- t ___destroy_helper_block_.74
+---------------- t ___destroy_helper_block_.83
+---------------- t ___destroy_helper_block_.97
+---------------- d __loggingGroup
+---------------- d __loggingQueue
+---------------- d __numProcessors
+                 U __objc_empty_cache
+---------------- d __queueSemaphore
+                 U _dispatch_async
+                 U _dispatch_group_async
+                 U _dispatch_group_create
+                 U _dispatch_group_wait
+                 U _dispatch_once
+                 U _dispatch_queue_create
+                 U _dispatch_queue_set_specific
+                 U _dispatch_semaphore_create
+                 U _dispatch_semaphore_signal
+                 U _dispatch_semaphore_wait
+                 U _dispatch_sync
+---------------- d _initialize.DDLogOnceToken
+                 U _objc_autoreleasePoolPop
+                 U _objc_autoreleasePoolPush
+                 U _objc_autoreleaseReturnValue
+                 U _objc_enumerationMutation
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_retainBlock
+                 U _objc_storeStrong
+---------------- d _sharedInstance.onceToken
+---------------- d _sharedInstance.sharedInstance
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a(UMSocialLogMessage.o):
+---------------- t -[UMSocialLogMessage .cxx_destruct]
+---------------- t -[UMSocialLogMessage context]
+---------------- t -[UMSocialLogMessage copyWithZone:]
+---------------- t -[UMSocialLogMessage fileName]
+---------------- t -[UMSocialLogMessage file]
+---------------- t -[UMSocialLogMessage flag]
+---------------- t -[UMSocialLogMessage function]
+---------------- t -[UMSocialLogMessage initWithMessage:level:flag:context:file:function:line:tag:options:timestamp:]
+---------------- t -[UMSocialLogMessage level]
+---------------- t -[UMSocialLogMessage line]
+---------------- t -[UMSocialLogMessage message]
+---------------- t -[UMSocialLogMessage options]
+---------------- t -[UMSocialLogMessage queueLabel]
+---------------- t -[UMSocialLogMessage setContext:]
+---------------- t -[UMSocialLogMessage setFile:]
+---------------- t -[UMSocialLogMessage setFileName:]
+---------------- t -[UMSocialLogMessage setFlag:]
+---------------- t -[UMSocialLogMessage setFunction:]
+---------------- t -[UMSocialLogMessage setLevel:]
+---------------- t -[UMSocialLogMessage setLine:]
+---------------- t -[UMSocialLogMessage setMessage:]
+---------------- t -[UMSocialLogMessage setOptions:]
+---------------- t -[UMSocialLogMessage setQueueLabel:]
+---------------- t -[UMSocialLogMessage setTag:]
+---------------- t -[UMSocialLogMessage setThreadID:]
+---------------- t -[UMSocialLogMessage setThreadName:]
+---------------- t -[UMSocialLogMessage setTimestamp:]
+---------------- t -[UMSocialLogMessage tag]
+---------------- t -[UMSocialLogMessage threadID]
+---------------- t -[UMSocialLogMessage threadName]
+---------------- t -[UMSocialLogMessage timestamp]
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSThread
+---------------- D _OBJC_CLASS_$_UMSocialLogMessage
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._context
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._file
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._fileName
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._flag
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._function
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._level
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._line
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._message
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._options
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._queueLabel
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._tag
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._threadID
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._threadName
+---------------- D _OBJC_IVAR_$_UMSocialLogMessage._timestamp
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialLogMessage
+                 U ___CFConstantStringClassReference
+                 U __objc_empty_cache
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong

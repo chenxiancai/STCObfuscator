@@ -10,7 +10,6 @@
 #import "DetailViewController.h"
 #import "STCObfuscator.h"
 
-//import <Weibo_SDK/WeiboSDK.h>
 #import <AFNetworking.h>
 #import <SDWebImage/SDWebImageManager.h>
 #import "UnConfusedClass.h"
@@ -18,9 +17,62 @@
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
+// 测试framework和.a文件相同的方法会不会被混淆
+
++ (void)startWithConfigure:(id )configure;
++ (void)profileSignInWithPUID:(NSString *)puid;
+- (void)setAuthorUserInfo:(NSDictionary *)userInfo platform:(NSInteger)platformType;
++ (NSMutableURLRequest *)makeRequestWithMethod:(NSInteger)method
+                                          path:(NSString *)path
+                                pathParameters:(NSDictionary *)pathParameters
+                                bodyParameters:(NSDictionary *)bodyParameters
+                                       headers:(NSDictionary *)headers;
+- (void)isOnlineResponse:(NSDictionary *)response;
++ (NSString *)getWeiboAppInstallUrl;
++(void) registerAppSupportContentFlag:(UInt64)typeFlag;
+
 @end
 
 @implementation AppDelegate
+
+
++ (void)startWithConfigure:(id )configure
+{
+    
+}
+
++ (void)profileSignInWithPUID:(NSString *)puid
+{
+    
+}
+
+- (void)setAuthorUserInfo:(NSDictionary *)userInfo platform:(NSInteger)platformType
+{
+    
+}
+
++ (NSMutableURLRequest *)makeRequestWithMethod:(NSInteger)method
+                                          path:(NSString *)path
+                                pathParameters:(NSDictionary *)pathParameters
+                                bodyParameters:(NSDictionary *)bodyParameters
+                                       headers:(NSDictionary *)headers
+{
+    return nil;
+}
+- (void)isOnlineResponse:(NSDictionary *)response
+{
+    
+}
+
++ (NSString *)getWeiboAppInstallUrl
+{
+    return nil;
+}
+
++(void) registerAppSupportContentFlag:(UInt64)typeFlag
+{
+    
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

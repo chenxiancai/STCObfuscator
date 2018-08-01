@@ -1,0 +1,325 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDK/UMSocialNetwork.framework/UMSocialNetwork(UMSocialHttpFactory.o):
+---------------- t +[UMSocialHttpFactory bodyParameterString:]
+---------------- t +[UMSocialHttpFactory getStringFromDictionary:key:]
+---------------- t +[UMSocialHttpFactory makeRequestWithMethod:path:pathParameters:bodyParameters:headers:]
+---------------- t +[UMSocialHttpFactory requestWithPath:parameters:headers:]
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDateFormatter
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSMutableURLRequest
+                 U _OBJC_CLASS_$_NSNull
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSURL
+                 U _OBJC_CLASS_$_UIImage
+---------------- D _OBJC_CLASS_$_UMSocialHttpFactory
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialHttpFactory
+                 U _UIImageJPEGRepresentation
+                 U __NSConcreteGlobalBlock
+---------------- t ___43+[UMSocialHttpFactory bodyParameterString:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.141
+---------------- s ___block_literal_global
+---------------- s ___block_literal_global.142
+                 U ___objc_personality_v0
+---------------- t ___stringFromCurDate_block_invoke
+                 U __objc_empty_cache
+---------------- t _appendToSourceFromImages
+                 U _arc4random
+                 U _clang.arc.use
+                 U _dispatch_once
+                 U _objc_autorelease
+                 U _objc_autoreleaseReturnValue
+                 U _objc_enumerationMutation
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_sync_enter
+                 U _objc_sync_exit
+---------------- d _stringFromCurDate.onceToken
+---------------- d _stringFromCurDate.um_dateFormat
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDK/UMSocialNetwork.framework/UMSocialNetwork(UMSocialTaskManager.o):
+---------------- t +[UMSocialTaskManager shareManager]
+---------------- t -[UMSocialTaskManager .cxx_destruct]
+---------------- t -[UMSocialTaskManager addAndExcuteSocialTask:]
+---------------- t -[UMSocialTaskManager addSocialTask:]
+---------------- t -[UMSocialTaskManager addoperationWithTask:]
+---------------- t -[UMSocialTaskManager checkExistWithSocialTask:]
+---------------- t -[UMSocialTaskManager doAddSocialTask:]
+---------------- t -[UMSocialTaskManager doCheckExistWithSocialTask:]
+---------------- t -[UMSocialTaskManager doExecuteSocialTask:]
+---------------- t -[UMSocialTaskManager doRemoveSocialTask:]
+---------------- t -[UMSocialTaskManager handleTask:withError:]
+---------------- t -[UMSocialTaskManager init]
+---------------- t -[UMSocialTaskManager operationTaskQueue]
+---------------- t -[UMSocialTaskManager removeSocialTask:]
+---------------- t -[UMSocialTaskManager setOperationTaskQueue:]
+---------------- t -[UMSocialTaskManager setTaskDic:]
+---------------- t -[UMSocialTaskManager setTaskIDArray:]
+---------------- t -[UMSocialTaskManager taskDic]
+---------------- t -[UMSocialTaskManager taskIDArray]
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_UMSocialTask
+---------------- D _OBJC_CLASS_$_UMSocialTaskManager
+---------------- D _OBJC_IVAR_$_UMSocialTaskManager._operationTaskQueue
+---------------- D _OBJC_IVAR_$_UMSocialTaskManager._taskDic
+---------------- D _OBJC_IVAR_$_UMSocialTaskManager._taskIDArray
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialTaskManager
+                 U _OSSpinLockLock
+                 U _OSSpinLockUnlock
+                 U __NSConcreteGlobalBlock
+---------------- t ___35+[UMSocialTaskManager shareManager]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_literal_global
+                 U __objc_empty_cache
+                 U _dispatch_once
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+---------------- d _shareManager._UMSocialTaskManager
+---------------- d _shareManager.onceToken
+---------------- d _spinUMSocialTaskManagerLock
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialTaskDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialTaskDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDK/UMSocialNetwork.framework/UMSocialNetwork(UMSocialTaskOperation.o):
+---------------- t +[UMSocialTaskOperation networkRequestThreadEntryPoint:]
+---------------- t +[UMSocialTaskOperation networkRequestThread]
+---------------- t -[UMSocialTaskOperation .cxx_destruct]
+---------------- t -[UMSocialTaskOperation cancelConnection]
+---------------- t -[UMSocialTaskOperation cancel]
+---------------- t -[UMSocialTaskOperation dealloc]
+---------------- t -[UMSocialTaskOperation dependencyTaskCompletionHandler]
+---------------- t -[UMSocialTaskOperation finish]
+---------------- t -[UMSocialTaskOperation initWithRequest:]
+---------------- t -[UMSocialTaskOperation init]
+---------------- t -[UMSocialTaskOperation isAsynchronous]
+---------------- t -[UMSocialTaskOperation isCancelled]
+---------------- t -[UMSocialTaskOperation isConcurrent]
+---------------- t -[UMSocialTaskOperation isExecuting]
+---------------- t -[UMSocialTaskOperation isFinished]
+---------------- t -[UMSocialTaskOperation isReady]
+---------------- t -[UMSocialTaskOperation lock]
+---------------- t -[UMSocialTaskOperation operationDidStart]
+---------------- t -[UMSocialTaskOperation operationTaskQueue]
+---------------- t -[UMSocialTaskOperation request]
+---------------- t -[UMSocialTaskOperation setDependencyTaskCompletionHandler:]
+---------------- t -[UMSocialTaskOperation setLock:]
+---------------- t -[UMSocialTaskOperation setOperationTaskQueue:]
+---------------- t -[UMSocialTaskOperation setRequest:]
+---------------- t -[UMSocialTaskOperation setState:]
+---------------- t -[UMSocialTaskOperation setTag:]
+---------------- t -[UMSocialTaskOperation setTaskOperationDelegate:]
+---------------- t -[UMSocialTaskOperation start]
+---------------- t -[UMSocialTaskOperation state]
+---------------- t -[UMSocialTaskOperation tag]
+---------------- t -[UMSocialTaskOperation taskOperationDelegate]
+                 U _NSRunLoopCommonModes
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSMachPort
+                 U _OBJC_CLASS_$_NSOperation
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_NSRecursiveLock
+                 U _OBJC_CLASS_$_NSRunLoop
+                 U _OBJC_CLASS_$_NSThread
+                 U _OBJC_CLASS_$_NSURLConnection
+---------------- D _OBJC_CLASS_$_UMSocialTaskOperation
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._dependencyTaskCompletionHandler
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._lock
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._operationTaskQueue
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._request
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._state
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._tag
+---------------- D _OBJC_IVAR_$_UMSocialTaskOperation._taskOperationDelegate
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_NSOperation
+---------------- D _OBJC_METACLASS_$_UMSocialTaskOperation
+                 U __NSConcreteGlobalBlock
+                 U __NSConcreteStackBlock
+---------------- t ___42-[UMSocialTaskOperation operationDidStart]_block_invoke
+---------------- t ___42-[UMSocialTaskOperation operationDidStart]_block_invoke_2
+---------------- t ___45+[UMSocialTaskOperation networkRequestThread]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.57
+---------------- s ___block_descriptor_tmp.74
+---------------- s ___block_literal_global
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.71
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.72
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+                 U _clang.arc.use
+                 U _dispatch_once
+---------------- d _g_UMSocailTaskQueueCB
+---------------- d _networkRequestThread._networkRequestThread
+---------------- d _networkRequestThread.oncePredicate
+                 U _objc_autoreleasePoolPop
+                 U _objc_autoreleasePoolPush
+                 U _objc_autoreleaseReturnValue
+                 U _objc_copyWeak
+                 U _objc_destroyWeak
+                 U _objc_getProperty
+                 U _objc_initWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- d _operationDidStart.onceToken
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDK/UMSocialNetwork.framework/UMSocialNetwork(UMSocialTask.o):
+---------------- t -[UMSocialTask .cxx_destruct]
+---------------- t -[UMSocialTask checkDependencyForTask]
+---------------- t -[UMSocialTask checkRetryTaskWithNetworkError:withServerError:]
+---------------- t -[UMSocialTask completion]
+---------------- t -[UMSocialTask copyWithZone:]
+---------------- t -[UMSocialTask dealloc]
+---------------- t -[UMSocialTask dependencyTaskCompletionHandler]
+---------------- t -[UMSocialTask doCheckRetryTaskWithNetworkError:]
+---------------- t -[UMSocialTask doExecuteTaskWithOperationQueue:]
+---------------- t -[UMSocialTask encodeWithCoder:]
+---------------- t -[UMSocialTask executeTaskWithOperationQueue:]
+---------------- t -[UMSocialTask finishTaskWithError:]
+---------------- t -[UMSocialTask handleTaskOperationWithData:withData:withError:]
+---------------- t -[UMSocialTask hostUrlPath]
+---------------- t -[UMSocialTask httpMethodType]
+---------------- t -[UMSocialTask initWithCoder:]
+---------------- t -[UMSocialTask init]
+---------------- t -[UMSocialTask makeDependencyTaskOperation]
+---------------- t -[UMSocialTask makeDependencyURLRequest]
+---------------- t -[UMSocialTask makeTaskOperation]
+---------------- t -[UMSocialTask makeURLRequest]
+---------------- t -[UMSocialTask operationTaskQueue]
+---------------- t -[UMSocialTask paramDic]
+---------------- t -[UMSocialTask relatedUrlPath]
+---------------- t -[UMSocialTask retryCount]
+---------------- t -[UMSocialTask retryTask]
+---------------- t -[UMSocialTask setCompletion:]
+---------------- t -[UMSocialTask setHostUrlPath:]
+---------------- t -[UMSocialTask setHttpMethodType:]
+---------------- t -[UMSocialTask setOperationTaskQueue:]
+---------------- t -[UMSocialTask setParamDic:]
+---------------- t -[UMSocialTask setRelatedUrlPath:]
+---------------- t -[UMSocialTask setRetryCount:]
+---------------- t -[UMSocialTask setTaskDelegate:]
+---------------- t -[UMSocialTask setTaskIdentifier:]
+---------------- t -[UMSocialTask setTaskState:]
+---------------- t -[UMSocialTask taskDelegate]
+---------------- t -[UMSocialTask taskIdentifier]
+---------------- t -[UMSocialTask taskState]
+---------------- t -[UMSocialTask umSocialApiPathForRelatedPath:]
+                 U _NSStringFromSelector
+                 U _NSURLErrorDomain
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSOperation
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_UMSocialHttpFactory
+---------------- D _OBJC_CLASS_$_UMSocialTask
+                 U _OBJC_CLASS_$_UMSocialTaskOperation
+---------------- D _OBJC_IVAR_$_UMSocialTask._completion
+---------------- D _OBJC_IVAR_$_UMSocialTask._hostUrlPath
+---------------- D _OBJC_IVAR_$_UMSocialTask._httpMethodType
+---------------- D _OBJC_IVAR_$_UMSocialTask._operationTaskQueue
+---------------- D _OBJC_IVAR_$_UMSocialTask._paramDic
+---------------- D _OBJC_IVAR_$_UMSocialTask._relatedUrlPath
+---------------- D _OBJC_IVAR_$_UMSocialTask._retryCount
+---------------- D _OBJC_IVAR_$_UMSocialTask._taskDelegate
+---------------- D _OBJC_IVAR_$_UMSocialTask._taskIdentifier
+---------------- D _OBJC_IVAR_$_UMSocialTask._taskState
+                 U _OBJC_METACLASS_$_NSObject
+---------------- D _OBJC_METACLASS_$_UMSocialTask
+---------------- S _UMSocial_BaseURL
+                 U __NSConcreteStackBlock
+---------------- t ___25-[UMSocialTask retryTask]_block_invoke
+---------------- t ___46-[UMSocialTask executeTaskWithOperationQueue:]_block_invoke
+---------------- t ___63-[UMSocialTask handleTaskOperationWithData:withData:withError:]_block_invoke
+---------------- t ___63-[UMSocialTask handleTaskOperationWithData:withData:withError:]_block_invoke.115
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.105
+---------------- s ___block_descriptor_tmp.110
+---------------- s ___block_descriptor_tmp.118
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.102
+---------------- t ___copy_helper_block_.108
+---------------- t ___copy_helper_block_.116
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.103
+---------------- t ___destroy_helper_block_.109
+---------------- t ___destroy_helper_block_.117
+                 U ___objc_personality_v0
+                 U __dispatch_main_q
+                 U __objc_empty_cache
+                 U _dispatch_async
+                 U _dispatch_get_global_queue
+                 U _errorWithSoicalTaskError
+---------------- d _g_taskIdentifier
+                 U _objc_autoreleaseReturnValue
+                 U _objc_copyWeak
+                 U _objc_destroyWeak
+                 U _objc_getProperty
+                 U _objc_initWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_setProperty_nonatomic_copy
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSCoding
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSCopying
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialTaskOperationDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSCoding
+---------------- W l_OBJC_PROTOCOL_$_NSCopying
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UMSocialTaskOperationDelegate
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDK/UMSocialNetwork.framework/UMSocialNetwork(UMSocialTaskConfig.o):
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSMutableDictionary
+---------------- S _UMSoicalTaskErrorDomain
+---------------- S _UMSoicalTaskErrorUserInfoKey
+                 U ___CFConstantStringClassReference
+---------------- T _errorWithSoicalTaskError
+                 U _objc_autoreleaseReturnValue
+                 U _objc_msgSend
+                 U _objc_release
+                 U _objc_retain
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/UMSocialSDK/UMSocialNetwork.framework/UMSocialNetwork(UMSocialNetwork_vers.o):
+---------------- S _UMSocialNetworkVersionNumber
+---------------- S _UMSocialNetworkVersionString

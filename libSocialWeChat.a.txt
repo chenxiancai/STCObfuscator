@@ -1,0 +1,199 @@
+
+/Users/chenxiancai/github/STCObfuscator/Pods/UMengUShare/UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a(UMSocialWechatHandler.o):
+---------------- t +[UMSocialWechatHandler defaultManager]
+---------------- t +[UMSocialWechatHandler load]
+---------------- t +[UMSocialWechatHandler socialPlatformTypes]
+---------------- t -[UMSocialWechatHandler .cxx_destruct]
+---------------- t -[UMSocialWechatHandler accessWechatAuthWithCode:]
+---------------- t -[UMSocialWechatHandler backFromBriefWebController]
+---------------- t -[UMSocialWechatHandler briefWebView:didFailLoadWithError:]
+---------------- t -[UMSocialWechatHandler briefWebView:shouldStartLoadWithRequest:navigationType:]
+---------------- t -[UMSocialWechatHandler checkErrorCodeWithResponseDic:]
+---------------- t -[UMSocialWechatHandler checkInstall]
+---------------- t -[UMSocialWechatHandler checkUrlSchema]
+---------------- t -[UMSocialWechatHandler configHandle]
+---------------- t -[UMSocialWechatHandler currentInstalledScheme]
+---------------- t -[UMSocialWechatHandler doCheckValidAccesstoken:withRefreshToken:withUnionid:withAppID:withViewController:withCompletion:]
+---------------- t -[UMSocialWechatHandler doDirectUMSocial_RequestForUserProfileWithViewController:completion:]
+---------------- t -[UMSocialWechatHandler doUMSocial_RequestForUserProfileWithViewController:completion:]
+---------------- t -[UMSocialWechatHandler fillParams:withType:]
+---------------- t -[UMSocialWechatHandler filterString:]
+---------------- t -[UMSocialWechatHandler handleOpenURL:]
+---------------- t -[UMSocialWechatHandler handleShareResult:]
+---------------- t -[UMSocialWechatHandler handleWebviewUrl:]
+---------------- t -[UMSocialWechatHandler init]
+---------------- t -[UMSocialWechatHandler platformSchemeList]
+---------------- t -[UMSocialWechatHandler sceneWithShareType:]
+---------------- t -[UMSocialWechatHandler sendAsyncRequestWithPath:withCompletion:]
+---------------- t -[UMSocialWechatHandler sendAuthRequest]
+---------------- t -[UMSocialWechatHandler sendRequest:]
+---------------- t -[UMSocialWechatHandler sendShareRequest:withType:]
+---------------- t -[UMSocialWechatHandler setCurrentInstalledScheme:]
+---------------- t -[UMSocialWechatHandler setPlatformSchemeList:]
+---------------- t -[UMSocialWechatHandler setWechatRootVC:]
+---------------- t -[UMSocialWechatHandler shareEmotion:]
+---------------- t -[UMSocialWechatHandler shareFile:]
+---------------- t -[UMSocialWechatHandler shareImage:]
+---------------- t -[UMSocialWechatHandler shareMiniProgram:]
+---------------- t -[UMSocialWechatHandler shareMusic:]
+---------------- t -[UMSocialWechatHandler shareResultCallback:command:]
+---------------- t -[UMSocialWechatHandler shareText:]
+---------------- t -[UMSocialWechatHandler shareVedio:]
+---------------- t -[UMSocialWechatHandler shareWebPage:]
+---------------- t -[UMSocialWechatHandler umSocial_AuthorizeWithUserInfo:withViewController:withCompletionHandler:]
+---------------- t -[UMSocialWechatHandler umSocial_PlatformSDKVersion]
+---------------- t -[UMSocialWechatHandler umSocial_RequestForUserProfileWithViewController:completion:]
+---------------- t -[UMSocialWechatHandler umSocial_ShareWithObject:withCompletionHandler:]
+---------------- t -[UMSocialWechatHandler umSocial_SupportedFeatures]
+---------------- t -[UMSocialWechatHandler umSocial_cancelAuthWithCompletionHandler:]
+---------------- t -[UMSocialWechatHandler umSocial_clearCacheData]
+---------------- t -[UMSocialWechatHandler umSocial_handleOpenURL:]
+---------------- t -[UMSocialWechatHandler umSocial_isInstall]
+---------------- t -[UMSocialWechatHandler umSocial_isSupport]
+---------------- t -[UMSocialWechatHandler umSocial_setAppKey:withAppSecret:withRedirectURL:]
+---------------- t -[UMSocialWechatHandler wechatRootVC]
+                 U _NSClassFromString
+                 U _NSSelectorFromString
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSError
+                 U _OBJC_CLASS_$_NSJSONSerialization
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableString
+                 U _OBJC_CLASS_$_NSNumber
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_NSPropertyListSerialization
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSURL
+                 U _OBJC_CLASS_$_NSURLConnection
+                 U _OBJC_CLASS_$_NSURLRequest
+                 U _OBJC_CLASS_$_UIApplication
+                 U _OBJC_CLASS_$_UINavigationController
+                 U _OBJC_CLASS_$_UIPasteboard
+                 U _OBJC_CLASS_$_UMShareEmotionObject
+                 U _OBJC_CLASS_$_UMShareFileObject
+                 U _OBJC_CLASS_$_UMShareImageObject
+                 U _OBJC_CLASS_$_UMShareMiniProgramObject
+                 U _OBJC_CLASS_$_UMShareMusicObject
+                 U _OBJC_CLASS_$_UMShareObject
+                 U _OBJC_CLASS_$_UMShareVideoObject
+                 U _OBJC_CLASS_$_UMShareWebpageObject
+                 U _OBJC_CLASS_$_UMSocialAuthResponse
+                 U _OBJC_CLASS_$_UMSocialBriefWebController
+                 U _OBJC_CLASS_$_UMSocialDataManager
+                 U _OBJC_CLASS_$_UMSocialGlobal
+                 U _OBJC_CLASS_$_UMSocialHandler
+                 U _OBJC_CLASS_$_UMSocialPlatformConfig
+                 U _OBJC_CLASS_$_UMSocialShareResponse
+                 U _OBJC_CLASS_$_UMSocialUserInfoResponse
+---------------- D _OBJC_CLASS_$_UMSocialWechatHandler
+                 U _OBJC_EHTYPE_$_NSException
+---------------- D _OBJC_IVAR_$_UMSocialWechatHandler._currentInstalledScheme
+---------------- D _OBJC_IVAR_$_UMSocialWechatHandler._platformSchemeList
+---------------- D _OBJC_IVAR_$_UMSocialWechatHandler._wechatRootVC
+                 U _OBJC_METACLASS_$_NSObject
+                 U _OBJC_METACLASS_$_UMSocialHandler
+---------------- D _OBJC_METACLASS_$_UMSocialWechatHandler
+                 U _UMSocialLog
+                 U _UMSocialLogErrorFlagString
+                 U _UMSocialLogInfoFlagString
+                 U _UMSocialLogWarnFlagString
+                 U _UMSocialLogWithLocalizedKey
+                 U _UMSocialPlatformErrorDomain
+                 U __Block_object_assign
+                 U __NSConcreteStackBlock
+---------------- t ___122-[UMSocialWechatHandler doCheckValidAccesstoken:withRefreshToken:withUnionid:withAppID:withViewController:withCompletion:]_block_invoke
+---------------- t ___35-[UMSocialWechatHandler shareFile:]_block_invoke
+---------------- t ___36-[UMSocialWechatHandler shareImage:]_block_invoke
+---------------- t ___36-[UMSocialWechatHandler shareImage:]_block_invoke_2
+---------------- t ___36-[UMSocialWechatHandler shareMusic:]_block_invoke
+---------------- t ___36-[UMSocialWechatHandler shareVedio:]_block_invoke
+---------------- t ___38-[UMSocialWechatHandler shareEmotion:]_block_invoke
+---------------- t ___38-[UMSocialWechatHandler shareWebPage:]_block_invoke
+---------------- t ___39+[UMSocialWechatHandler defaultManager]_block_invoke
+---------------- t ___42-[UMSocialWechatHandler shareMiniProgram:]_block_invoke
+---------------- t ___50-[UMSocialWechatHandler accessWechatAuthWithCode:]_block_invoke
+---------------- t ___65-[UMSocialWechatHandler sendAsyncRequestWithPath:withCompletion:]_block_invoke
+---------------- t ___87-[UMSocialWechatHandler doUMSocial_RequestForUserProfileWithViewController:completion:]_block_invoke
+---------------- t ___93-[UMSocialWechatHandler doDirectUMSocial_RequestForUserProfileWithViewController:completion:]_block_invoke
+                 U ___CFConstantStringClassReference
+---------------- s ___block_descriptor_tmp
+---------------- s ___block_descriptor_tmp.407
+---------------- s ___block_descriptor_tmp.439
+---------------- s ___block_descriptor_tmp.442
+---------------- s ___block_descriptor_tmp.465
+---------------- s ___block_descriptor_tmp.477
+---------------- s ___block_descriptor_tmp.589
+---------------- s ___block_descriptor_tmp.596
+---------------- s ___block_descriptor_tmp.627
+---------------- s ___block_descriptor_tmp.656
+---------------- s ___block_descriptor_tmp.671
+---------------- s ___block_descriptor_tmp.682
+---------------- s ___block_descriptor_tmp.703
+---------------- s ___block_descriptor_tmp.736
+---------------- t ___copy_helper_block_
+---------------- t ___copy_helper_block_.404
+---------------- t ___copy_helper_block_.437
+---------------- t ___copy_helper_block_.440
+---------------- t ___copy_helper_block_.462
+---------------- t ___copy_helper_block_.475
+---------------- t ___copy_helper_block_.586
+---------------- t ___copy_helper_block_.594
+---------------- t ___copy_helper_block_.625
+---------------- t ___copy_helper_block_.654
+---------------- t ___copy_helper_block_.669
+---------------- t ___copy_helper_block_.680
+---------------- t ___copy_helper_block_.701
+---------------- t ___copy_helper_block_.734
+---------------- t ___destroy_helper_block_
+---------------- t ___destroy_helper_block_.405
+---------------- t ___destroy_helper_block_.438
+---------------- t ___destroy_helper_block_.441
+---------------- t ___destroy_helper_block_.463
+---------------- t ___destroy_helper_block_.476
+---------------- t ___destroy_helper_block_.587
+---------------- t ___destroy_helper_block_.595
+---------------- t ___destroy_helper_block_.626
+---------------- t ___destroy_helper_block_.655
+---------------- t ___destroy_helper_block_.670
+---------------- t ___destroy_helper_block_.681
+---------------- t ___destroy_helper_block_.702
+---------------- t ___destroy_helper_block_.735
+                 U ___objc_personality_v0
+                 U __objc_empty_cache
+                 U _arc4random
+                 U _clang.arc.use
+---------------- d _defaultManager.instance
+---------------- d _defaultManager.onceToken
+                 U _dispatch_once
+                 U _kUMSocialAuthAccessToken
+                 U _kUMSocialAuthExpireDate
+                 U _kUMSocialAuthOpenID
+                 U _kUMSocialAuthRefreshToken
+                 U _kUMSocialAuthUID
+                 U _objc_autorelease
+                 U _objc_autoreleaseReturnValue
+                 U _objc_begin_catch
+                 U _objc_copyWeak
+                 U _objc_destroyWeak
+                 U _objc_end_catch
+                 U _objc_enumerationMutation
+                 U _objc_initWeak
+                 U _objc_loadWeakRetained
+                 U _objc_msgSend
+                 U _objc_msgSendSuper2
+                 U _objc_release
+                 U _objc_retain
+                 U _objc_retainAutoreleasedReturnValue
+                 U _objc_storeStrong
+                 U _objc_storeWeak
+---------------- W l_OBJC_LABEL_PROTOCOL_$_BriefWebControllerDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_NSObject
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+---------------- W l_OBJC_LABEL_PROTOCOL_$_UMSocialPlatformProvider
+---------------- W l_OBJC_PROTOCOL_$_BriefWebControllerDelegate
+---------------- W l_OBJC_PROTOCOL_$_NSObject
+---------------- W l_OBJC_PROTOCOL_$_UIWebViewDelegate
+---------------- W l_OBJC_PROTOCOL_$_UMSocialPlatformProvider

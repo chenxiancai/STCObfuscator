@@ -212,6 +212,7 @@
 				5F6BFBDD1F736A290058C2F9 /* Frameworks */,
 				5F6BFBDE1F736A290058C2F9 /* Resources */,
 				5F1746C01F74F1B8007790A4 /* ShellScript */,
+				D26AE5C4DD86808BB1B8D083 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "dir=${SRCROOT}\nfile_count=0\nfile_list=`ls -R $dir 2> /dev/null | grep -v '^$'`\nfor file_name in $file_list\ndo\ntemp=`echo $file_name | sed 's/:.*$//g'`\nif [ \"$file_name\" != \"$temp\" ]; then\ncur_dir=$temp\nelse\nif [ ${file_name##*.} = a ]; then\n    find -P $dir -name $file_name > tmp.txt\n    var=$(cat tmp.txt)\n    nm $var > ${file_name}.txt\n    rm tmp.txt\nfi\nfi\ndone";
+			shellScript = "dir=${SRCROOT}\nfile_count=0\nfile_list=`ls -R $dir 2> /dev/null | grep -v '^$'`\nfor file_name in $file_list\ndo\ntemp=`echo $file_name | sed 's/:.*$//g'`\nif [ \"$file_name\" != \"$temp\" ]; then\ncur_dir=$temp\nelse\nif [ ${file_name##*.} = a ]; then\n    find -P $dir -name $file_name > tmp.txt\n    var=$(cat tmp.txt)\n    nm $var > ${file_name}.txt\n    rm tmp.txt\nfi\nif [ ${file_name##*.} = framework ]; then\n    find -P $dir -name ${file_name%%.*} > tmp.txt\n    var=$(cat tmp.txt)\n    nm $var > ${file_name}.txt\n    rm tmp.txt\nfi\nfi\ndone";
 		};
 		705D41378909C85539B021D8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -331,6 +332,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26AE5C4DD86808BB1B8D083 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator-resources.sh",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STCObfuscator/Pods-STCObfuscator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F502EC8CFA0FEA1715802979 /* [CP] Check Pods Manifest.lock */ = {
