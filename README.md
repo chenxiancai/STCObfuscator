@@ -49,6 +49,7 @@ ROOT_PATH="${SRCROOT}"
 ```
 ```
 dir=${SRCROOT}
+file_count=0
 file_list=`ls -R $dir 2> /dev/null | grep -v '^$'`
 for file_name in $file_list
 do
@@ -62,6 +63,12 @@ if [ ${file_name##*.} = a ]; then
     nm $var > ${file_name}.txt
     rm tmp.txt
 fi
+if [ ${file_name##*.} = framework ]; then
+    find -P $dir -name ${file_name%%.*} > tmp.txt
+    var=$(cat tmp.txt)
+    nm $var > ${file_name}.txt
+    rm tmp.txt
+    fi
 fi
 done
 ```
