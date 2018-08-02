@@ -139,9 +139,6 @@
 #ifndef SDWebImageCombinedOperation
 #define SDWebImageCombinedOperation _STC4A67C81062FFB09CD7DDBB52215D72A5_
 #endif
-#ifndef serializer
-#define serializer _STCF3FD8E1EFA847CCF3622D0768BA82665_
-#endif
 #ifndef cachePathForKey
 #define cachePathForKey _STC2BD38762C83998FEA4B5DDC1DE30C92B_
 #endif
@@ -201,9 +198,6 @@
 #endif
 #ifndef diskImageForKey
 #define diskImageForKey _STCF877AC81169C4F414CA798A87E5336E9_
-#endif
-#ifndef defaultPolicy
-#define defaultPolicy _STC79A1234797AFF55F08077C4FD617CD93_
 #endif
 #ifndef shouldDecodeImage
 #define shouldDecodeImage _STC3F697CF47265D41D1BC4070895DF7592_
@@ -283,9 +277,6 @@
 #ifndef storeImageDataToDisk
 #define storeImageDataToDisk _STC35D9664E535C618B5BDF345017AA4043_
 #endif
-#ifndef validateResponse
-#define validateResponse _STC1CA8F6B32B98D703F7C527D85291EA15_
-#endif
 #ifndef HEAD
 #define HEAD _STC7D01E935D238069E407AF2705562CEE1_
 #endif
@@ -316,9 +307,6 @@
 #ifndef evaluateServerTrust
 #define evaluateServerTrust _STC01308F0D37F55A4C7071A90CEB31ED5A_
 #endif
-#ifndef forDomain
-#define forDomain _STC33F5DDE97899B3B3DE0CC593C6358489_
-#endif
 #ifndef networkRequestDidStart
 #define networkRequestDidStart _STC7AE445D905496DD5C2BA52F2D7910617_
 #endif
@@ -348,9 +336,6 @@
 #endif
 #ifndef startMergedTask
 #define startMergedTask _STC10E77B98127FC1C2984CFC0E8089075B_
-#endif
-#ifndef cancelAllDownloads
-#define cancelAllDownloads _STCF365505AFE4F6762275666B6E3734D17_
 #endif
 #ifndef isActiveRequestCountBelowMaximumLimit
 #define isActiveRequestCountBelowMaximumLimit _STCBC9BCABE79AEE35935A6A198E73510BA_
@@ -438,9 +423,6 @@
 #endif
 #ifndef cancelInternal
 #define cancelInternal _STC96F74B285474121E112FFA4E6A6DCE90_
-#endif
-#ifndef getSize
-#define getSize _STC0AFDDCEF914C9C5C0DF03B5064B11D61_
 #endif
 #ifndef diskImageDataExistsWithKey
 #define diskImageDataExistsWithKey _STC82EF090905AB1ECF6B172D05AA744924_
@@ -727,15 +709,6 @@
 #ifndef setLastAccessDate
 #define setLastAccessDate set_STC0072DCEF42EF11BFAA57545C81B33437_
 #endif
-#ifndef taskDidComplete
-#define taskDidComplete _STC0B7228ED8E6196A7CC101CF9CEF47697_
-#endif
-#ifndef _taskDidComplete
-#define _taskDidComplete __STC0B7228ED8E6196A7CC101CF9CEF47697_
-#endif
-#ifndef setTaskDidComplete
-#define setTaskDidComplete set_STC0B7228ED8E6196A7CC101CF9CEF47697_
-#endif
 #ifndef shouldUseCredentialStorage
 #define shouldUseCredentialStorage _STC74342D8A939F07CC91D7D8753EB7F306_
 #endif
@@ -771,15 +744,6 @@
 #endif
 #ifndef setDownloadPrioritizaton
 #define setDownloadPrioritizaton set_STCF34844C0009B7A20EEB6E6A643AF3013_
-#endif
-#ifndef fileManager
-#define fileManager _STCFF05D65A1A51C5A46775C7766288ABA6_
-#endif
-#ifndef _fileManager
-#define _fileManager __STCFF05D65A1A51C5A46775C7766288ABA6_
-#endif
-#ifndef setFileManager
-#define setFileManager set_STCFF05D65A1A51C5A46775C7766288ABA6_
 #endif
 #ifndef maxMemoryCountLimit
 #define maxMemoryCountLimit _STCD76456AEA24F67BE1BBE2269586856AA_
@@ -906,15 +870,6 @@
 #endif
 #ifndef setCompletionDelayTimer
 #define setCompletionDelayTimer set_STC52309E07DED8E84C6AB113999BA2457D_
-#endif
-#ifndef downloadProgressBlock
-#define downloadProgressBlock _STC22B80933A66FF262CADE54F9CE60BF2B_
-#endif
-#ifndef _downloadProgressBlock
-#define _downloadProgressBlock __STC22B80933A66FF262CADE54F9CE60BF2B_
-#endif
-#ifndef setDownloadProgressBlock
-#define setDownloadProgressBlock set_STC22B80933A66FF262CADE54F9CE60BF2B_
 #endif
 #ifndef cacheOperation
 #define cacheOperation _STCCD4C929A35A640788AF163F0778DDF5F_
@@ -1105,15 +1060,6 @@
 #ifndef setNetworkReachabilityStatus
 #define setNetworkReachabilityStatus set_STCD3B862A42B64159E3379225027753D7B_
 #endif
-#ifndef diskCachePath
-#define diskCachePath _STC8BFFC467F8F60ACA7C4CBB14553C209E_
-#endif
-#ifndef _diskCachePath
-#define _diskCachePath __STC8BFFC467F8F60ACA7C4CBB14553C209E_
-#endif
-#ifndef setDiskCachePath
-#define setDiskCachePath set_STC8BFFC467F8F60ACA7C4CBB14553C209E_
-#endif
 #ifndef requestHeaderModificationQueue
 #define requestHeaderModificationQueue _STC484681E6731119FD60C981D91C2D8A03_
 #endif
@@ -1131,15 +1077,6 @@
 #endif
 #ifndef setPropertyforKey
 #define setPropertyforKey set_STCECBCBEC3FFA37DDCFF37683BFA05B1BD_
-#endif
-#ifndef cachedData
-#define cachedData _STC074F63E5953C3CA949C58755EE82C075_
-#endif
-#ifndef _cachedData
-#define _cachedData __STC074F63E5953C3CA949C58755EE82C075_
-#endif
-#ifndef setCachedData
-#define setCachedData set_STC074F63E5953C3CA949C58755EE82C075_
 #endif
 #ifndef coders
 #define coders _STC1FA9DAD928A44DDABFE1E03D21747967_
@@ -1239,15 +1176,6 @@
 #endif
 #ifndef setHTTPBodyPartEnumerator
 #define setHTTPBodyPartEnumerator set_STCFFDFAD3016C50A582836D980BE1DAE32_
-#endif
-#ifndef responseQueue
-#define responseQueue _STC2862AB9FD4790F44C050A0C08A1F0E36_
-#endif
-#ifndef _responseQueue
-#define _responseQueue __STC2862AB9FD4790F44C050A0C08A1F0E36_
-#endif
-#ifndef setResponseQueue
-#define setResponseQueue set_STC2862AB9FD4790F44C050A0C08A1F0E36_
 #endif
 #ifndef uploadTasks
 #define uploadTasks _STCCA4AC171A873DBD8AAE02F606C1B7127_
@@ -1689,15 +1617,6 @@
 #endif
 #ifndef setTaskDescriptionForSessionTasks
 #define setTaskDescriptionForSessionTasks set_STC82C81D9A2C47F8638D55142174F7050D_
-#endif
-#ifndef downloadProgress
-#define downloadProgress _STCA8091C71177CA1AA54C68CEB1BC3DBE3_
-#endif
-#ifndef _downloadProgress
-#define _downloadProgress __STCA8091C71177CA1AA54C68CEB1BC3DBE3_
-#endif
-#ifndef setDownloadProgress
-#define setDownloadProgress set_STCA8091C71177CA1AA54C68CEB1BC3DBE3_
 #endif
 #ifndef pinnedPublicKeys
 #define pinnedPublicKeys _STC521BB24C9DC67536ABDC2935993F2207_

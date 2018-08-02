@@ -12,6 +12,33 @@
 #import <CommonCrypto/CommonDigest.h>
 #include "ahocorasick.h"
 
+@interface NSString (STCObfuscator)
+
+- (NSString *)stcSubstringToIndex:(NSInteger)index;
+
+- (NSString *)stcSubstringFromIndex:(NSInteger)index;
+
+@end
+
+@implementation NSString (STCObfuscator)
+- (NSString *)stcSubstringToIndex:(NSInteger)index
+{
+    if ([self length] > index){
+        return [self substringToIndex:index];
+    }
+    return self;
+}
+
+- (NSString *)stcSubstringFromIndex:(NSInteger)index
+{
+    if ([self length] > index){
+        return [self substringFromIndex:index];
+    }
+    return self;
+}
+
+@end
+
 #if (DEBUG == 1)
 @implementation STCObfuscator
 
@@ -186,8 +213,8 @@
                     && [setMethod hasSuffix:@":"]) {
                     NSString *getMethod = [setMethod stringByReplacingOccurrencesOfString:@"set" withString:@""];
                     getMethod = [getMethod stringByReplacingOccurrencesOfString:@":" withString:@""];
-                    if ([[[getMethod substringToIndex:1] uppercaseString] isEqualToString:[[method substringToIndex:1]uppercaseString]]
-                        && [[getMethod substringFromIndex:1] isEqualToString:[method substringFromIndex:1]]) {
+                    if ([[[getMethod stcSubstringToIndex:1] uppercaseString] isEqualToString:[[method stcSubstringToIndex:1]uppercaseString]]
+                        && [[getMethod stcSubstringFromIndex:1] isEqualToString:[method stcSubstringFromIndex:1]]) {
                         [confuseProperty addEntriesFromDictionary:@{method: @(YES)}];
                         [indexSet addIndex:index];
                         [indexSet addIndex:setIndex];
@@ -232,9 +259,9 @@
                 [unConfuseSymbolsDict addEntriesFromDictionary:@{section: @(YES)}];
             // filter set method
             } else if ([method hasPrefix:@"set"] && [method hasSuffix:@":"]) {
-                NSString *property = [method substringFromIndex:3];
+                NSString *property = [method stcSubstringFromIndex:3];
                 property = [property stringByReplacingOccurrencesOfString:@":" withString:@""];
-                property = [[[property substringToIndex:1] lowercaseString] stringByAppendingString:[property substringFromIndex:1]];
+                property = [[[property stcSubstringToIndex:1] lowercaseString] stringByAppendingString:[property stcSubstringFromIndex:1]];
                 [confuseProperty addEntriesFromDictionary:@{property: @(YES)}];
                 [indexSet addIndex:index];
                 [unConfuseSymbolsDict addEntriesFromDictionary:@{section: @(YES)}];
@@ -256,8 +283,8 @@
     NSMutableSet *removeProperty = [NSMutableSet set];
     [confuseProperty.allKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSString *property = (NSString *)obj;
-        NSString *headerStr = [[property substringToIndex:1] uppercaseString];
-        NSString *tailStr = [property substringFromIndex:1];
+        NSString *headerStr = [[property stcSubstringToIndex:1] uppercaseString];
+        NSString *tailStr = [property stcSubstringFromIndex:1];
         NSString *similarProperty = [headerStr stringByAppendingString:tailStr];
         if (![property isEqualToString:similarProperty]) {
             [confuseProperty.allKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -319,8 +346,8 @@
         
         NSString *property = (NSString *)obj;
         NSString *str = [property stringByReplacingOccurrencesOfString:@" " withString:@""];
-        NSString *setStr = [@"set" stringByAppendingString:[[str substringToIndex:1] uppercaseString]];
-        setStr = [setStr stringByAppendingString:[str substringFromIndex:1]];
+        NSString *setStr = [@"set" stringByAppendingString:[[str stcSubstringToIndex:1] uppercaseString]];
+        setStr = [setStr stringByAppendingString:[str stcSubstringFromIndex:1]];
         if (str.length > 1
             && ![[unConfuseSymbolsDict objectForKey:str] boolValue]
             && ![[unConfuseSymbolsDict objectForKey:setStr] boolValue]
@@ -341,8 +368,8 @@
             [jsonObjects addEntriesFromDictionary:@{[@"_" stringByAppendingString:encryptStr]: [@"_" stringByAppendingString:str]}];
 
             // setter
-            NSString *firstStr = [[str substringToIndex:1] uppercaseString];
-            NSString *otherStr = [str substringFromIndex:1];
+            NSString *firstStr = [[str stcSubstringToIndex:1] uppercaseString];
+            NSString *otherStr = [str stcSubstringFromIndex:1];
             newStr = [NSString stringWithFormat:@"#ifndef set%@%@\n#define set%@%@ set%@\n#endif\n", firstStr, otherStr,firstStr,otherStr, encryptStr];
             [result appendString:newStr];
             [jsonObjects addEntriesFromDictionary:@{[@"set" stringByAppendingString:encryptStr]: [@"set" stringByAppendingString:str]}];
@@ -388,8 +415,8 @@
                         [hardCodeStr appendString:[NSString stringWithFormat:@"#define %@ %@ \n", hardCode, hardCode]];
                         [hardCodeStr appendString:[NSString stringWithFormat:@"#define _%@ _%@ \n", hardCode, hardCode]];
                         
-                        NSString *setStr = [@"set" stringByAppendingString:[[hardCode substringToIndex:1] uppercaseString]];
-                        setStr = [setStr stringByAppendingString:[hardCode substringFromIndex:1]];
+                        NSString *setStr = [@"set" stringByAppendingString:[[hardCode stcSubstringToIndex:1] uppercaseString]];
+                        setStr = [setStr stringByAppendingString:[hardCode stcSubstringFromIndex:1]];
                         [hardCodeStr appendString:[NSString stringWithFormat:@"#define %@ %@ \n", setStr, setStr]];
                         isProperty = YES;
                         *stop = YES;
@@ -457,15 +484,18 @@
     const char ** images = objc_copyImageNames(&imageOutCount);
     for (unsigned int i = 0; i < imageOutCount; i++) {
         NSString *imageName = [NSString stringWithUTF8String:images[i]];
-        
+
+        //NSParagraphStyle Framework: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation, 私有库的类也会放到公开库中使用
+        /*
         if ([imageName containsString:@"PrivateFrameworks"]) {
             continue;
         }
-        
+        */
         if ([imageName containsString:@".framework"]
              ||[imageName containsString:@".dylib"]) {
             const char ** class = objc_copyClassNamesForImage(images[i], &classOutCount);
             for (unsigned int k = 0; k < classOutCount; k++) {
+                
                 Class cls = NSClassFromString([NSString stringWithUTF8String:class[k]]);
                 [classSet addObject:[NSString stringWithUTF8String:class[k]]];
                 
@@ -552,8 +582,8 @@
             if (![name hasPrefix:@"_"]) {
                 [symbolsDict addEntriesFromDictionary:@{name: @(YES)}];
                 [symbolsDict addEntriesFromDictionary:@{[@"_" stringByAppendingString:name]: @(YES)}];
-                NSString *setStr = [@"set" stringByAppendingString:[[name substringToIndex:1] uppercaseString]];
-                [symbolsDict addEntriesFromDictionary:@{[setStr stringByAppendingString:[name substringFromIndex:1]]: @(YES)}];
+                NSString *setStr = [@"set" stringByAppendingString:[[name stcSubstringToIndex:1] uppercaseString]];
+                [symbolsDict addEntriesFromDictionary:@{[setStr stringByAppendingString:[name stcSubstringFromIndex:1]]: @(YES)}];
             }
         }
         NSArray *methods = [self allMethodsWithClass:NSClassFromString(className)];
@@ -1049,4 +1079,5 @@
 }
 
 @end
+
 #endif
