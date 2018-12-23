@@ -146,7 +146,7 @@
         method = [method stringByReplacingOccurrencesOfString:@"]" withString:@""];
         method = [method stringByReplacingOccurrencesOfString:@" " withString:@""];
         
-        NSCharacterSet *characterSet = [NSCharacterSet characterSetWithCharactersInString:@"_1234567890abcdefghijklmnopqrstuvwsyzABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+        NSCharacterSet *characterSet = [NSCharacterSet characterSetWithCharactersInString:@"_1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 
         if ([[name stringByTrimmingCharactersInSet:characterSet] length] > 0) {
             return;
