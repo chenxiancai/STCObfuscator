@@ -222,9 +222,8 @@ run project in RELEASE environment that class confused.
 
 ##
 ```
-技术交流或合作讨论请加微信或QQ群
+技术交流或合作讨论请加QQ群
 ```
-![image](https://github.com/chenxiancai/STCObfuscator/raw/master/WechatIMG63.jpeg)
 ![image](https://github.com/chenxiancai/STCObfuscator/raw/master/WechatIMG62.jpeg)
 
 
